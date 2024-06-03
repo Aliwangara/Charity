@@ -19,3 +19,30 @@ def home(request):
     
     
  return render(request, "index.html", )
+
+
+def Donation(request):
+    pass
+    return render(request, "Donate.html")
+
+
+
+
+
+def signin(request):
+    if request.method == "POST":
+        get_email = request.POST.get('email')
+        get_password = request.POST.get('pass1')
+        myuser = authenticate(username=get_email, password=get_password)
+        if myuser is not None:
+            login(request, myuser)
+            messages.success(request, "Login Success")
+            return redirect('home')
+        else:
+            messages.error(request, "Invalid Credentials")
+
+    return render(request, 'Login.html')
+
+def signout(request):
+    logout(request)
+    return redirect('home')

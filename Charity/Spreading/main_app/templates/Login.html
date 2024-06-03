@@ -1,0 +1,64 @@
+{% extends "layouts/master.html" %}
+{% load static %}
+
+{%block body%}
+<br><br><br>
+
+
+<section class="bg-bg-3 py-10 py-lg-20 text-center">
+		<div class="container">
+			<div class="row align-items-lg-center justify-content-center">
+				<div class="col-6">
+					<img src= "{%static 'images/image/BOK.jpg'%}" srcset="i/form-7@2x.png 2x" alt="" class="img-fluid mb-12 mb-lg-0" data-aos="fade-down" data-aos-delay="0">
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-xl-4 col-lg-5 col-md-5 col-sm-10">
+					<h1 class="mb-6" data-aos="fade-down" data-aos-delay="0">                    Sign In                </h1>
+					<form action="/signin" method="post" >
+                        {% csrf_token %}
+						
+		
+								<div class="input-group mb-6" data-aos="fade-down" data-aos-delay="150">
+									<div class="input-group-text border-end-0 border-dark-3 ps-4 pe-2">
+										
+									</div>
+									<input type="email" name="email" placeholder="Email address" class="form-control border-start-0 border-dark-3 ps-1" required="required">																						
+								</div>
+								<div class="input-group mb-6" data-aos="fade-down" data-aos-delay="250">
+									<div class="input-group-text border-end-0 border-dark-3 ps-4 pe-2">
+										
+									</div>
+									<input type="password" name="pass1" placeholder="Password" class="form-control border-start-0 border-dark-3 ps-1" required="required">																						
+								</div>
+								<button class="btn btn-action-1 w-100 mb-6" data-aos="fade-down" data-aos-delay="400">Sign In</button>
+								<div data-aos="fade-down" data-aos-delay="250">
+									<p class="d-inline-block text-dark-3 mb-6">Don’t have an account?</p>
+									<a href="#" class="ms-1">Log In</a>
+								</div>
+								<div class="w-50 border-bottom border-bg-2 mx-auto mb-6" data-aos="fade-down" data-aos-delay="400">
+								</div>
+								<p class="mb-6">Sign In via socials</p>
+								<div class="row g-0">
+									<div class="col-4 pe-2">
+										<a href="#" class="btn btn-bg-2 w-100 h-100 d-flex justify-content-center align-items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 12.067C0 18.033 4.333 22.994 10 24V15.333H7V12H10V9.333C10 6.333 11.933 4.667 14.667 4.667C15.533 4.667 16.467 4.8 17.333 4.933V8H15.8C14.333 8 14 8.733 14 9.667V12H17.2L16.667 15.333H14V24C19.667 22.994 24 18.034 24 12.067C24 5.43 18.6 0 12 0C5.4 0 0 5.43 0 12.067Z"></path></svg></a>
+									</div>
+									<div class="col-4 px-1">
+										<a href="#" class="btn btn-bg-2 w-100 h-100 d-flex justify-content-center align-items-center"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1"><path d="M19.4565 8.15425C19.5795 8.81325 19.6465 9.50225 19.6465 10.2213C19.6465 15.8453 15.8825 19.8442 10.1975 19.8442C8.90467 19.8446 7.62442 19.5903 6.42991 19.0957C5.23541 18.6012 4.15006 17.8761 3.23588 16.9619C2.3217 16.0477 1.59661 14.9624 1.10204 13.7679C0.607475 12.5733 0.353122 11.2931 0.353516 10.0003C0.353122 8.70741 0.607475 7.42716 1.10204 6.23265C1.59661 5.03814 2.3217 3.95279 3.23588 3.03861C4.15006 2.12443 5.23541 1.39935 6.42991 0.904778C7.62442 0.41021 8.90467 0.155856 10.1975 0.15625C12.8555 0.15625 15.0765 1.13425 16.7805 2.72225L14.0055 5.49725V5.49025C12.9725 4.50625 11.6615 4.00125 10.1975 4.00125C6.94952 4.00125 4.30952 6.74525 4.30952 9.99425C4.30952 13.2423 6.94952 15.9923 10.1975 15.9923C13.1445 15.9923 15.1505 14.3073 15.5625 11.9933H10.1975V8.15425H19.4575H19.4565Z"></path></svg></a>
+									</div>
+									<div class="col-4 ps-2">
+										<a href="#" class="btn btn-bg-2 w-100 h-100 d-flex justify-content-center align-items-center"><svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1"><path d="M23.6435 2.93757C22.8085 3.30757 21.9115 3.55757 20.9685 3.67057C21.9415 3.08836 22.6694 2.17203 23.0165 1.09257C22.1023 1.63555 21.1018 2.01776 20.0585 2.22257C19.3569 1.47343 18.4276 0.976891 17.4148 0.810039C16.4021 0.643187 15.3626 0.815357 14.4577 1.29982C13.5529 1.78428 12.8333 2.55393 12.4107 3.48927C11.988 4.42461 11.886 5.47332 12.1205 6.47257C10.2682 6.37956 8.45613 5.89811 6.80192 5.05947C5.14772 4.22083 3.68834 3.04373 2.5185 1.60457C2.1185 2.29457 1.8885 3.09457 1.8885 3.94657C1.88805 4.71356 2.07693 5.46881 2.43838 6.1453C2.79982 6.82179 3.32266 7.3986 3.9605 7.82457C3.22078 7.80103 2.49737 7.60115 1.8505 7.24157V7.30156C1.85043 8.37731 2.22253 9.41994 2.90368 10.2526C3.58483 11.0852 4.53307 11.6565 5.5875 11.8696C4.90128 12.0553 4.18184 12.0826 3.4835 11.9496C3.781 12.8752 4.3605 13.6846 5.14087 14.2645C5.92124 14.8444 6.86342 15.1657 7.8355 15.1836C6.18533 16.479 4.14739 17.1817 2.0495 17.1786C1.67788 17.1787 1.30658 17.157 0.9375 17.1136C3.06698 18.4827 5.54584 19.2094 8.0775 19.2066C16.6475 19.2066 21.3325 12.1086 21.3325 5.95257C21.3325 5.75257 21.3275 5.55056 21.3185 5.35056C22.2298 4.69154 23.0164 3.87546 23.6415 2.94057L23.6435 2.93757Z"></path></svg></a>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-xl-1">
+						</div>
+					</div>
+				</div>
+			</section>
+    
+    
+    <br><br><br><br><br><br>
+    {% endblock body%}
+    <br><br><br><br><br>
