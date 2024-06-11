@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <body id="section_1">
 
     <header class="site-header">
@@ -49,8 +52,8 @@
 
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" class="logo img-fluid" alt="">
+            <a class="navbar-brand px-3" href="{% url "home" %}">
+                <img src="{% static 'images/Image/header_img.png' %}" class="logo img-fluid" alt="">
                 <span>
                     Spreading Smiles
                     <small>Non-profit Organization</small>
@@ -65,35 +68,29 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#top">Home</a>
+                        <a class="nav-link click-scroll ms-5" href="{% url "home" %}">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">About</a>
+                        <a class="nav-link click-scroll" href="{% url "About" %}">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">Causes</a>
+                        <a class="nav-link click-scroll" href="{% url "Causes" %}">Causes</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_4">Volunteer</a>
+                        <a class="nav-link click-scroll" href="{% url "Volunteer" %}">Volunteer</a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link click-scroll dropdown-toggle" href="#section_5"
-                            id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="{% url "Events" %}"
+            
                             aria-expanded="false">News</a>
-
-                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                            <li><a class="dropdown-item" href="news.html">News Listing</a></li>
-
-                            <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
-                        </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                        <a class="nav-link click-scroll" href="{% url "Contact" %}">Contact</a>
                     </li>
 
                     <li class="nav-item ms-3">
@@ -106,7 +103,7 @@
                     </li>
 
                     <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'Signin' %}">SignUp</a>
+                        <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signup' %}">SignUp</a>
                     </li>
                 {% else %}
                     <li class="nav-item ms-3">

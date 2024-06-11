@@ -21,6 +21,35 @@ def home(request):
  return render(request, "index.html", )
 
 
+def About(request):
+    
+ pass
+ return render(request, "About.html")
+
+
+def Causes(request):
+    
+ pass
+ return render(request, "causes.html")
+
+
+def Volunteer(request):
+    
+ pass
+ return render(request, "Volunteer.html")
+
+def Events(request):
+    
+ pass
+ return render(request, "News.html")
+
+
+
+def Contact(request):
+    
+ pass
+ return render(request, "Contact.html")
+
 def Donation(request):
     pass
     return render(request, "Donate.html")
@@ -46,3 +75,34 @@ def signin(request):
 def signout(request):
     logout(request)
     return redirect('home')
+
+
+def signup(request):
+ if request.method == "POST":
+        get_first_name = request.POST.get('first')
+        get_last_name = request.POST.get('last')
+        get_email = request.POST.get('email')
+        get_date = request.POST.get('date')
+        get_number = request.POST.get('number')
+        get_address = request.POST.get('address')
+        get_password = request.POST.get('pass1')
+        get_confirm_password = request.POST.get('pass2')
+        if get_password != get_confirm_password:
+            messages.info(request, 'Password not matching')
+            return redirect('/signup')
+
+        try:
+            if User.objects.get(username=get_email):
+                messages.warning(request, "Email is already Taken")
+                return redirect('/signup')
+
+
+        except Exception as identifier:
+            Pass
+
+        myuser = User.objects.create_user(  get_email,get_email, get_password)
+        myuser.save()
+        messages.success(request, "user created please login")
+        return redirect('signin')
+
+ return render(request, 'Signup.html')
