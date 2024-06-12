@@ -44,6 +44,12 @@ def Events(request):
  return render(request, "News.html")
 
 
+def all_volunteers(request):
+    
+ pass
+ return render(request, "All_volunteers.html", )
+
+
 
 def Contact(request):
     
