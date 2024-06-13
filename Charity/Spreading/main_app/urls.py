@@ -10,6 +10,7 @@ urlpatterns = [
     path('about', views.About, name="About"),
     path('causes', views.Causes, name="Causes"),
     path('volunteer', views.Volunteer, name="Volunteer"),
+    path('add', views.add_volunteer, name="add"),
     path('events', views.Events, name="Events"),
     path('contact', views.Contact, name="Contact"),
     path('all_volunteers', views.all_volunteers, name="all_volunteers"),

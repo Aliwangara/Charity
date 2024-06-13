@@ -28,8 +28,14 @@ def Causes(request):
     pass
     return render(request, "causes.html")
 
-@permission_required('main_app.add_employee', raise_exception=True)
+# @permission_required('main_app.add_employee', raise_exception=True)
 def Volunteer(request):
+     pass
+     return render(request, "Volunteer.html")
+ 
+ 
+ 
+def add_volunteer(request):
      if request.method == "POST":
         form = Volunteer_form(request.POST, request.FILES)
         if form.is_valid():
