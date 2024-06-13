@@ -15,7 +15,7 @@ urlpatterns = [
     path('all_volunteers', views.all_volunteers, name="all_volunteers"),
     path('search', views.search_volunteers, name = "search"),
 
-    path('employees/<int:emp_id>', views.volunteer_details, name = "details"),
-    path('employees/delete/<int:emp_id>', views.volunteer_delete, name = "delete"),
-    path('employees/update/<int:emp_id>', views.volunteer_update, name = "update"),
+    path('volunteers/<int:emp_id>/', views.volunteer_details, name = "details"),
+    path('volunteers/delete/<int:emp_id>/', views.volunteer_delete, name = "delete"),
+    path('volunteers/update/<int:emp_id>/', views.volunteer_update, name = "update"),
 ]

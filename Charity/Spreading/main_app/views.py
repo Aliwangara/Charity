@@ -11,7 +11,6 @@ from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 from main_app.app_forms import Volunteer_form
 from main_app.models import Volunteers, Contacts
-# from main_app.users import people
 from django.template import RequestContext
 
 
@@ -29,18 +28,18 @@ def Causes(request):
     pass
     return render(request, "causes.html")
 
-
+@permission_required('main_app.add_employee', raise_exception=True)
 def Volunteer(request):
      if request.method == "POST":
         form = Volunteer_form(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             messages.info(request, "Added successfully")
-            return redirect("all")
+            return redirect("all_volunteers")
 
      else:
              form = Volunteer_form()
-     return render(request, "Volunteer.html", {"form":form})
+     return render(request, "add_volunteer.html", {"form":form})
 
 
 def Events(request):
@@ -60,7 +59,7 @@ def all_volunteers(request):
  
  
  
-def volunteer_details(request):
+def volunteer_details(request, emp_id):
     volunteer = Volunteers.objects.get(pk=emp_id)  # SELECT * FROM Volunteers
     return render(request, 'volunteer_details.html', {"volunteer": volunteer})
 
@@ -69,7 +68,7 @@ def volunteer_delete(request, emp_id):
     employee = get_object_or_404(Volunteers, pk=emp_id)
     employee.delete()
     messages.warning(request, 'Deleted successfully')
-    return redirect("all")
+    return redirect("all_volunteers")
 
 
 def search_volunteers(request):
@@ -83,9 +82,9 @@ def search_volunteers(request):
     return render(request, "All_volunteers.html", {"employees": data})
 
 
-
+@permission_required('main_app.change_employee')
 def volunteer_update(request, emp_id):
-    volunteer = get_object_or_404(Volunteer, pk=emp_id)  # SELECT *FROM employees WHERE id = 1
+    volunteer = get_object_or_404(Volunteers, pk=emp_id)  # SELECT *FROM Volunteers WHERE id = 1
     if request.method == "POST":
         form = Volunteer_form(request.POST, request.FILES, instance=volunteer)
         if form.is_valid():

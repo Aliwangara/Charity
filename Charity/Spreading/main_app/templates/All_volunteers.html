@@ -1,6 +1,7 @@
 {% extends "layouts/All_volunteers_nav.html" %}
 
 {% load static %}
+{% load humanize %}
 
 
 {% block content %}
@@ -24,18 +25,18 @@
                     <th>Name</th>
                     <th>Email</th>
                     <th>DOB</th>
-                    <th>Salary</th>
+                    <th>Contract (months)</th>
                 </tr>
                 </thead>
                 <tbody>
-                {% for employee in employees %}
+                {% for volunteer in Volunteers %}
                     <tr>
                         <td>
-                            <a href="/employees/{{ employee.id }}">{{ employee.name | title }}</a>
+                            <a href="/Volunteers/{{ volunteer.id }}">{{ volunteer.name | title }}</a>
                         </td>
-                        <td>{{ employee.email }}</td>
-                        <td>{{ employee.dob | date:'d-m-Y' }}</td>
-                        <td>{{ employee.salary  | intcomma }}</td>
+                        <td>{{ volunteer.email }}</td>
+                        <td>{{ volunteer.dob | date:'d-m-Y' }}</td>
+                        <td>{{ volunteer.salary  | intcomma }}</td>
                     </tr>
                 {% endfor %}
 
