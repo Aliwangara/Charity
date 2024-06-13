@@ -41,7 +41,7 @@ def Events(request):
 
 
 def all_volunteers(request):
-    pass
+    
     return render(request, "All_volunteers.html", )
 
 

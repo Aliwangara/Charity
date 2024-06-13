@@ -100,18 +100,20 @@
                     <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'Donation' %}">Donate</a>
                     </li>
-                {% if not request.user.is_authenticated %}
+                {% if user.is_authenticated%}
+                
+                    <li class="nav-item ms-3">
+                        <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'logout'%}">logout</a>
+                    </li>
  
+                    
+                    {% else %}
                     <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signin' %}">Login</a>
                     </li>
 
                     <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signup' %}">SignUp</a>
-                    </li>
-                {% else %}
-                    <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'home'%}">logout</a>
                     </li>
                 {% endif %}
                 </ul>

@@ -15,7 +15,7 @@ def unique_img_name(instance, filename):
     full_name = "%s.%s" %(name, ext)
     return os.path.join('employees', full_name)
 # Create your models here.
-class Employee(models.Model):
+class Volunteers(models.Model):
     #     name, Email, dob, salary, disable
     name = models.CharField(max_length=40)
     email = models.EmailField(unique=True)
@@ -25,6 +25,9 @@ class Employee(models.Model):
     profile = models.ImageField(upload_to=unique_img_name, null=True ,default = 'employees/employee.png' )
     created_at = models.DateTimeField(auto_now_add=True, null=True)#once during creation
     updated_at = models.DateTimeField(auto_now=True, null=True)#every time an update happens
+    
+    def __str__ (self):
+       return self.name
 
 class Contacts(models.Model):
     name = models.CharField(max_length=25)
