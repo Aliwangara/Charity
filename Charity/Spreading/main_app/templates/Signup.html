@@ -9,20 +9,20 @@
     <div class="row ">
         <div class=" col-lg-6 col-md-8 col-sm-9">
             <h1>Create An Account</h1>
-            <form action="" class="">
+            <form action="/signup" method="post" class="">
                 {% csrf_token %}
                 <div class="text-center">
                     <div class="d-flex mt-4">
                         <input type="text" name="first" id="" placeholder="Enter first name" class="form-control me-2">
                         <input type="text" name="last" id="" placeholder="Enter last name" class="form-control">
                     </div>
-                    <input type="email" name="" placeholder="Enter your Email" class="mt-3 form-control">
-                    <input type="date" name="" id="" placeholder="Enter Date of Birth" class="mt-3 form-control">
-                    <input type="text" name="" id="" placeholder="Enter phone no." class="mt-3 form-control">
+                    <input type="email" name="email" placeholder="Enter your Email" class="mt-3 form-control">
+                    <input type="date" name="date" id="" placeholder="Enter Date of Birth" class="mt-3 form-control">
+                    <input type="text" name="number" id="" placeholder="Enter phone no." class="mt-3 form-control">
 
                     <div class="d-flex mt-2 mb-3">
-                       <input type="password" name="" id="" placeholder="Enter password" class="me-2 form-control">
-                       <input type="password" name="" id="" placeholder="Confirm Password" class="form-control">
+                       <input type="password" name="pass1" id="" placeholder="Enter password" class="me-2 form-control">
+                       <input type="password" name="pass2" id="" placeholder="Confirm Password" class="form-control">
                     </div>
                 </div>
 
