@@ -48,10 +48,11 @@ class Blog(models.Model):
     def __str__(self):
         return self.name
     
-class Events(models.Model):
+class Event(models.Model):
     name = models.CharField(max_length=50)
     profile= models.ImageField(upload_to='upload/Events')
     About =models.CharField(max_length=200)
+    # Link = models.URLField( max_length=150, unique=True, blank=True)
     Date = models.DateField(auto_now=True, null= True)
     is_new = models.BooleanField(default=False)
     
