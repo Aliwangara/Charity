@@ -10,7 +10,7 @@ from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 from main_app.app_forms import Volunteer_form
-from main_app.models import Volunteers, Contacts, Blog, Event
+from main_app.models import Volunteers, Contacts, Blog, Event,Number
 from django.template import RequestContext
 
 
@@ -20,8 +20,8 @@ def home(request):
 
 
 def About(request):
-    pass
-    return render(request, "About.html")
+    number = Number.objects.all()
+    return render(request, "About.html", {"number":number})
 
 
 def Causes(request):
