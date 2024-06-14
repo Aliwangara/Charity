@@ -40,8 +40,8 @@ class Contacts(models.Model):
         return self.name
 
 
-class Blogs(models.Model):
-    name = models.CharField(max_length=40)
+class Blog(models.Model):
+    Title= models.CharField(max_length=40)
     profile= models.ImageField(upload_to='upload/Blogs')
     summary = models.CharField(max_length=250)
     

@@ -6,4 +6,4 @@ from main_app .models import*
 # admin.site.register(unique_img_name)
 admin.site.register(Volunteers)
 admin.site.register(Contacts)
-admin.site.register(Blogs)
+admin.site.register(Blog)
