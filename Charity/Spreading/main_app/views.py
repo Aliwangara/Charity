@@ -121,6 +121,11 @@ def Donation(request):
     return render(request, "Donate.html")
 
 
+def map(request):
+    pass
+    return render(request, "map.html")
+
+
 def signin(request):
     if request.method == "POST":
         get_email = request.POST.get('email')
