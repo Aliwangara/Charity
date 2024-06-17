@@ -63,7 +63,17 @@ class Event(models.Model):
     # for changing number of donations you have done
 class Number(models.Model):
     name = models.CharField(max_length=50)
-    number = models.IntegerField(max_length=10)
+    number = models.IntegerField()
+    
+    def __str__(self):
+        return self.name
+    
+    
+class happy_customers(models.Model):
+    name = models.CharField(max_length=20)
+    image = models.ImageField(null=True, upload_to='upload/happy_customers')
+    position = models.CharField(max_length=10)
+    information =models.CharField(max_length=300)
     
     def __str__(self):
         return self.name

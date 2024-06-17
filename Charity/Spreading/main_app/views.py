@@ -10,7 +10,7 @@ from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 from main_app.app_forms import Volunteer_form
-from main_app.models import Volunteers, Contacts, Blog, Event,Number
+from main_app.models import Volunteers, Contacts, Blog, Event,Number, happy_customers
 from django.template import RequestContext
 
 
@@ -22,6 +22,7 @@ def home(request):
 def About(request):
     number = Number.objects.all()
     return render(request, "About.html", {"number":number})
+
 
 
 def Causes(request):
@@ -50,7 +51,8 @@ def add_volunteer(request):
 
 def Events(request, ):
     events = Event.objects.all()
-    return render(request, "News.html", {"events": events})
+    happy = happy_customers.objects.all()
+    return render(request, "News.html", {"events": events, "happy":happy})
 
 
 def information(request, pk):
