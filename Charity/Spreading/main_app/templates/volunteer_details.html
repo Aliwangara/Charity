@@ -1,33 +1,33 @@
-{% extends 'base_template.html' %}
+{% extends 'layouts/master.html' %}
 {% load humanize %}
 
 {% block title %}
-	{{ employee.name }}
+	{{ volunteer.name }}
 {% endblock %}
 
-{% block content %}
-    {% include 'layouts/navbar.html' %}
+{% block body %}
+<br><br><br><br><br>
 	<div class="container">
     <div class="row justify-content-center">
         <div class="col-sm-5">
             <div class="card">
-                {% if employee.profile %}
-                	<img src="{{ employee.profile.url}}" height=" 300" width="300" alt="" class="card-img-top">
+                {% if volunteer.profile %}
+                	<img src="{{ volunteer.profile.url}}" height=" 300" width="300" alt="" class="card-img-top">
                 {% endif %}
 
                 <div class="card-body">
-                    <h2 class="card-title">{{ employee.name}}</h2>
-                    <p class="card-text">Ksh{{ employee.salary | intcomma }}</p>
-                    <p class="card-text">Born on {{ employee.dob | date:'d-m-Y'  }}</p>
-                    <p class="card-text">Address{{ employee.email}}</p>
-                    <p class="card-text">Added {{ employee.created_at | naturaltime}}</p>
+                    <h2 class="card-title">{{ volunteer.name}}</h2>
+                    <p class="card-text">Contract(months):  {{ volunteer.salary | intcomma }}</p>
+                    <p class="card-text">Born on :{{ volunteer.dob | date:'d-m-Y'  }}</p>
+                    <p class="card-text">Address :{{volunteer.email}}</p>
+                    <p class="card-text">Added :{{ volunteer.created_at | naturaltime}}</p>
 
                     {% if perms.main_app.delete_volunteer %}
-                    <a href="{% url 'delete' employee.id %}" class="btn btn-danger w-50">Delete</a>
+                    <a href="{% url 'delete' volunteer.id %}" class="btn btn-danger w-50">Delete</a>
                     {% endif %}
                     <br>
                       {% if perms.main_app.change_volunteer %}
-                    <a href="{% url 'update' employee.id %}" class="btn btn-primary w-50 mt-3">Update Employee</a>
+                    <a href="{% url 'update' volunteer.id %}" class="btn btn-primary w-50 mt-3">Update Employee</a>
                      {% endif %}
 {#                    {employee/delete/100#}
                 </div>
@@ -35,6 +35,8 @@
         </div>
     </div>
 </div>
+
+<br><br><br><br>
 {% endblock %}
 
 

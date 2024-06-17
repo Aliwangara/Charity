@@ -15,26 +15,36 @@ from django.template import RequestContext
 
 
 # Create your views here.
+
+
+# Homepage
 def home(request):
     return render(request, "index.html", )
 
-
+# About page
 def About(request):
     number = Number.objects.all()
     return render(request, "About.html", {"number":number})
 
 
 
+# causes page
 def Causes(request):
     causes = cause.objects.all()
     return render(request, "causes.html", {"causes":causes})
 
+
+# information about the causes we support
 def more_causes(request,pk):
     more = cause.objects.get(id=pk)
     
     return render(request, "more_causes.html", {"more": more})
 
+
+
+# volunteer page
 # @permission_required('main_app.add_employee', raise_exception=True)
+
 def Volunteer(request):
      pass
      return render(request, "Volunteer.html")
@@ -53,18 +63,18 @@ def add_volunteer(request):
              form = Volunteer_form()
      return render(request, "add_volunteer.html", {"form":form})
 
-
+# information about upcoming events(donations)
 def Events(request, ):
     events = Event.objects.all()
     happy = happy_customers.objects.all()
     return render(request, "News.html", {"events": events, "happy":happy})
 
-
+# more information about the event we are holding
 def information(request, pk):
     event = Event.objects.get(id=pk)
     return render(request, "information.html", {"event":event})
 
-
+# Displays all voluntees on the page
 def all_volunteers(request):
     
      volunteer = Volunteers.objects.all()
@@ -88,16 +98,17 @@ def volunteer_delete(request, emp_id):
     messages.warning(request, 'Deleted successfully')
     return redirect("all_volunteers")
 
-
+@permission_required('main_app.view_employee')
 def search_volunteers(request):
     search_word = request.GET["search_word"]
     employees = Volunteers.objects.filter(Q(name__icontains=search_word) | Q(email__icontains=search_word)
                                         )
+    
     paginator = Paginator(employees, 30)
     page_number = request.GET.get("page")
     data = paginator.get_page(page_number)
     # Elastic search
-    return render(request, "All_volunteers.html", {"employees": data})
+    return render(request, "All_volunteers.html", {"employees": data, "search_word":search_word})
 
 
 @permission_required('main_app.change_employee')
@@ -115,12 +126,12 @@ def volunteer_update(request, emp_id):
     return render(request, 'update.html', {'form': form})
      
 
-
+# contact form 
 def Contact(request):
     pass
     return render(request, "Contact.html")
 
-
+# Donation page
 def Donation(request):
     pass
     return render(request, "Donate.html")

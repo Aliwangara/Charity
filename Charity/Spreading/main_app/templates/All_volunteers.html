@@ -9,7 +9,7 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-lg-10 col-md-8">
 
 
             {% for message in messages %}
@@ -29,10 +29,13 @@
                 </tr>
                 </thead>
                 <tbody>
-                {% for volunteer in Volunteers %}
+                {% for volunteer in volunteer %}
                     <tr>
                         <td>
-                            <a href="/Volunteers/{{ volunteer.id }}">{{ volunteer.name | title }}</a>
+                            {% comment %} <a href="/volunteer/{{ volunteer.id }}">{{ volunteer.name | title }}</a> {% endcomment %}
+                            <a href="{% url 'details' emp_id=volunteer.id %}">{{ volunteer.name | title }}</a>
+
+
                         </td>
                         <td>{{ volunteer.email }}</td>
                         <td>{{ volunteer.dob | date:'d-m-Y' }}</td>

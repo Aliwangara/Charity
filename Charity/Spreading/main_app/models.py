@@ -7,14 +7,18 @@ import uuid
 
 from django.db import models
 
+# for unique image if no image exists in a volunteers description
 def unique_img_name(instance, filename):
     name = uuid.uuid4()
     print(name)
     ext = filename.split(".")[-1]
     full_name = f"{name}. {ext}"
     full_name = "%s.%s" %(name, ext)
-    return os.path.join('employees', full_name)
+    return os.path.join('volunteers', full_name)
 # Create your models here.
+
+
+# volunteers data 
 class Volunteers(models.Model):
     #     name, Email, dob, salary, disable
     name = models.CharField(max_length=40)
@@ -29,6 +33,7 @@ class Volunteers(models.Model):
     def __str__ (self):
        return self.name
 
+# contact form data
 class Contacts(models.Model):
     name = models.CharField(max_length=25)
     email = models.EmailField(unique=True)
@@ -39,7 +44,7 @@ class Contacts(models.Model):
     def __str__(self):
         return self.name
 
-
+# Data for things we have done so far 
 class cause(models.Model):
     Title= models.CharField(max_length=40)
     profile= models.ImageField(upload_to='upload/cause')
@@ -48,6 +53,9 @@ class cause(models.Model):
     def __str__(self):
         return self.Title
     
+    
+    
+# Data about oncoming events
 class Event(models.Model):
     name = models.CharField(max_length=50)
     profile= models.ImageField(upload_to='upload/Events')
@@ -68,7 +76,7 @@ class Number(models.Model):
     def __str__(self):
         return self.name
     
-    
+    # testimonials Data
 class happy_customers(models.Model):
     name = models.CharField(max_length=20)
     image = models.ImageField(null=True, upload_to='upload/happy_customers')
