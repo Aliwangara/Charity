@@ -29,6 +29,16 @@ def Causes(request):
     causes = cause.objects.all()
     return render(request, "causes.html", {"causes":causes})
 
+def more_causes(request,pk):
+    more = cause.objects.get(id=pk)
+    images = request.file.getlist('cause')
+    for cause in more:
+        
+        photo =photo.objrc
+    
+    
+    return render(request, "more_causes.html", {"more": more})
+
 # @permission_required('main_app.add_employee', raise_exception=True)
 def Volunteer(request):
      pass
