@@ -31,11 +31,6 @@ def Causes(request):
 
 def more_causes(request,pk):
     more = cause.objects.get(id=pk)
-    images = request.file.getlist('cause')
-    for cause in more:
-        
-        photo =photo.objrc
-    
     
     return render(request, "more_causes.html", {"more": more})
 
