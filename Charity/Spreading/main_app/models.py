@@ -40,13 +40,13 @@ class Contacts(models.Model):
         return self.name
 
 
-class Blog(models.Model):
+class cause(models.Model):
     Title= models.CharField(max_length=40)
-    profile= models.ImageField(upload_to='upload/Blogs')
-    summary = models.CharField(max_length=250)
+    profile= models.ImageField(upload_to='upload/cause')
+    summary = models.CharField(max_length=5000)
     
     def __str__(self):
-        return self.name
+        return self.Title
     
 class Event(models.Model):
     name = models.CharField(max_length=50)

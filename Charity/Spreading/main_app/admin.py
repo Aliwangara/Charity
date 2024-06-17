@@ -7,6 +7,6 @@ from main_app .models import*
 admin.site.register(Volunteers)
 admin.site.register(Event)
 admin.site.register(Contacts)
-admin.site.register(Blog)
+admin.site.register(cause)
 admin.site.register(Number)
 admin.site.register(happy_customers)

@@ -10,7 +10,7 @@ from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 from main_app.app_forms import Volunteer_form
-from main_app.models import Volunteers, Contacts, Blog, Event,Number, happy_customers
+from main_app.models import Volunteers, Contacts, cause, Event,Number, happy_customers
 from django.template import RequestContext
 
 
@@ -26,8 +26,8 @@ def About(request):
 
 
 def Causes(request):
-    pass
-    return render(request, "causes.html")
+    causes = cause.objects.all()
+    return render(request, "causes.html", {"causes":causes})
 
 # @permission_required('main_app.add_employee', raise_exception=True)
 def Volunteer(request):
