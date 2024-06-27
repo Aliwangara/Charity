@@ -85,3 +85,12 @@ class happy_customers(models.Model):
     
     def __str__(self):
         return self.name
+    
+    
+    
+class Volunteer_application(models.Model):
+        name = models.CharField(max_length=20)
+        Email = models.EmailField(max_length=30)
+        subject =models.CharField(max_length=20)
+        post = models.FileField(upload_to='upload/Volunteer_form')
+        comment = models.CharField(null=True, max_length=400)
