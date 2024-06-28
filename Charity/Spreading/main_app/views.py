@@ -2,6 +2,7 @@ from django.shortcuts import render
 from datetime import datetime
 
 from django.contrib import messages
+from django.http import HttpResponse
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required, permission_required
 from django.contrib.auth.models import User
@@ -50,12 +51,12 @@ def Volunteer(request):
         fname = request.POST.get('volunteer-name')
         femail = request.POST.get('volunteer-email')
         fsubject=request.POST.get('volunteer-subject')
-        fdoc = request.POST.get('volunteer-doc')
+        fdoc = request.FILES.get('volunteer-doc')
         fcomment = request.POST.get('volunteer-message')
         query = Volunteer_application(name=fname, Email=femail, subject=fsubject, post=fdoc, comment=fcomment)
-        query.save
-        # messages.SUCCESS(request, "Thanks For Application I will Get Back To You Soon!")
-        return redirect('/contact')
+        query.save()
+        messages.success(request, "Thanks For Application. I will Get Back To You Soon!")
+        return redirect('/volunteer')
      
      
      return render(request, "Volunteer.html")

@@ -92,7 +92,7 @@ class Volunteer_application(models.Model):
         name = models.CharField(max_length=20)
         Email = models.EmailField(max_length=30)
         subject =models.CharField(max_length=20)
-        post = models.FileField(upload_to='upload/Volunteer_form')
+        post = models.FileField(upload_to='upload/Volunteer_form', null=True)
         comment = models.CharField(null=True, max_length=400)
         
         def __str__(self):
