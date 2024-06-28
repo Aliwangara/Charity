@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
+import pymongo
 from django.contrib import messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -81,12 +82,37 @@ WSGI_APPLICATION = 'Spreading.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+
+
+
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'CLIENT': {
+            'host': 'mongodb+srv://aliwangara63:l1FWqVWW0qBVoIFx@cluster0.uthzjek.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', # Replace with your MongoDB server address
+            'port': 27017,               # Replace with your MongoDB port if different
+            'username': 'ali wangara', # Replace with your MongoDB username (optional)
+            'password': 'l1FWqVWW0qBVoIFx', # Replace with your MongoDB password (optional)
+            'authSource': 'your_auth_database', # Replace with your MongoDB authentication database (optional)
+        },
+        'NAME': 'Charity',
     }
 }
+
+
+
+
+
+
+
 
 
 # Password validation
