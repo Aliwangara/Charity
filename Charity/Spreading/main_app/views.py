@@ -10,7 +10,7 @@ from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 from main_app.app_forms import Volunteer_form
-from main_app.models import Volunteers, Contacts, cause, Event,Number, happy_customers
+from main_app.models import Volunteers, Contacts, cause, Event,Number, happy_customers,Volunteer_application
 from django.template import RequestContext
 
 
@@ -46,8 +46,23 @@ def more_causes(request,pk):
 # @permission_required('main_app.add_employee', raise_exception=True)
 
 def Volunteer(request):
-     pass
+     if request.method =="POST":
+        fname = request.POST.get('volunteer-name')
+        femail = request.POST.get('volunteer-email')
+        fsubject=request.POST.get('volunteer-subject')
+        fdoc = request.POST.get('volunteer-doc')
+        fcomment = request.POST.get('volunteer-message')
+        query = Volunteer_application(name=fname, Email=femail, subject=fsubject, post=fdoc, comment=fcomment)
+        query.save
+        # messages.SUCCESS(request, "Thanks For Application I will Get Back To You Soon!")
+        return redirect('/contact')
+     
+     
      return render(request, "Volunteer.html")
+ 
+ 
+ 
+ 
  
  
  

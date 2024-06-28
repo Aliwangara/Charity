@@ -94,3 +94,6 @@ class Volunteer_application(models.Model):
         subject =models.CharField(max_length=20)
         post = models.FileField(upload_to='upload/Volunteer_form')
         comment = models.CharField(null=True, max_length=400)
+        
+        def __str__(self):
+            return self.name
