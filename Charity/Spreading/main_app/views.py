@@ -66,7 +66,8 @@ def Volunteer(request):
  
  
  
- 
+@login_required
+@permission_required('main_app.add_volunteer', raise_exception=True)
 def add_volunteer(request):
      if request.method == "POST":
         form = Volunteer_form(request.POST, request.FILES)
@@ -107,14 +108,17 @@ def volunteer_details(request, emp_id):
     volunteer = Volunteers.objects.get(pk=emp_id)  # SELECT * FROM Volunteers
     return render(request, 'volunteer_details.html', {"volunteer": volunteer})
 
-
+@login_required
+@permission_required('main_app.delete_volunteer')
 def volunteer_delete(request, emp_id):
     employee = get_object_or_404(Volunteers, pk=emp_id)
     employee.delete()
     messages.warning(request, 'Deleted successfully')
     return redirect("all_volunteers")
 
-@permission_required('main_app.view_employee')
+
+@login_required
+@permission_required('main_app.view_volunteer')
 def search_volunteers(request):
     search_word = request.GET["search_word"]
     employees = Volunteers.objects.filter(Q(name__icontains=search_word) | Q(email__icontains=search_word)
@@ -126,8 +130,8 @@ def search_volunteers(request):
     # Elastic search
     return render(request, "All_volunteers.html", {"employees": data, "search_word":search_word})
 
-
-@permission_required('main_app.change_employee')
+@login_required
+@permission_required('main_app.change_volunteer')
 def volunteer_update(request, emp_id):
     volunteer = get_object_or_404(Volunteers, pk=emp_id)  # SELECT *FROM Volunteers WHERE id = 1
     if request.method == "POST":
@@ -147,6 +151,8 @@ def Contact(request):
     pass
     return render(request, "Contact.html")
 
+
+@login_required
 # Donation page
 def Donation(request):
     pass
@@ -172,7 +178,7 @@ def signin(request):
 
     return render(request, 'Login.html')
 
-
+@login_required
 def signout(request):
     logout(request)
     return redirect('home')
