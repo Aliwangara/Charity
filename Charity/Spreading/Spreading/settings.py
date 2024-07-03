@@ -18,7 +18,6 @@ from django.contrib import messages
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -30,6 +29,36 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Loggings
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {process:d} {message}',
+            'style': '{',
+        },
+    },
+
+    'handlers': {
+        'newfile': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': './debug.log',
+            'formatter': 'verbose'
+        },
+    },
+
+    'loggers': {
+        '': {
+            'level': 'DEBUG',
+            'handlers': ['newfile'],
+            'propagate': True,
+        },
+    },
+
+}
 
 # Application definition
 
@@ -41,7 +70,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main_app',
-    
+
+    # other apps
+    "Payment",
+
     # extensions
     "crispy_forms",
     "crispy_bootstrap5",
@@ -63,7 +95,7 @@ ROOT_URLCONF = 'Spreading.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/ 'templates'],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -78,7 +110,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Spreading.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -89,10 +120,6 @@ DATABASES = {
     }
 }
 
-
-
-
-
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'djongo',
@@ -101,18 +128,11 @@ DATABASES = {
 #             # 'port': 27017,               # Replace with your MongoDB port if different
 #             'username': 'aliwangara63', # Replace with your MongoDB username (optional)
 #             'password': 'l1FWqVWW0qBVoIFx', # Replace with your MongoDB password (optional)
-             
+
 #         },
 #         'NAME': 'Charity',
 #     }
 # }
-
-
-
-
-
-
-
 
 
 # Password validation
@@ -133,7 +153,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -145,12 +164,10 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -170,12 +187,21 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
-
-
 MESSAGE_TAGS = {
-    messages.SUCCESS : "alert-success",
-    messages.INFO : "alert-info",
-    messages.ERROR : "alert-danger",
-    messages.DEBUG : "alert-dark",
-    messages.WARNING : "alert-warning",
+    messages.SUCCESS: "alert-success",
+    messages.INFO: "alert-info",
+    messages.ERROR: "alert-danger",
+    messages.DEBUG: "alert-dark",
+    messages.WARNING: "alert-warning",
+}
+
+
+MPESA_API = {
+    "BIZ_SHORT_CODE": "174379",
+    "CALLBACK_URL": "xxxx",
+    "CONSUMER_KEY": "FOJ6DOAmPcUTjSm1BHodgZzjXhD1762bPj4iz5GX2LGGJXz7",
+    "CONSUMER_SECRET": "QSYFKjWOAJO57zfk9LVfqNucOmWBVWyPivVHpvuU72EDjpjfvbom1I1lKNWUJuDu",
+    "CREDENTIALS_URL": "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials",
+    "PAYMENT_URL": "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest",
+    "PASS_KEY": "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"
 }
