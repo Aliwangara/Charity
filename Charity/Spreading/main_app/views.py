@@ -152,7 +152,7 @@ def Contact(request):
     return render(request, "Contact.html")
 
 
-@login_required
+# @login_required
 # Donation page
 def Donation(request):
     pass
