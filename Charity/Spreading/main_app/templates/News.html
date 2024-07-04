@@ -5,7 +5,7 @@
 
 <br><br><br>
 
-{% for event in events  %}
+
 
 <section class="news-section section-padding" id="section_5">
     <div class="container">
@@ -15,6 +15,7 @@
                 <h2>Events News</h2>
             </div>
 
+{% for event in events  %}
             <div class="col-lg-7 col-12">
                 <div class="news-block">
                     <div class="news-block-top">
@@ -59,6 +60,7 @@
 
                 
             </div>
+ {% endfor %} 
 
         </div>
     </div>
@@ -72,7 +74,7 @@
 
 
 
-{% endfor %}
+
 
 {% for happy in happy %}
 

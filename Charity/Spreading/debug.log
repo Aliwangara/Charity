@@ -1500,3 +1500,1163 @@ WARNING 2024-07-04 12:06:13,373 9252 Not Found: /static/admin/css/dark_mode.css
 WARNING 2024-07-04 12:06:13,378 9252 Not Found: /static/admin/css/nav_sidebar.css
 WARNING 2024-07-04 12:06:13,416 9252 Not Found: /static/admin/js/nav_sidebar.js
 WARNING 2024-07-04 12:06:13,417 9252 Not Found: /static/admin/css/responsive.css
+INFO 2024-07-04 12:08:25,711 6884 Watching for file changes with StatReloader
+WARNING 2024-07-04 12:08:42,775 6884 Not Found: /static/admin/css/dashboard.css
+WARNING 2024-07-04 12:08:42,852 6884 Not Found: /static/admin/img/icon-addlink.svg
+WARNING 2024-07-04 12:08:42,885 6884 Not Found: /static/admin/img/icon-changelink.svg
+WARNING 2024-07-04 12:08:50,601 6884 Not Found: /media/upload/Events/BOK2.jpg
+WARNING 2024-07-04 12:08:57,513 6884 Not Found: /static/admin/css/changelists.css
+WARNING 2024-07-04 12:08:57,567 6884 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 12:08:57,601 6884 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 12:08:57,648 6884 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 12:08:57,666 6884 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 12:08:57,706 6884 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 12:08:57,748 6884 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 12:08:57,795 6884 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 12:08:57,811 6884 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 12:08:57,905 6884 Not Found: /static/admin/js/filters.js
+WARNING 2024-07-04 12:08:57,920 6884 Not Found: /static/admin/img/tooltag-add.svg
+WARNING 2024-07-04 12:08:59,532 6884 Not Found: /static/admin/css/forms.css
+WARNING 2024-07-04 12:08:59,589 6884 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 12:08:59,630 6884 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 12:08:59,678 6884 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 12:08:59,721 6884 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 12:08:59,751 6884 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 12:08:59,788 6884 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 12:08:59,828 6884 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 12:08:59,870 6884 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 12:08:59,924 6884 Not Found: /static/admin/js/prepopulate_init.js
+WARNING 2024-07-04 12:08:59,992 6884 Not Found: /static/admin/js/change_form.js
+WARNING 2024-07-04 12:09:00,054 6884 Not Found: /static/admin/img/icon-deletelink.svg
+DEBUG 2024-07-04 12:09:13,163 6884 Importing BlpImagePlugin
+DEBUG 2024-07-04 12:09:13,167 6884 Importing BmpImagePlugin
+DEBUG 2024-07-04 12:09:13,167 6884 Importing BufrStubImagePlugin
+DEBUG 2024-07-04 12:09:13,170 6884 Importing CurImagePlugin
+DEBUG 2024-07-04 12:09:13,172 6884 Importing DcxImagePlugin
+DEBUG 2024-07-04 12:09:13,176 6884 Importing DdsImagePlugin
+DEBUG 2024-07-04 12:09:13,184 6884 Importing EpsImagePlugin
+DEBUG 2024-07-04 12:09:13,187 6884 Importing FitsImagePlugin
+DEBUG 2024-07-04 12:09:13,190 6884 Importing FliImagePlugin
+DEBUG 2024-07-04 12:09:13,193 6884 Importing FpxImagePlugin
+DEBUG 2024-07-04 12:09:13,197 6884 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2024-07-04 12:09:13,198 6884 Importing FtexImagePlugin
+DEBUG 2024-07-04 12:09:13,201 6884 Importing GbrImagePlugin
+DEBUG 2024-07-04 12:09:13,204 6884 Importing GifImagePlugin
+DEBUG 2024-07-04 12:09:13,204 6884 Importing GribStubImagePlugin
+DEBUG 2024-07-04 12:09:13,206 6884 Importing Hdf5StubImagePlugin
+DEBUG 2024-07-04 12:09:13,208 6884 Importing IcnsImagePlugin
+DEBUG 2024-07-04 12:09:13,214 6884 Importing IcoImagePlugin
+DEBUG 2024-07-04 12:09:13,217 6884 Importing ImImagePlugin
+DEBUG 2024-07-04 12:09:13,221 6884 Importing ImtImagePlugin
+DEBUG 2024-07-04 12:09:13,225 6884 Importing IptcImagePlugin
+DEBUG 2024-07-04 12:09:13,228 6884 Importing JpegImagePlugin
+DEBUG 2024-07-04 12:09:13,228 6884 Importing Jpeg2KImagePlugin
+DEBUG 2024-07-04 12:09:13,229 6884 Importing McIdasImagePlugin
+DEBUG 2024-07-04 12:09:13,231 6884 Importing MicImagePlugin
+DEBUG 2024-07-04 12:09:13,236 6884 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2024-07-04 12:09:13,236 6884 Importing MpegImagePlugin
+DEBUG 2024-07-04 12:09:13,239 6884 Importing MpoImagePlugin
+DEBUG 2024-07-04 12:09:13,246 6884 Importing MspImagePlugin
+DEBUG 2024-07-04 12:09:13,249 6884 Importing PalmImagePlugin
+DEBUG 2024-07-04 12:09:13,255 6884 Importing PcdImagePlugin
+DEBUG 2024-07-04 12:09:13,258 6884 Importing PcxImagePlugin
+DEBUG 2024-07-04 12:09:13,258 6884 Importing PdfImagePlugin
+DEBUG 2024-07-04 12:09:13,276 6884 Importing PixarImagePlugin
+DEBUG 2024-07-04 12:09:13,279 6884 Importing PngImagePlugin
+DEBUG 2024-07-04 12:09:13,279 6884 Importing PpmImagePlugin
+DEBUG 2024-07-04 12:09:13,279 6884 Importing PsdImagePlugin
+DEBUG 2024-07-04 12:09:13,282 6884 Importing QoiImagePlugin
+DEBUG 2024-07-04 12:09:13,285 6884 Importing SgiImagePlugin
+DEBUG 2024-07-04 12:09:13,288 6884 Importing SpiderImagePlugin
+DEBUG 2024-07-04 12:09:13,291 6884 Importing SunImagePlugin
+DEBUG 2024-07-04 12:09:13,292 6884 Importing TgaImagePlugin
+DEBUG 2024-07-04 12:09:13,294 6884 Importing TiffImagePlugin
+DEBUG 2024-07-04 12:09:13,294 6884 Importing WebPImagePlugin
+DEBUG 2024-07-04 12:09:13,302 6884 Importing WmfImagePlugin
+DEBUG 2024-07-04 12:09:13,305 6884 Importing XbmImagePlugin
+DEBUG 2024-07-04 12:09:13,307 6884 Importing XpmImagePlugin
+DEBUG 2024-07-04 12:09:13,310 6884 Importing XVThumbImagePlugin
+WARNING 2024-07-04 12:09:13,506 6884 Not Found: /static/admin/css/changelists.css
+WARNING 2024-07-04 12:09:13,533 6884 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 12:09:13,571 6884 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 12:09:13,604 6884 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 12:09:13,648 6884 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 12:09:13,669 6884 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 12:09:13,705 6884 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 12:09:13,751 6884 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 12:09:13,781 6884 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 12:09:13,865 6884 Not Found: /static/admin/js/filters.js
+WARNING 2024-07-04 12:09:13,906 6884 Not Found: /static/admin/img/icon-yes.svg
+WARNING 2024-07-04 12:09:17,599 6884 Not Found: /media/upload/Events/BOK2_3NSkjoC.jpg
+WARNING 2024-07-04 12:09:19,762 6884 Not Found: /information/images/news/africa-humanitarian-aid-doctor.jpg
+WARNING 2024-07-04 12:09:19,789 6884 Not Found: /media/upload/Events/BOK2_3NSkjoC.jpg
+WARNING 2024-07-04 12:09:19,806 6884 Not Found: /information/images/news/close-up-happy-people-working-together.jpg
+WARNING 2024-07-04 12:09:19,833 6884 Not Found: /static/images/news/close-up-volunteer-oganizing-stuff-donation.jpg
+WARNING 2024-07-04 12:10:29,147 6884 Not Found: /media/upload/cause/Graduation4_3HZpfgk.jpeg
+WARNING 2024-07-04 12:10:43,658 6884 Not Found: /static/admin/css/forms.css
+WARNING 2024-07-04 12:10:43,704 6884 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 12:10:43,738 6884 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 12:10:43,774 6884 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 12:10:43,812 6884 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 12:10:43,842 6884 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 12:10:43,882 6884 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 12:10:43,924 6884 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 12:10:43,956 6884 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 12:10:44,031 6884 Not Found: /static/admin/js/prepopulate_init.js
+WARNING 2024-07-04 12:10:44,103 6884 Not Found: /static/admin/js/change_form.js
+WARNING 2024-07-04 12:10:44,136 6884 Not Found: /static/admin/img/icon-addlink.svg
+WARNING 2024-07-04 12:11:01,829 6884 Not Found: /static/admin/css/changelists.css
+WARNING 2024-07-04 12:11:01,887 6884 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 12:11:01,923 6884 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 12:11:01,962 6884 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 12:11:01,999 6884 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 12:11:02,038 6884 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 12:11:02,100 6884 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 12:11:02,143 6884 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 12:11:02,181 6884 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 12:11:02,289 6884 Not Found: /static/admin/js/filters.js
+WARNING 2024-07-04 12:11:02,305 6884 Not Found: /static/admin/img/icon-yes.svg
+WARNING 2024-07-04 12:11:02,356 6884 Not Found: /static/admin/img/tooltag-add.svg
+WARNING 2024-07-04 12:11:15,283 6884 Not Found: /media/upload/cause/Graduation4_3HZpfgk.jpeg
+WARNING 2024-07-04 12:11:16,848 6884 Not Found: /media/upload/cause/Graduation4_3HZpfgk.jpeg
+WARNING 2024-07-04 12:11:18,061 6884 Not Found: /media/upload/Events/BOK2_3NSkjoC.jpg
+WARNING 2024-07-04 12:11:18,076 6884 Not Found: /media/upload/Events/BOK3.jpg
+WARNING 2024-07-04 12:11:31,486 6884 Not Found: /static/admin/css/changelists.css
+WARNING 2024-07-04 12:11:31,532 6884 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 12:11:31,556 6884 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 12:11:31,586 6884 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 12:11:31,594 6884 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 12:11:31,599 6884 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 12:11:31,612 6884 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 12:11:31,638 6884 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 12:11:31,646 6884 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 12:11:31,706 6884 Not Found: /static/admin/js/filters.js
+WARNING 2024-07-04 12:13:25,443 6884 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 12:13:25,468 6884 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:13:25,524 6884 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:13:25,717 6884 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 12:13:25,723 6884 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:13:25,735 6884 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 12:13:25,746 6884 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 12:13:25,760 6884 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 12:13:25,769 6884 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 12:13:25,777 6884 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 12:13:25,784 6884 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 12:13:25,799 6884 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:13:25,835 6884 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:13:25,991 6884 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:13:26,046 6884 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:13:26,073 6884 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:13:26,090 6884 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:13:28,013 6884 Not Found: /static/assets/images/Image/header_img.png
+WARNING 2024-07-04 12:13:54,646 6884 Not Found: /static/admin/css/dashboard.css
+WARNING 2024-07-04 12:13:54,786 6884 Not Found: /static/admin/img/icon-addlink.svg
+WARNING 2024-07-04 12:13:54,813 6884 Not Found: /static/admin/img/icon-changelink.svg
+WARNING 2024-07-04 12:14:05,300 6884 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 12:14:05,420 6884 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:14:05,498 6884 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:14:05,579 6884 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:14:05,699 6884 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 12:14:05,720 6884 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 12:14:05,755 6884 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 12:14:05,761 6884 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 12:14:05,888 6884 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 12:14:05,906 6884 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 12:14:05,935 6884 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 12:14:06,040 6884 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:14:06,047 6884 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:14:06,064 6884 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:14:06,075 6884 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:14:06,088 6884 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:14:06,245 6884 Not Found: /static/js/custom.js
+INFO 2024-07-04 12:19:21,104 13280 Watching for file changes with StatReloader
+WARNING 2024-07-04 12:19:26,612 13280 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:19:26,621 13280 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:19:26,623 13280 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:19:26,627 13280 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:19:26,636 13280 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:19:26,640 13280 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:19:27,799 13280 Not Found: /static/assets/images/Image/header_img.png
+WARNING 2024-07-04 12:19:30,692 13280 Not Found: /media/upload/cause/Graduation4_3HZpfgk.jpeg
+WARNING 2024-07-04 12:19:35,252 13280 Not Found: /media/upload/cause/Graduation4_3HZpfgk.jpeg
+WARNING 2024-07-04 12:19:40,569 13280 Not Found: /static/admin/css/dashboard.css
+WARNING 2024-07-04 12:19:40,874 13280 Not Found: /static/admin/img/icon-addlink.svg
+WARNING 2024-07-04 12:19:40,894 13280 Not Found: /static/admin/img/icon-changelink.svg
+WARNING 2024-07-04 12:19:41,108 13280 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2024-07-04 12:19:42,548 13280 Not Found: /favicon.ico
+WARNING 2024-07-04 12:19:49,271 13280 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:19:49,284 13280 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:19:49,325 13280 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:19:49,414 13280 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:19:49,424 13280 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:19:49,473 13280 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:21:17,504 13280 Not Found: /static/admin/css/dashboard.css
+WARNING 2024-07-04 12:21:17,668 13280 Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2024-07-04 12:21:17,689 13280 Not Found: /static/admin/img/icon-addlink.svg
+WARNING 2024-07-04 12:21:17,733 13280 Not Found: /static/admin/img/icon-changelink.svg
+INFO 2024-07-04 12:27:28,508 4016 Watching for file changes with StatReloader
+WARNING 2024-07-04 12:28:12,744 4016 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 12:28:12,755 4016 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:28:12,992 4016 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:28:13,273 4016 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:28:14,008 4016 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 12:28:14,348 4016 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 12:28:14,356 4016 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:28:15,893 4016 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:28:16,963 4016 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:28:16,966 4016 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:28:17,819 4016 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:28:17,891 4016 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 12:28:17,897 4016 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:28:18,590 4016 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 12:28:18,603 4016 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 12:28:18,615 4016 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 12:28:19,147 4016 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 12:28:22,022 4016 Not Found: /static/assets/images/Image/header_img.png
+WARNING 2024-07-04 12:29:12,377 4016 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:29:12,392 4016 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:29:12,503 4016 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:29:14,951 4016 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:29:14,971 4016 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 12:29:14,986 4016 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 12:29:16,561 4016 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:29:20,491 4016 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:29:20,524 4016 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:29:23,364 4016 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:29:23,471 4016 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:29:23,552 4016 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 12:29:32,461 4016 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:29:32,603 4016 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:29:32,880 4016 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:29:32,926 4016 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 12:29:33,630 4016 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:29:33,913 4016 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 12:29:41,162 4016 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:29:41,171 4016 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:29:47,640 4016 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:29:49,922 4016 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:29:51,244 4016 Not Found: /static/js/custom.js
+INFO 2024-07-04 12:30:21,695 16776 Watching for file changes with StatReloader
+WARNING 2024-07-04 12:31:17,387 16776 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:31:17,511 16776 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:31:17,695 16776 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 12:31:17,701 16776 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 12:31:17,708 16776 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 12:31:17,713 16776 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 12:31:17,720 16776 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 12:31:17,749 16776 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:31:17,767 16776 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 12:31:17,792 16776 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 12:31:17,842 16776 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:31:17,853 16776 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:31:17,904 16776 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:31:17,934 16776 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:31:17,985 16776 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:31:18,017 16776 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:31:18,984 16776 Not Found: /static/assets/images/Image/header_img.png
+WARNING 2024-07-04 12:31:19,353 16776 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:31:45,070 16776 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:31:45,077 16776 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:31:45,433 16776 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:31:45,441 16776 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:31:45,452 16776 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:31:45,478 16776 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:31:45,484 16776 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 12:31:45,504 16776 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:31:45,511 16776 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:31:51,034 16776 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 12:31:51,065 16776 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 12:31:51,234 16776 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 12:31:51,406 16776 Not Found: /static/js/counter.js
+WARNING 2024-07-04 12:31:51,411 16776 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 12:31:51,463 16776 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 12:31:51,476 16776 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 12:31:51,495 16776 Not Found: /static/js/custom.js
+WARNING 2024-07-04 12:31:51,501 16776 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:11:53,596 16776 Not Found: /static/admin/css/dashboard.css
+WARNING 2024-07-04 13:11:53,722 16776 Not Found: /static/admin/img/icon-addlink.svg
+WARNING 2024-07-04 13:11:53,734 16776 Not Found: /static/admin/img/icon-changelink.svg
+INFO 2024-07-04 13:21:43,663 3828 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:22:12,468 3828 Not Found: /static/admin/css/changelists.css
+WARNING 2024-07-04 13:22:12,534 3828 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 13:22:12,602 3828 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 13:22:12,622 3828 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 13:22:12,646 3828 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 13:22:12,671 3828 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 13:22:12,719 3828 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 13:22:12,745 3828 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 13:22:12,785 3828 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 13:22:12,876 3828 Not Found: /static/admin/js/filters.js
+WARNING 2024-07-04 13:22:12,893 3828 Not Found: /static/admin/img/tooltag-add.svg
+WARNING 2024-07-04 13:22:13,054 3828 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 13:22:13,078 3828 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 13:22:13,082 3828 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 13:22:13,086 3828 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 13:22:13,096 3828 Not Found: /static/admin/js/filters.js
+WARNING 2024-07-04 13:22:16,555 3828 Not Found: /static/admin/css/forms.css
+WARNING 2024-07-04 13:22:16,634 3828 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 13:22:16,686 3828 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 13:22:16,736 3828 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 13:22:16,817 3828 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 13:22:16,869 3828 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 13:22:16,933 3828 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 13:22:16,987 3828 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 13:22:17,044 3828 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 13:22:17,105 3828 Not Found: /static/admin/js/prepopulate_init.js
+WARNING 2024-07-04 13:22:17,173 3828 Not Found: /static/admin/js/change_form.js
+WARNING 2024-07-04 13:22:17,231 3828 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 13:22:17,232 3828 Not Found: /static/admin/js/prepopulate_init.js
+DEBUG 2024-07-04 13:22:27,475 3828 Importing BlpImagePlugin
+DEBUG 2024-07-04 13:22:27,479 3828 Importing BmpImagePlugin
+DEBUG 2024-07-04 13:22:27,479 3828 Importing BufrStubImagePlugin
+DEBUG 2024-07-04 13:22:27,483 3828 Importing CurImagePlugin
+DEBUG 2024-07-04 13:22:27,486 3828 Importing DcxImagePlugin
+DEBUG 2024-07-04 13:22:27,491 3828 Importing DdsImagePlugin
+DEBUG 2024-07-04 13:22:27,500 3828 Importing EpsImagePlugin
+DEBUG 2024-07-04 13:22:27,506 3828 Importing FitsImagePlugin
+DEBUG 2024-07-04 13:22:27,510 3828 Importing FliImagePlugin
+DEBUG 2024-07-04 13:22:27,512 3828 Importing FpxImagePlugin
+DEBUG 2024-07-04 13:22:27,518 3828 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2024-07-04 13:22:27,518 3828 Importing FtexImagePlugin
+DEBUG 2024-07-04 13:22:27,521 3828 Importing GbrImagePlugin
+DEBUG 2024-07-04 13:22:27,525 3828 Importing GifImagePlugin
+DEBUG 2024-07-04 13:22:27,525 3828 Importing GribStubImagePlugin
+DEBUG 2024-07-04 13:22:27,532 3828 Importing Hdf5StubImagePlugin
+DEBUG 2024-07-04 13:22:27,535 3828 Importing IcnsImagePlugin
+DEBUG 2024-07-04 13:22:27,544 3828 Importing IcoImagePlugin
+DEBUG 2024-07-04 13:22:27,547 3828 Importing ImImagePlugin
+DEBUG 2024-07-04 13:22:27,551 3828 Importing ImtImagePlugin
+DEBUG 2024-07-04 13:22:27,554 3828 Importing IptcImagePlugin
+DEBUG 2024-07-04 13:22:27,556 3828 Importing JpegImagePlugin
+DEBUG 2024-07-04 13:22:27,556 3828 Importing Jpeg2KImagePlugin
+DEBUG 2024-07-04 13:22:27,557 3828 Importing McIdasImagePlugin
+DEBUG 2024-07-04 13:22:27,559 3828 Importing MicImagePlugin
+DEBUG 2024-07-04 13:22:27,564 3828 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2024-07-04 13:22:27,564 3828 Importing MpegImagePlugin
+DEBUG 2024-07-04 13:22:27,568 3828 Importing MpoImagePlugin
+DEBUG 2024-07-04 13:22:27,576 3828 Importing MspImagePlugin
+DEBUG 2024-07-04 13:22:27,578 3828 Importing PalmImagePlugin
+DEBUG 2024-07-04 13:22:27,582 3828 Importing PcdImagePlugin
+DEBUG 2024-07-04 13:22:27,585 3828 Importing PcxImagePlugin
+DEBUG 2024-07-04 13:22:27,585 3828 Importing PdfImagePlugin
+DEBUG 2024-07-04 13:22:27,604 3828 Importing PixarImagePlugin
+DEBUG 2024-07-04 13:22:27,606 3828 Importing PngImagePlugin
+DEBUG 2024-07-04 13:22:27,606 3828 Importing PpmImagePlugin
+DEBUG 2024-07-04 13:22:27,606 3828 Importing PsdImagePlugin
+DEBUG 2024-07-04 13:22:27,610 3828 Importing QoiImagePlugin
+DEBUG 2024-07-04 13:22:27,613 3828 Importing SgiImagePlugin
+DEBUG 2024-07-04 13:22:27,615 3828 Importing SpiderImagePlugin
+DEBUG 2024-07-04 13:22:27,619 3828 Importing SunImagePlugin
+DEBUG 2024-07-04 13:22:27,621 3828 Importing TgaImagePlugin
+DEBUG 2024-07-04 13:22:27,624 3828 Importing TiffImagePlugin
+DEBUG 2024-07-04 13:22:27,624 3828 Importing WebPImagePlugin
+DEBUG 2024-07-04 13:22:27,669 3828 Importing WmfImagePlugin
+DEBUG 2024-07-04 13:22:27,672 3828 Importing XbmImagePlugin
+DEBUG 2024-07-04 13:22:27,677 3828 Importing XpmImagePlugin
+DEBUG 2024-07-04 13:22:27,679 3828 Importing XVThumbImagePlugin
+WARNING 2024-07-04 13:22:27,847 3828 Not Found: /static/admin/css/changelists.css
+WARNING 2024-07-04 13:22:27,907 3828 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 13:22:27,942 3828 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 13:22:27,972 3828 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 13:22:28,009 3828 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 13:22:28,050 3828 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 13:22:28,085 3828 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 13:22:28,119 3828 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 13:22:28,163 3828 Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+WARNING 2024-07-04 13:22:28,251 3828 Not Found: /static/admin/js/filters.js
+WARNING 2024-07-04 13:22:28,280 3828 Not Found: /static/admin/img/icon-yes.svg
+WARNING 2024-07-04 13:22:28,385 3828 Not Found: /static/admin/js/jquery.init.js
+WARNING 2024-07-04 13:22:28,386 3828 Not Found: /static/admin/js/actions.js
+WARNING 2024-07-04 13:22:28,389 3828 Not Found: /static/admin/js/core.js
+WARNING 2024-07-04 13:22:28,394 3828 Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+WARNING 2024-07-04 13:22:28,414 3828 Not Found: /static/admin/js/prepopulate.js
+WARNING 2024-07-04 13:22:28,421 3828 Not Found: /static/admin/js/urlify.js
+WARNING 2024-07-04 13:22:28,423 3828 Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+WARNING 2024-07-04 13:22:41,428 3828 Not Found: /{% static 'css/bootstrap.min.css' % }
+WARNING 2024-07-04 13:22:41,797 3828 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:22:42,333 3828 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:22:55,984 3828 Not Found: /{% static 'css/bootstrap.min.css' % }
+WARNING 2024-07-04 13:22:56,022 3828 Not Found: /media/upload/cause/Graduation4_3HZpfgk.jpeg
+WARNING 2024-07-04 13:22:56,053 3828 Not Found: /media/upload/cause/BOK2_mSF8YKp.jpg
+WARNING 2024-07-04 13:24:35,210 3828 Not Found: /{% static 'css/bootstrap.min.css' % }
+INFO 2024-07-04 13:27:46,602 19020 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:27:56,960 19020 Not Found: /{% static 'css/bootstrap.min.css' % }
+INFO 2024-07-04 13:28:33,528 19020 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 13:28:34,940 11836 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:28:36,650 11836 Not Found: /{% static 'css/bootstrap.min.css' % }
+WARNING 2024-07-04 13:28:57,370 11836 Not Found: /{% static 'css/bootstrap.min.css' % }
+INFO 2024-07-04 13:38:23,852 3288 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:39:56,614 3288 Not Found: /favicon.ico
+DEBUG 2024-07-04 13:41:30,786 3288 Importing BlpImagePlugin
+DEBUG 2024-07-04 13:41:30,791 3288 Importing BmpImagePlugin
+DEBUG 2024-07-04 13:41:30,791 3288 Importing BufrStubImagePlugin
+DEBUG 2024-07-04 13:41:30,793 3288 Importing CurImagePlugin
+DEBUG 2024-07-04 13:41:30,795 3288 Importing DcxImagePlugin
+DEBUG 2024-07-04 13:41:30,800 3288 Importing DdsImagePlugin
+DEBUG 2024-07-04 13:41:30,812 3288 Importing EpsImagePlugin
+DEBUG 2024-07-04 13:41:30,816 3288 Importing FitsImagePlugin
+DEBUG 2024-07-04 13:41:30,819 3288 Importing FliImagePlugin
+DEBUG 2024-07-04 13:41:30,822 3288 Importing FpxImagePlugin
+DEBUG 2024-07-04 13:41:30,827 3288 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2024-07-04 13:41:30,828 3288 Importing FtexImagePlugin
+DEBUG 2024-07-04 13:41:30,831 3288 Importing GbrImagePlugin
+DEBUG 2024-07-04 13:41:30,834 3288 Importing GifImagePlugin
+DEBUG 2024-07-04 13:41:30,834 3288 Importing GribStubImagePlugin
+DEBUG 2024-07-04 13:41:30,837 3288 Importing Hdf5StubImagePlugin
+DEBUG 2024-07-04 13:41:30,838 3288 Importing IcnsImagePlugin
+DEBUG 2024-07-04 13:41:30,848 3288 Importing IcoImagePlugin
+DEBUG 2024-07-04 13:41:30,852 3288 Importing ImImagePlugin
+DEBUG 2024-07-04 13:41:30,856 3288 Importing ImtImagePlugin
+DEBUG 2024-07-04 13:41:30,859 3288 Importing IptcImagePlugin
+DEBUG 2024-07-04 13:41:30,862 3288 Importing JpegImagePlugin
+DEBUG 2024-07-04 13:41:30,862 3288 Importing Jpeg2KImagePlugin
+DEBUG 2024-07-04 13:41:30,862 3288 Importing McIdasImagePlugin
+DEBUG 2024-07-04 13:41:30,865 3288 Importing MicImagePlugin
+DEBUG 2024-07-04 13:41:30,870 3288 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2024-07-04 13:41:30,871 3288 Importing MpegImagePlugin
+DEBUG 2024-07-04 13:41:30,874 3288 Importing MpoImagePlugin
+DEBUG 2024-07-04 13:41:30,885 3288 Importing MspImagePlugin
+DEBUG 2024-07-04 13:41:30,888 3288 Importing PalmImagePlugin
+DEBUG 2024-07-04 13:41:30,893 3288 Importing PcdImagePlugin
+DEBUG 2024-07-04 13:41:30,896 3288 Importing PcxImagePlugin
+DEBUG 2024-07-04 13:41:30,897 3288 Importing PdfImagePlugin
+DEBUG 2024-07-04 13:41:30,925 3288 Importing PixarImagePlugin
+DEBUG 2024-07-04 13:41:30,928 3288 Importing PngImagePlugin
+DEBUG 2024-07-04 13:41:30,928 3288 Importing PpmImagePlugin
+DEBUG 2024-07-04 13:41:30,928 3288 Importing PsdImagePlugin
+DEBUG 2024-07-04 13:41:30,932 3288 Importing QoiImagePlugin
+DEBUG 2024-07-04 13:41:30,936 3288 Importing SgiImagePlugin
+DEBUG 2024-07-04 13:41:30,939 3288 Importing SpiderImagePlugin
+DEBUG 2024-07-04 13:41:30,942 3288 Importing SunImagePlugin
+DEBUG 2024-07-04 13:41:30,945 3288 Importing TgaImagePlugin
+DEBUG 2024-07-04 13:41:30,948 3288 Importing TiffImagePlugin
+DEBUG 2024-07-04 13:41:30,948 3288 Importing WebPImagePlugin
+DEBUG 2024-07-04 13:41:30,992 3288 Importing WmfImagePlugin
+DEBUG 2024-07-04 13:41:30,994 3288 Importing XbmImagePlugin
+DEBUG 2024-07-04 13:41:30,999 3288 Importing XpmImagePlugin
+DEBUG 2024-07-04 13:41:31,002 3288 Importing XVThumbImagePlugin
+DEBUG 2024-07-04 13:43:24,451 3288 STREAM b'IHDR' 16 13
+DEBUG 2024-07-04 13:43:24,451 3288 STREAM b'sRGB' 41 1
+DEBUG 2024-07-04 13:43:24,451 3288 STREAM b'IDAT' 54 8192
+INFO 2024-07-04 13:48:36,264 3288 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 13:49:16,544 16424 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:49:25,790 16424 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 13:49:26,526 16424 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 13:49:26,774 16424 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 13:49:26,783 16424 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 13:49:26,787 16424 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 13:49:26,794 16424 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 13:49:26,796 16424 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 13:49:26,800 16424 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 13:49:27,052 16424 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 13:49:27,063 16424 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 13:49:27,592 16424 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:49:27,597 16424 Not Found: /static/js/custom.js
+WARNING 2024-07-04 13:49:27,605 16424 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:49:27,608 16424 Not Found: /static/js/counter.js
+WARNING 2024-07-04 13:49:27,614 16424 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:49:27,619 16424 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:49:27,625 16424 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 13:49:52,383 16424 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 13:49:52,388 16424 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 13:49:53,401 16424 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 13:49:53,404 16424 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 13:49:53,935 16424 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 13:49:53,940 16424 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 13:49:53,947 16424 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 13:49:54,571 16424 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 13:49:54,575 16424 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 13:49:54,580 16424 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 13:49:54,584 16424 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 13:49:54,798 16424 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:49:55,100 16424 Not Found: /static/js/custom.js
+WARNING 2024-07-04 13:49:55,106 16424 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:49:55,118 16424 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:49:55,124 16424 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:49:55,345 16424 Not Found: /static/js/counter.js
+WARNING 2024-07-04 13:50:21,492 16424 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 13:50:21,533 16424 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 13:50:21,767 16424 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 13:50:21,770 16424 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 13:50:22,327 16424 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 13:50:22,331 16424 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 13:50:22,908 16424 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 13:50:23,191 16424 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 13:50:23,195 16424 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 13:50:23,201 16424 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 13:50:23,456 16424 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:50:23,468 16424 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:50:23,482 16424 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 13:50:24,090 16424 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:50:24,814 16424 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:50:24,821 16424 Not Found: /static/js/custom.js
+WARNING 2024-07-04 13:50:24,829 16424 Not Found: /static/js/counter.js
+INFO 2024-07-04 13:50:38,740 17892 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:51:17,812 17892 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 13:51:17,840 17892 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 13:51:18,009 17892 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 13:51:18,030 17892 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 13:51:18,074 17892 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 13:51:18,075 17892 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 13:51:18,080 17892 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 13:51:18,194 17892 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 13:51:18,206 17892 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:51:18,209 17892 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 13:51:18,214 17892 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 13:51:18,218 17892 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:51:18,223 17892 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 13:51:18,327 17892 Not Found: /static/js/counter.js
+WARNING 2024-07-04 13:51:18,329 17892 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:51:18,332 17892 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:51:18,421 17892 Not Found: /static/js/custom.js
+WARNING 2024-07-04 13:51:19,045 17892 Not Found: /favicon.ico
+WARNING 2024-07-04 13:51:19,122 17892 Not Found: /static/js/jquery.sticky.js
+INFO 2024-07-04 13:52:40,210 8452 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:52:43,558 8452 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:52:43,954 8452 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:52:43,975 8452 Not Found: /static/js/counter.js
+WARNING 2024-07-04 13:52:43,977 8452 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:52:43,985 8452 Not Found: /static/js/custom.js
+WARNING 2024-07-04 13:52:43,991 8452 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:53:37,326 8452 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 13:53:37,347 8452 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 13:53:37,354 8452 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 13:53:37,384 8452 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 13:53:37,469 8452 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 13:53:37,490 8452 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 13:53:37,514 8452 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 13:53:37,566 8452 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 13:53:37,589 8452 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 13:53:37,634 8452 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 13:53:37,715 8452 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:53:37,761 8452 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 13:53:37,791 8452 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:53:37,857 8452 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:53:37,860 8452 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:53:37,921 8452 Not Found: /static/js/counter.js
+WARNING 2024-07-04 13:53:37,951 8452 Not Found: /static/js/custom.js
+WARNING 2024-07-04 13:53:38,625 8452 Not Found: /favicon.ico
+WARNING 2024-07-04 13:53:50,905 8452 Not Found: /static/images/Image/Team.jpg
+WARNING 2024-07-04 13:53:51,155 8452 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:53:51,170 8452 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:53:51,176 8452 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:53:51,196 8452 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:53:51,203 8452 Not Found: /static/js/counter.js
+WARNING 2024-07-04 13:53:51,222 8452 Not Found: /static/js/custom.js
+WARNING 2024-07-04 13:54:15,785 8452 Not Found: /static/images/Image/Team.jpg
+WARNING 2024-07-04 13:55:08,302 8452 Not Found: /static/images/Image/Team.jpg
+ERROR 2024-07-04 13:56:06,339 8452 Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 28, in About
+    return render(request, "About.html", {"number":number})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% load static %' from '% load static %'
+WARNING 2024-07-04 13:56:08,821 8452 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:56:08,854 8452 Not Found: /static/js/counter.js
+WARNING 2024-07-04 13:56:08,856 8452 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:56:08,863 8452 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 13:56:08,867 8452 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:56:08,873 8452 Not Found: /static/js/custom.js
+ERROR 2024-07-04 13:56:11,013 8452 Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 28, in About
+    return render(request, "About.html", {"number":number})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% load static %' from '% load static %'
+WARNING 2024-07-04 13:56:16,929 8452 Not Found: /media/upload/cause/BOK3_0JUXbq7.jpg
+WARNING 2024-07-04 13:56:19,514 8452 Not Found: /media/upload/cause/BOK3_0JUXbq7.jpg
+INFO 2024-07-04 13:56:29,892 12176 Watching for file changes with StatReloader
+WARNING 2024-07-04 13:56:34,227 12176 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 13:56:34,231 12176 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 13:56:34,234 12176 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 13:56:34,247 12176 Not Found: /static/js/jquery.sticky.js
+ERROR 2024-07-04 13:56:35,214 12176 Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 28, in About
+    return render(request, "About.html", {"number":number})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% load static %' from '% load static %'
+WARNING 2024-07-04 13:56:52,570 12176 Not Found: /media/upload/cause/BOK3_0JUXbq7.jpg
+WARNING 2024-07-04 13:56:54,806 12176 Not Found: /static/images/Image/Volunteer_Badge.png
+ERROR 2024-07-04 13:57:07,413 12176 Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 28, in About
+    return render(request, "About.html", {"number":number})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% load static %' from '% load static %'
+WARNING 2024-07-04 13:57:13,598 12176 Not Found: /media/upload/Events/graduation7.jpeg
+WARNING 2024-07-04 13:57:13,613 12176 Not Found: /media/upload/Events/header_img.png
+INFO 2024-07-04 13:57:38,626 9856 Watching for file changes with StatReloader
+ERROR 2024-07-04 13:57:43,933 9856 Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 28, in About
+    return render(request, "About.html", {"number":number})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% load static %' from '% load static %'
+WARNING 2024-07-04 13:58:01,739 9856 Not Found: /static/images/Image/Team.jpg
+INFO 2024-07-04 14:11:38,399 6476 Watching for file changes with StatReloader
+WARNING 2024-07-04 14:11:46,760 6476 Not Found: /favicon.ico
+WARNING 2024-07-04 14:11:47,761 6476 Not Found: /static/images/Image/Team.jpg
+WARNING 2024-07-04 14:11:55,170 6476 Not Found: /media/upload/cause/BOK3_0JUXbq7.jpg
+INFO 2024-07-04 14:14:34,693 17112 Watching for file changes with StatReloader
+WARNING 2024-07-04 14:14:42,012 17112 Not Found: /static/images/Image/Team.jpg
+WARNING 2024-07-04 14:17:05,682 17112 Not Found: /static/assets/images/Image/Team.jpg
+WARNING 2024-07-04 14:19:03,373 17112 Not Found: /static/assets/images/Image/All.jpg
+WARNING 2024-07-04 14:21:19,149 17112 Not Found: /static/assets/images/Image/BOK.jpg
+WARNING 2024-07-04 14:21:50,388 17112 Not Found: /static/assets/images/Image/BOK.jpg
+WARNING 2024-07-04 14:21:50,419 17112 Not Found: /static/images/Image/All.jpg
+WARNING 2024-07-04 14:22:27,262 17112 Not Found: /static/assets/images/Image/BOK.jpg
+WARNING 2024-07-04 14:22:45,289 17112 Not Found: /static/assets/images/Image/BOK.jpg
+WARNING 2024-07-04 14:22:45,311 17112 Not Found: /static/images/Image/BOK.jpg
+WARNING 2024-07-04 14:23:10,996 17112 Not Found: /static/assets/images/Image/BOK.jpg
+WARNING 2024-07-04 14:23:47,509 17112 Not Found: /static/assets/images/Image/team.jpg
+WARNING 2024-07-04 14:24:08,565 17112 Not Found: /static/assets/images/Image/founder.jpg
+WARNING 2024-07-04 14:25:01,693 17112 Not Found: /static/images/Image/Volunteer_Badge.png
+WARNING 2024-07-04 14:25:20,908 17112 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 14:25:20,918 17112 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 14:25:20,928 17112 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 14:25:20,958 17112 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 14:25:20,980 17112 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 14:25:20,983 17112 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 14:25:20,997 17112 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 14:25:21,012 17112 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 14:25:21,017 17112 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 14:25:21,027 17112 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 14:25:21,034 17112 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 14:25:21,041 17112 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 14:25:21,046 17112 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 14:25:21,059 17112 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 14:25:21,067 17112 Not Found: /static/js/counter.js
+WARNING 2024-07-04 14:25:21,089 17112 Not Found: /static/js/custom.js
+WARNING 2024-07-04 14:25:21,100 17112 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 14:25:21,102 17112 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 14:25:21,107 17112 Not Found: /static/images/icons/scholarship.png
+WARNING 2024-07-04 14:25:21,179 17112 Not Found: /favicon.ico
+WARNING 2024-07-04 14:25:31,696 17112 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 14:25:31,708 17112 Not Found: /static/images/Image/header_img.png
+WARNING 2024-07-04 14:25:31,720 17112 Not Found: /static/css/bootstrap-icons.css
+WARNING 2024-07-04 14:25:31,727 17112 Not Found: /static/css/bootstrap.min.css
+WARNING 2024-07-04 14:25:31,740 17112 Not Found: /static/js/jquery.min.js
+WARNING 2024-07-04 14:25:31,747 17112 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-04 14:25:31,759 17112 Not Found: /static/images/icons/hands.png
+WARNING 2024-07-04 14:25:31,765 17112 Not Found: /static/images/slides/Matungu3.jpg
+WARNING 2024-07-04 14:25:31,775 17112 Not Found: /static/images/slides/Matungu.jpg
+WARNING 2024-07-04 14:25:31,780 17112 Not Found: /static/js/bootstrap.min.js
+WARNING 2024-07-04 14:25:31,789 17112 Not Found: /static/images/slides/Team.jpg
+WARNING 2024-07-04 14:25:31,796 17112 Not Found: /static/js/jquery.sticky.js
+WARNING 2024-07-04 14:25:31,807 17112 Not Found: /static/js/click-scroll.js
+WARNING 2024-07-04 14:25:31,814 17112 Not Found: /static/js/counter.js
+WARNING 2024-07-04 14:25:31,828 17112 Not Found: /static/js/custom.js
+WARNING 2024-07-04 14:25:31,832 17112 Not Found: /static/images/icons/heart.png
+WARNING 2024-07-04 14:25:31,838 17112 Not Found: /static/images/icons/receive.png
+WARNING 2024-07-04 14:25:31,846 17112 Not Found: /static/images/icons/scholarship.png
+INFO 2024-07-04 14:25:49,260 17800 Watching for file changes with StatReloader
+WARNING 2024-07-04 14:25:56,794 17800 Not Found: /static/images/Image/Volunteer_Badge.png
+INFO 2024-07-04 14:27:34,107 17800 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 14:27:35,437 17860 Watching for file changes with StatReloader
+INFO 2024-07-04 14:31:24,515 4748 Watching for file changes with StatReloader
+WARNING 2024-07-04 14:34:49,593 4748 Not Found: /favicon.ico
+WARNING 2024-07-04 14:36:25,264 4748 Not Found: /accounts/login/
+WARNING 2024-07-04 14:38:40,434 4748 Not Found: /favicon.ico
+INFO 2024-07-04 14:42:33,509 4748 254700331844 1
+DEBUG 2024-07-04 14:42:33,518 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 14:42:34,285 4748 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 14:42:34,293 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 14:42:35,322 4748 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-04 14:42:35,327 4748 {'MerchantRequestID': 'f1e2-4b95-a71d-b30d3cdbb7a7701712', 'CheckoutRequestID': 'ws_CO_04072024144559407700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-04 14:42:35,327 4748 f1e2-4b95-a71d-b30d3cdbb7a7701712 ws_CO_04072024144559407700331844
+INFO 2024-07-04 14:42:36,355 4748 254700331844 1
+DEBUG 2024-07-04 14:42:36,356 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 14:42:37,078 4748 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 14:42:37,090 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 14:42:37,828 4748 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 500 None
+INFO 2024-07-04 14:42:37,832 4748 {'requestId': 'f1e2-4b95-a71d-b30d3cdbb7a7701713', 'errorCode': '500.003.02', 'errorMessage': 'System is busy. Please try again in few minutes.'}
+ERROR 2024-07-04 14:42:37,832 4748 Error with errorCode: 500.003.02
+WARNING 2024-07-04 14:55:36,424 4748 Not Found: /favicon.ico
+WARNING 2024-07-04 14:59:06,078 4748 Not Found: /accounts/login/
+WARNING 2024-07-04 15:01:35,789 4748 Not Found: /accounts/login/
+INFO 2024-07-04 15:12:44,456 4748 254700331483 1
+DEBUG 2024-07-04 15:12:44,459 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 15:12:45,345 4748 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 15:12:45,355 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 15:12:46,515 4748 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-04 15:12:46,516 4748 {'MerchantRequestID': '7071-4170-a0e4-8345632bad441412271', 'CheckoutRequestID': 'ws_CO_04072024151244754700331483', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-04 15:12:46,516 4748 7071-4170-a0e4-8345632bad441412271 ws_CO_04072024151244754700331483
+INFO 2024-07-04 15:14:08,714 4748 254700331844 1
+DEBUG 2024-07-04 15:14:08,717 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 15:14:09,443 4748 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 15:14:09,452 4748 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 15:14:10,473 4748 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-04 15:14:10,476 4748 {'MerchantRequestID': '7071-4170-a0e4-8345632bad441412298', 'CheckoutRequestID': 'ws_CO_04072024151734565700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-04 15:14:10,476 4748 7071-4170-a0e4-8345632bad441412298 ws_CO_04072024151734565700331844
+WARNING 2024-07-04 15:15:41,670 4748 Not Found: /information/images/news/africa-humanitarian-aid-doctor.jpg
+WARNING 2024-07-04 15:15:41,787 4748 Not Found: /information/images/news/close-up-happy-people-working-together.jpg
+WARNING 2024-07-04 15:53:13,292 4748 Not Found: /favicon.ico
+WARNING 2024-07-04 15:54:40,758 4748 Not Found: /favicon.ico
+WARNING 2024-07-04 15:57:44,016 4748 Not Found: /favicon.ico
+WARNING 2024-07-04 16:05:44,925 4748 Not Found: /accounts/login/
+INFO 2024-07-04 22:12:54,007 4748 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:12:56,197 1196 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:02,699 1196 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:13:03,753 1164 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:07,193 1164 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:13:08,305 16312 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:14,835 16312 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:13:15,820 9972 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:23,686 9972 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:13:25,231 260 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:30,714 260 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:13:32,088 8796 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:36,469 8796 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:13:37,667 13824 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:43,332 13824 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\urls.py changed, reloading.
+INFO 2024-07-04 22:13:44,726 15100 Watching for file changes with StatReloader
+INFO 2024-07-04 22:13:53,072 15100 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:13:54,142 4400 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:02,510 4400 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:03,537 17384 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:18,602 17384 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:19,427 19664 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:23,770 19664 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:24,772 19084 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:28,240 19084 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:29,276 18808 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:33,635 18808 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:35,026 9832 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:40,554 9832 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:41,572 18672 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:45,684 18672 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:46,638 19708 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:51,005 19708 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:51,915 17908 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:55,985 17908 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:14:56,859 13992 Watching for file changes with StatReloader
+INFO 2024-07-04 22:14:59,976 13992 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:15:00,878 19800 Watching for file changes with StatReloader
+INFO 2024-07-04 22:15:04,970 19800 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:15:06,185 20876 Watching for file changes with StatReloader
+INFO 2024-07-04 22:15:10,464 20876 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:15:11,678 16264 Watching for file changes with StatReloader
+INFO 2024-07-04 22:15:14,640 16264 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:15:15,849 18884 Watching for file changes with StatReloader
+INFO 2024-07-04 22:15:24,314 19980 Watching for file changes with StatReloader
+INFO 2024-07-04 22:15:38,617 19980 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:15:39,727 4076 Watching for file changes with StatReloader
+ERROR 2024-07-04 22:16:22,986 4076 Internal Server Error: /Donation
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 55, in Donation
+    return render(request, "Donate.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'credit' not found. 'credit' is not a valid view function or pattern name.
+ERROR 2024-07-04 22:31:15,394 4076 Internal Server Error: /Donation
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 55, in Donation
+    return render(request, "Donate.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'credit' not found. 'credit' is not a valid view function or pattern name.
+INFO 2024-07-04 22:32:02,314 4076 254700331844 1
+DEBUG 2024-07-04 22:32:02,317 4076 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 22:32:03,344 4076 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 22:32:03,357 4076 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 22:32:04,569 4076 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-04 22:32:04,570 4076 {'MerchantRequestID': '1c5b-4ba8-815c-ac45c57a3db01419103', 'CheckoutRequestID': 'ws_CO_04072024223202483700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-04 22:32:04,571 4076 1c5b-4ba8-815c-ac45c57a3db01419103 ws_CO_04072024223202483700331844
+INFO 2024-07-04 22:32:15,463 4076 254700331844 1
+DEBUG 2024-07-04 22:32:15,465 4076 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 22:32:16,347 4076 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 22:32:16,356 4076 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 22:32:17,371 4076 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 500 None
+INFO 2024-07-04 22:32:17,375 4076 {'requestId': '6e86-45dd-91ac-fd5d4178ab523493894', 'errorCode': '500.001.1001', 'errorMessage': 'Unable to lock subscriber, a transaction is already in process for the current subscriber'}
+ERROR 2024-07-04 22:32:17,376 4076 Error with errorCode: 500.001.1001
+INFO 2024-07-04 22:33:06,965 4076 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 22:33:08,100 4976 Watching for file changes with StatReloader
+INFO 2024-07-04 22:33:16,036 21440 Watching for file changes with StatReloader
+WARNING 2024-07-04 23:54:59,120 21440 Not Found: /favicon.ico

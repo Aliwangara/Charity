@@ -69,4 +69,10 @@ def callback(request):
     return HttpResponse({"message": "successfully received"})
 
 
+
+def card(request):
+    pass
+    return render(request, "CreditCard.html",  )
+
+
 # ngrok http 8000

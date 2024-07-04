@@ -1653,3 +1653,14 @@ blockquote::before {
   }
 }
 
+.card{
+  background-image: url('../images/Image/BOK3.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+

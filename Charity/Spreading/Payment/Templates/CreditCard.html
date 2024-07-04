@@ -1,0 +1,73 @@
+{% extends "layouts/master.html" %}
+
+{% block body %}
+<section class="card">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-8 col-sm-9">
+                    <div>
+
+                            <form action="" method="" class="shadow py-2 px-2 bg-white  text-opacity-100 bg-opacity-75 rounded-2  ">
+
+                                <div>
+                                <h1 class="mb-3 text-info">Credit or Debit Card</h1>
+                                    <hr>
+
+                                </div>
+
+                                <div class="">
+                                    <label for="cardowner">Card Owner:</label><br>
+
+                                    <input type="text" placeholder="Card owner name" class="form-control" >
+                            
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="Card Number">Card Number</label>
+                                    <input type="text" placeholder="Valid Card Number" class="form-control">
+
+                                </div>
+
+                                <div class="mb-3">
+
+                                    
+                                        <label for="Expiration date">Expiration Date:</label><br>
+                                
+                                
+                                    <div class="d-flex">
+                                        <input type="month" placeholder="MM" class="form-control" >
+                {#                    <input type="number" min="1900" max="2006" placeholder="YY" class="form-control">#}
+
+                                        <label for="CVV" class="ms-2 borde">CVV:</label><br>
+                                        <input type="number" placeholder="Enter CVV or CCV" class="form-control">
+                                    </div>
+                                
+                                    
+                                </div>
+                                <div class="">
+                                    <a href=""  class=""><button class="btn btn-info mb-3  ">Confirm Donation</button></a>
+                                </div>
+
+                            </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+
+
+{% endblock body %}
+
+
+
+
+
+
+
+
+
+
+
