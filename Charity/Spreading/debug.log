@@ -302,6 +302,7 @@ Traceback (most recent call last):
   File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 438, in prepare_url
     raise MissingSchema(
 requests.exceptions.MissingSchema: Invalid URL '<function get_payment_url at 0x000002AA641EE7A0>': No scheme supplied. Perhaps you meant https://<function get_payment_url at 0x000002AA641EE7A0>?
+INFO 2024-07-04 09:37:41,149 23224 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
 INFO 2024-07-04 09:37:41,128 3328 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
 INFO 2024-07-04 09:37:43,194 17684 Watching for file changes with StatReloader
 INFO 2024-07-04 09:37:43,196 26548 Watching for file changes with StatReloader
@@ -1152,3 +1153,11 @@ INFO 2024-07-04 11:16:44,852 9384 C:\Users\User\Documents\GitHub\Charity\Charity
 INFO 2024-07-04 11:16:44,977 17044 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
 INFO 2024-07-04 11:16:46,382 28860 Watching for file changes with StatReloader
 INFO 2024-07-04 11:16:46,445 15848 Watching for file changes with StatReloader
+WARNING 2024-07-04 11:38:23,519 28860 Not Found: /accounts/login/
+INFO 2024-07-04 11:42:18,067 28860 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 11:42:18,031 15848 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 11:42:19,494 8180 Watching for file changes with StatReloader
+INFO 2024-07-04 11:42:19,501 9252 Watching for file changes with StatReloader
+WARNING 2024-07-04 11:42:38,345 8180 Not Found: /accounts/login/
+ERROR 2024-07-04 11:43:20,901 8180 Internal Server Error: /accounts/login/
+ERROR 2024-07-04 11:43:28,122 8180 Internal Server Error: /accounts/login/
