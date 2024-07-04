@@ -1663,4 +1663,18 @@ blockquote::before {
   padding-top: 150px;
   padding-bottom: 150px;
 }
+.american-express{
+  display: inline;
+  width: 95px;
 
+}
+.submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 400px;
+  color: #000000;
+  background: #5bc1ac;
+  font-weight: bold;
+}

@@ -2660,3 +2660,155 @@ INFO 2024-07-04 22:33:06,965 4076 C:\Users\User\Documents\GitHub\Charity\Charity
 INFO 2024-07-04 22:33:08,100 4976 Watching for file changes with StatReloader
 INFO 2024-07-04 22:33:16,036 21440 Watching for file changes with StatReloader
 WARNING 2024-07-04 23:54:59,120 21440 Not Found: /favicon.ico
+WARNING 2024-07-05 00:35:29,638 21440 Not Found: /favicon.ico
+WARNING 2024-07-05 00:35:32,506 21440 Not Found: /accounts/login/
+INFO 2024-07-05 00:35:50,419 21440 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-05 00:35:52,466 19572 Watching for file changes with StatReloader
+WARNING 2024-07-05 00:36:11,755 19572 Not Found: /accounts/login/
+WARNING 2024-07-05 00:36:18,654 19572 Not Found: /static/images/Image/Team.jpg
+WARNING 2024-07-05 00:36:18,689 19572 Not Found: /static/images/Image/founder.jpg
+WARNING 2024-07-05 00:36:26,526 19572 Not Found: /media/upload/cause/BOK3_0JUXbq7.jpg
+INFO 2024-07-05 00:36:34,400 19572 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-05 00:37:01,526 19260 Watching for file changes with StatReloader
+WARNING 2024-07-05 00:37:11,562 19260 Not Found: /accounts/login/
+WARNING 2024-07-05 00:37:19,201 19260 Not Found: /accounts/login/
+INFO 2024-07-05 00:39:27,147 19260 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-05 00:39:28,247 10580 Watching for file changes with StatReloader
+INFO 2024-07-05 00:41:23,158 10580 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-05 00:41:24,309 15324 Watching for file changes with StatReloader
+WARNING 2024-07-05 00:41:29,669 15324 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-05 00:41:30,040 15324 Not Found: /static/css/templatemo-kind-heart-charity.css
+WARNING 2024-07-05 00:41:45,450 15324 Not Found: /static/images/Image/Team.jpg
+WARNING 2024-07-05 00:41:45,487 15324 Not Found: /static/images/Image/founder.jpg
+WARNING 2024-07-05 00:41:52,008 15324 Not Found: /media/upload/cause/BOK3_0JUXbq7.jpg
+INFO 2024-07-05 00:42:14,048 15840 Watching for file changes with StatReloader
+WARNING 2024-07-05 00:42:26,946 15840 Not Found: /static/images/Image/Team.jpg
+WARNING 2024-07-05 00:42:26,967 15840 Not Found: /static/images/Image/founder.jpg
+INFO 2024-07-05 00:42:38,633 15840 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-05 00:42:40,009 1796 Watching for file changes with StatReloader
+INFO 2024-07-05 00:42:45,964 1796 254700331844 1
+DEBUG 2024-07-05 00:42:45,966 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 00:42:46,844 1796 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-05 00:42:46,854 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 00:42:47,821 1796 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-05 00:42:47,822 1796 {'MerchantRequestID': '53e3-4aa8-9fe0-8fb5e4092cdd3492869', 'CheckoutRequestID': 'ws_CO_05072024004248211700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-05 00:42:47,822 1796 53e3-4aa8-9fe0-8fb5e4092cdd3492869 ws_CO_05072024004248211700331844
+INFO 2024-07-05 00:42:50,783 1796 254700331844 1
+DEBUG 2024-07-05 00:42:50,784 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 00:42:51,265 1796 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-05 00:42:51,268 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 00:42:51,728 1796 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 500 None
+INFO 2024-07-05 00:42:51,729 1796 {'requestId': '53e3-4aa8-9fe0-8fb5e4092cdd3492871', 'errorCode': '500.003.02', 'errorMessage': 'System is busy. Please try again in few minutes.'}
+ERROR 2024-07-05 00:42:51,729 1796 Error with errorCode: 500.003.02
+ERROR 2024-07-05 00:49:56,199 1796 Internal Server Error: /card
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 75, in card
+    return render(request, "CreditCard.html",  )
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 28: 'static', expected 'endblock'. Did you forget to register or load this tag?
+WARNING 2024-07-05 01:17:43,377 1796 Not Found: /accounts/login/
+WARNING 2024-07-05 01:17:50,243 1796 Not Found: /accounts/login/
+WARNING 2024-07-05 01:18:26,841 1796 Forbidden (Origin checking failed - https://be63-41-80-117-111.ngrok-free.app does not match any trusted origins.): /signin
+WARNING 2024-07-05 01:18:50,666 1796 Forbidden (Origin checking failed - https://be63-41-80-117-111.ngrok-free.app does not match any trusted origins.): /signin
+WARNING 2024-07-05 01:19:09,957 1796 Forbidden (Origin checking failed - https://be63-41-80-117-111.ngrok-free.app does not match any trusted origins.): /signin
+WARNING 2024-07-05 01:20:55,501 1796 Not Found: /favicon.ico
+INFO 2024-07-05 01:21:46,572 1796 254700331844 1
+DEBUG 2024-07-05 01:21:46,605 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:21:47,593 1796 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-05 01:21:47,618 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:21:48,819 1796 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-05 01:21:48,823 1796 {'MerchantRequestID': '53e3-4aa8-9fe0-8fb5e4092cdd3493446', 'CheckoutRequestID': 'ws_CO_05072024012513559700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-05 01:21:48,823 1796 53e3-4aa8-9fe0-8fb5e4092cdd3493446 ws_CO_05072024012513559700331844
+INFO 2024-07-05 01:22:49,122 1796 254700331844 1
+DEBUG 2024-07-05 01:22:49,130 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:22:50,053 1796 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-05 01:22:50,057 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:22:51,070 1796 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-05 01:22:51,074 1796 {'MerchantRequestID': '6e86-45dd-91ac-fd5d4178ab523496270', 'CheckoutRequestID': 'ws_CO_05072024012251442700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-05 01:22:51,074 1796 6e86-45dd-91ac-fd5d4178ab523496270 ws_CO_05072024012251442700331844
+INFO 2024-07-05 01:22:52,324 1796 254700331844 1
+DEBUG 2024-07-05 01:22:52,325 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:22:53,125 1796 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-05 01:22:53,129 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:22:53,944 1796 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 500 None
+INFO 2024-07-05 01:22:53,946 1796 {'requestId': '6e86-45dd-91ac-fd5d4178ab523496271', 'errorCode': '500.003.02', 'errorMessage': 'System is busy. Please try again in few minutes.'}
+ERROR 2024-07-05 01:22:53,946 1796 Error with errorCode: 500.003.02
+INFO 2024-07-05 01:24:12,181 1796 254700331844 1
+DEBUG 2024-07-05 01:24:12,184 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:24:13,101 1796 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-05 01:24:13,112 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:24:14,024 1796 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-05 01:24:14,028 1796 {'MerchantRequestID': '53e3-4aa8-9fe0-8fb5e4092cdd3493490', 'CheckoutRequestID': 'ws_CO_05072024012414202700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-05 01:24:14,028 1796 53e3-4aa8-9fe0-8fb5e4092cdd3493490 ws_CO_05072024012414202700331844
+WARNING 2024-07-05 01:26:47,734 1796 Not Found: /favicon.ico
+INFO 2024-07-05 01:27:07,912 1796 254700331844 1
+DEBUG 2024-07-05 01:27:07,919 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:27:08,820 1796 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-05 01:27:08,831 1796 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-05 01:27:09,949 1796 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-05 01:27:09,955 1796 {'MerchantRequestID': '1c5b-4ba8-815c-ac45c57a3db01420978', 'CheckoutRequestID': 'ws_CO_05072024013034759700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-05 01:27:09,956 1796 1c5b-4ba8-815c-ac45c57a3db01420978 ws_CO_05072024013034759700331844

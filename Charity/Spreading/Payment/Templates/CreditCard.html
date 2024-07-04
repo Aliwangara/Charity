@@ -1,5 +1,7 @@
 {% extends "layouts/master.html" %}
 
+{% load static %}
+
 {% block body %}
 <section class="card">
         <div class="container">
@@ -7,13 +9,22 @@
                 <div class="col-lg-8 col-md-8 col-sm-9">
                     <div>
 
-                            <form action="" method="" class="shadow py-2 px-2 bg-white  text-opacity-100 bg-opacity-75 rounded-2  ">
+                            <form action="" method="" class="shadow py-2 px-2 bg-white  opacity-100 rounded-2  ">
 
                                 <div>
-                                <h1 class="mb-3 text-info">Credit or Debit Card</h1>
+                                <h1 class="text-info">Credit or Debit Card</h1>
                                     <hr>
 
                                 </div>
+                                
+
+                                <div class="">
+                                    <label for="Amount">Amount:</label><br>
+
+                                    <input type="number" placeholder="Amount" class="form-control w-50" >
+                            
+                                </div>
+
 
                                 <div class="">
                                     <label for="cardowner">Card Owner:</label><br>
@@ -24,7 +35,14 @@
 
                                 <div class="mb-3">
                                     <label for="Card Number">Card Number</label>
-                                    <input type="text" placeholder="Valid Card Number" class="form-control">
+                                    <input type="text" placeholder="Valid Card Number" class="form-control"><div class="input-group-append">
+                                        <div>
+                                            <img src="{% static 'images/payment/visa.svg' %}" alt="" class="w-25">
+                                            <img src="{% static 'images/payment/mastercard.svg' %}" alt="" class="w-25">
+                                            <img src="{% static 'images/payment/americanexpress.svg' %}" alt="" class="american-express">
+
+                                        </div>
+                                    
 
                                 </div>
 
@@ -45,7 +63,7 @@
                                     
                                 </div>
                                 <div class="">
-                                    <a href=""  class=""><button class="btn btn-info mb-3  ">Confirm Donation</button></a>
+                                    <a href=""  class=""><button class="btn mb-3 submit  ">Confirm Donation</button></a>
                                 </div>
 
                             </form>
