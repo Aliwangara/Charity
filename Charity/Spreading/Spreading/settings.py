@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*j$k@08$5-&krfy^#40kn1&szq_1oaaxv3zpl))1r=%@8d)7!z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Loggings
 
@@ -198,7 +198,7 @@ MESSAGE_TAGS = {
 
 MPESA_API = {
     "BIZ_SHORT_CODE": "174379",
-    "CALLBACK_URL": "xxxx",
+    "CALLBACK_URL": "https://e1be-41-80-117-111.ngrok-free.app/callback",
     "CONSUMER_KEY": "FOJ6DOAmPcUTjSm1BHodgZzjXhD1762bPj4iz5GX2LGGJXz7",
     "CONSUMER_SECRET": "QSYFKjWOAJO57zfk9LVfqNucOmWBVWyPivVHpvuU72EDjpjfvbom1I1lKNWUJuDu",
     "CREDENTIALS_URL": "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials",

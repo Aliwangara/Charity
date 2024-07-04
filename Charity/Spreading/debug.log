@@ -302,3 +302,853 @@ Traceback (most recent call last):
   File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 438, in prepare_url
     raise MissingSchema(
 requests.exceptions.MissingSchema: Invalid URL '<function get_payment_url at 0x000002AA641EE7A0>': No scheme supplied. Perhaps you meant https://<function get_payment_url at 0x000002AA641EE7A0>?
+INFO 2024-07-04 09:37:41,128 3328 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:37:43,194 17684 Watching for file changes with StatReloader
+INFO 2024-07-04 09:37:43,196 26548 Watching for file changes with StatReloader
+INFO 2024-07-04 09:37:47,292 17684 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:37:47,309 26548 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:37:48,497 22920 Watching for file changes with StatReloader
+INFO 2024-07-04 09:37:48,498 23324 Watching for file changes with StatReloader
+INFO 2024-07-04 09:37:51,754 22920 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:37:51,788 23324 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:37:53,203 24856 Watching for file changes with StatReloader
+INFO 2024-07-04 09:37:53,209 29180 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:04,747 29180 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:04,803 24856 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:05,909 15252 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:06,068 16584 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:09,570 16584 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:09,582 15252 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:10,556 16716 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:10,576 14000 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:24,677 16716 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:24,725 14000 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:25,682 2280 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:25,775 16376 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:29,734 2280 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:29,806 16376 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:30,850 13460 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:30,899 20044 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:42,822 13460 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:42,922 20044 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:43,957 12276 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:44,006 5948 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:51,618 5948 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:51,636 12276 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:52,661 23040 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:52,718 29148 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:55,739 23040 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:55,781 29148 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:38:56,803 21444 Watching for file changes with StatReloader
+INFO 2024-07-04 09:38:56,832 29704 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:01,137 29704 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:01,122 21444 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:02,577 28776 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:02,578 27724 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:08,846 28776 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:08,850 27724 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:09,809 19312 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:09,810 16436 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:12,849 16436 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:12,894 19312 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:13,869 1612 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:13,938 18584 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:17,042 18584 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:17,077 1612 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:18,321 18428 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:18,322 21348 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:24,504 21348 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:24,541 18428 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:25,928 24672 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:25,961 15036 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:30,285 24672 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:30,287 15036 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:31,286 30604 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:31,311 23004 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:42,440 23004 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:42,454 30604 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:39:43,787 18532 Watching for file changes with StatReloader
+INFO 2024-07-04 09:39:43,805 11420 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:24,545 11420 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:24,549 18532 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:26,317 12864 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:26,380 9368 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:35,132 12864 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:35,147 9368 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:36,534 21868 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:36,636 14488 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:40,572 21868 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:40,610 14488 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:41,706 20708 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:41,758 29488 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:51,733 29488 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:52,507 20708 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:40:52,848 29456 Watching for file changes with StatReloader
+INFO 2024-07-04 09:40:53,605 16680 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:00,438 16680 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:00,643 29456 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:01,541 10932 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:01,727 18980 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:05,796 18980 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:06,752 10932 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:06,789 9940 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:07,727 22120 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:09,557 9940 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:10,508 15632 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:10,533 22120 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:11,575 21884 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:13,501 15632 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:14,634 2524 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:25,181 21884 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:25,227 2524 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:26,301 24056 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:26,362 20748 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:29,685 20748 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:29,708 24056 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:30,693 8232 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:30,730 26632 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:39,355 8232 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:39,800 26632 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:40,750 18240 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:41,404 30500 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:43,766 18240 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:44,685 27188 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:49,804 30500 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:49,866 27188 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:50,915 24856 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:50,978 11992 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:53,951 24856 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:53,967 11992 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:41:55,101 8828 Watching for file changes with StatReloader
+INFO 2024-07-04 09:41:55,135 24840 Watching for file changes with StatReloader
+INFO 2024-07-04 09:42:05,764 24840 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:42:05,776 8828 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:42:06,849 24200 Watching for file changes with StatReloader
+INFO 2024-07-04 09:42:06,893 23344 Watching for file changes with StatReloader
+INFO 2024-07-04 09:42:17,059 23344 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:42:17,069 24200 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:42:18,055 28416 Watching for file changes with StatReloader
+INFO 2024-07-04 09:42:18,076 2852 Watching for file changes with StatReloader
+INFO 2024-07-04 09:42:21,196 2852 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:42:21,195 28416 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:42:22,359 7732 Watching for file changes with StatReloader
+INFO 2024-07-04 09:42:22,361 27860 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:01,820 7732 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:01,826 27860 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:03,049 19932 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:03,074 18060 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:10,761 19932 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:10,776 18060 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:11,769 30284 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:11,770 15928 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:16,832 15928 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:16,850 30284 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:18,348 16892 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:18,361 6476 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:53,346 6476 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:53,391 16892 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:47:55,306 23120 Watching for file changes with StatReloader
+INFO 2024-07-04 09:47:55,379 26828 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:07,370 26828 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:07,383 23120 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:08,488 16792 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:08,521 17648 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:14,958 16792 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:15,000 17648 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:15,933 952 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:16,001 16680 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:26,678 16680 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:26,678 952 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:27,792 12212 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:27,802 20160 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:33,997 20160 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:34,015 12212 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:34,880 7240 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:34,905 15200 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:37,945 15200 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:37,977 7240 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:39,024 22004 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:39,089 17776 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:55,074 17776 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:55,081 22004 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:56,319 18784 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:56,360 20364 Watching for file changes with StatReloader
+INFO 2024-07-04 09:48:59,373 20364 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:48:59,429 18784 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:00,501 24520 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:00,565 27040 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:03,436 27040 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:03,437 24520 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:05,159 15220 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:05,165 11488 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:14,588 15220 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:14,591 11488 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:15,826 22464 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:15,848 18608 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:20,203 22464 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:20,218 18608 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:21,533 21780 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:21,546 27300 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:28,729 21780 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:28,758 27300 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:29,807 23940 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:29,832 12832 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:32,963 12832 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:32,965 23940 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:34,098 19836 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:34,107 12284 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:38,362 19836 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:38,418 12284 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:39,432 19644 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:39,471 28488 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:45,755 19644 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:45,791 28488 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:46,744 13296 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:46,771 12584 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:53,678 12584 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:53,683 13296 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:49:54,833 26488 Watching for file changes with StatReloader
+INFO 2024-07-04 09:49:54,895 23508 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:02,551 23508 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:02,575 26488 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:03,603 21632 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:03,626 27308 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:07,596 27308 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:07,650 21632 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:08,719 22556 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:08,797 26164 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:19,667 26164 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:19,740 22556 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:20,949 16436 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:20,971 3340 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:31,784 16436 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:31,801 3340 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:33,061 29736 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:33,130 29880 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:37,026 29736 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:37,075 29880 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:44,417 30440 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:44,417 21204 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:52,569 30440 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:52,590 21204 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:50:53,992 25572 Watching for file changes with StatReloader
+INFO 2024-07-04 09:50:54,047 18656 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:08,522 18656 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:08,707 25572 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:09,847 27764 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:10,258 28588 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:13,266 27764 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:13,349 28588 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:14,427 29892 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:14,508 29864 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:32,029 29864 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:32,087 29892 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:33,062 10320 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:33,084 27392 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:37,285 27392 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:37,292 10320 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:38,289 9472 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:38,295 13120 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:42,594 13120 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:42,601 9472 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:43,574 20588 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:43,574 13816 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:49,169 13816 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:49,172 20588 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:50,400 20952 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:50,404 22524 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:56,676 20952 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:56,729 22524 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:55:57,836 29816 Watching for file changes with StatReloader
+INFO 2024-07-04 09:55:57,898 20304 Watching for file changes with StatReloader
+INFO 2024-07-04 09:56:02,837 20304 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:56:02,859 29816 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:56:03,806 15544 Watching for file changes with StatReloader
+INFO 2024-07-04 09:56:03,807 13824 Watching for file changes with StatReloader
+INFO 2024-07-04 09:57:27,864 15544 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:57:27,901 13824 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 09:57:29,408 5640 Watching for file changes with StatReloader
+INFO 2024-07-04 09:57:29,481 25692 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:27,198 25692 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:27,203 5640 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:28,694 1856 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:28,701 27240 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:31,638 27240 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:31,639 1856 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:32,780 22112 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:32,781 22804 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:42,177 22112 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:42,200 22804 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:43,284 24680 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:43,329 20328 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:46,604 24680 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:46,616 20328 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:47,559 4668 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:47,574 3912 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:50,505 4668 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:50,543 3912 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:51,734 26112 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:51,757 13236 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:58,331 13236 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:58,360 26112 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:17:59,294 24128 Watching for file changes with StatReloader
+INFO 2024-07-04 10:17:59,328 18448 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:03,418 24128 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:03,423 18448 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:04,465 20804 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:04,517 25060 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:07,799 20804 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:07,844 25060 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:08,839 14748 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:08,873 23236 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:12,769 23236 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:12,789 14748 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:13,863 28272 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:13,868 15248 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:16,768 28272 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:16,827 15248 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:18,030 22132 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:18,064 16540 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:33,062 16540 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:33,122 22132 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:34,155 15880 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:34,165 29204 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:37,369 29204 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:37,384 15880 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:38,410 22168 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:38,441 13120 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:52,352 13120 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:52,395 22168 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:18:53,288 28664 Watching for file changes with StatReloader
+INFO 2024-07-04 10:18:53,459 1716 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:01,447 1716 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:01,480 28664 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:02,671 15780 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:02,688 14460 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:06,666 15780 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:06,721 14460 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:07,942 11348 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:07,959 28692 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:10,873 11348 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:10,878 28692 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:12,088 2340 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:12,091 26960 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:21,608 2340 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:21,605 26960 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:23,424 12276 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:23,474 18656 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:27,628 12276 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:27,644 18656 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:29,642 19612 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:29,713 23816 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:33,819 19612 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:33,870 23816 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:35,090 19660 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:35,092 24668 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:41,028 19660 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:41,064 24668 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:42,138 1200 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:42,164 1480 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:45,106 1480 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:45,124 1200 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:46,148 24552 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:46,148 16964 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:49,659 24552 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:49,699 16964 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:19:50,910 7304 Watching for file changes with StatReloader
+INFO 2024-07-04 10:19:50,961 29784 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:00,456 29784 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:01,358 25088 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:01,506 7304 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:02,411 26376 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:04,286 25088 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:05,152 8872 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:05,233 26376 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:06,326 16824 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:09,323 16824 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:09,478 8872 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:10,641 19840 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:10,700 15004 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:21,538 15004 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:21,545 19840 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:22,670 11876 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:22,693 23644 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:26,841 11876 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:26,936 23644 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:28,428 13784 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:28,573 21744 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:33,082 13784 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:33,408 21744 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:20:35,410 5868 Watching for file changes with StatReloader
+INFO 2024-07-04 10:20:35,714 8160 Watching for file changes with StatReloader
+ERROR 2024-07-04 10:23:49,262 5868 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:23:49,329 5868 Bad Request: /
+ERROR 2024-07-04 10:23:51,075 5868 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:23:51,108 5868 Bad Request: /favicon.ico
+INFO 2024-07-04 10:24:08,257 8160 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:24:08,550 5868 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:24:09,366 28588 Watching for file changes with StatReloader
+INFO 2024-07-04 10:24:09,589 10376 Watching for file changes with StatReloader
+ERROR 2024-07-04 10:24:16,228 28588 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:24:16,290 28588 Bad Request: /
+ERROR 2024-07-04 10:24:18,383 28588 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:24:18,437 28588 Bad Request: /favicon.ico
+ERROR 2024-07-04 10:24:30,883 28588 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:24:30,945 28588 Bad Request: /
+ERROR 2024-07-04 10:24:33,495 28588 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:24:33,540 28588 Bad Request: /favicon.ico
+ERROR 2024-07-04 10:25:59,954 28588 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:26:00,005 28588 Bad Request: /
+ERROR 2024-07-04 10:26:01,661 28588 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:26:01,717 28588 Bad Request: /favicon.ico
+INFO 2024-07-04 10:27:48,114 24244 Watching for file changes with StatReloader
+ERROR 2024-07-04 10:28:03,422 10376 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:28:03,497 10376 Bad Request: /
+ERROR 2024-07-04 10:28:05,855 10376 Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\http\request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'e1be-41-80-117-111.ngrok-free.app'. You may need to add 'e1be-41-80-117-111.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING 2024-07-04 10:28:05,897 10376 Bad Request: /favicon.ico
+INFO 2024-07-04 10:29:23,193 24244 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:29:23,441 10376 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:29:24,387 29464 Watching for file changes with StatReloader
+INFO 2024-07-04 10:29:24,563 5824 Watching for file changes with StatReloader
+INFO 2024-07-04 10:29:31,073 29464 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:29:31,176 5824 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:29:32,499 24620 Watching for file changes with StatReloader
+INFO 2024-07-04 10:29:32,570 28764 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:03,840 24620 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:35:03,901 28764 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:35:05,079 7064 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:05,123 26528 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:09,280 7064 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:35:09,322 26528 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:35:10,764 15396 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:10,782 10484 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:33,464 10484 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:35:33,577 15396 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-04 10:35:34,879 29564 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:35,085 4332 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:38,452 4332 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:39,308 28300 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:39,423 29564 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:40,548 17060 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:42,289 28300 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:43,136 14452 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:45,388 17060 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:46,070 14452 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:46,668 12120 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:47,163 12592 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:52,307 12120 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:53,126 12592 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:53,725 15724 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:54,187 17184 Watching for file changes with StatReloader
+INFO 2024-07-04 10:35:59,120 15724 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:35:59,724 17184 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:36:00,195 8392 Watching for file changes with StatReloader
+INFO 2024-07-04 10:36:01,431 18708 Watching for file changes with StatReloader
+INFO 2024-07-04 10:38:11,606 8392 254700331844 1
+ERROR 2024-07-04 10:38:11,678 8392 Internal Server Error: /Donation
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 39, in Donation
+    resp = requests.post(mpesa.get_payment_url, json=data, headers=headers)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '<function get_payment_url at 0x000001C381362700>': No scheme supplied. Perhaps you meant https://<function get_payment_url at 0x000001C381362700>?
+WARNING 2024-07-04 10:38:13,673 8392 Not Found: /favicon.ico
+INFO 2024-07-04 10:39:33,016 8392 254700331844 1
+ERROR 2024-07-04 10:39:33,053 8392 Internal Server Error: /Donation
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 39, in Donation
+    resp = requests.post(mpesa.get_payment_url, json=data, headers=headers)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '<function get_payment_url at 0x000001C381362700>': No scheme supplied. Perhaps you meant https://<function get_payment_url at 0x000001C381362700>?
+INFO 2024-07-04 10:45:01,609 18708 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:45:01,681 8392 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:45:03,000 28272 Watching for file changes with StatReloader
+INFO 2024-07-04 10:45:03,058 6360 Watching for file changes with StatReloader
+INFO 2024-07-04 10:47:50,576 6360 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:47:50,627 28272 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:47:52,005 29988 Watching for file changes with StatReloader
+INFO 2024-07-04 10:47:52,009 18132 Watching for file changes with StatReloader
+INFO 2024-07-04 10:48:08,153 18132 254700331844 1
+ERROR 2024-07-04 10:48:08,393 18132 Internal Server Error: /Donation
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 39, in Donation
+    resp = requests.post(mpesa.get_payment_url(), json=data, headers=headers)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 368, in prepare
+    self.prepare_headers(headers)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 488, in prepare_headers
+    for header in headers.items():
+                  ^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'items'
+INFO 2024-07-04 10:50:22,467 18132 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:50:22,499 29988 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:50:23,879 26108 Watching for file changes with StatReloader
+INFO 2024-07-04 10:50:23,958 27664 Watching for file changes with StatReloader
+INFO 2024-07-04 10:50:29,801 26108 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:50:29,859 27664 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:50:31,380 25384 Watching for file changes with StatReloader
+INFO 2024-07-04 10:50:31,389 27204 Watching for file changes with StatReloader
+INFO 2024-07-04 10:50:51,295 27204 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:50:51,325 25384 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 10:50:53,154 26408 Watching for file changes with StatReloader
+INFO 2024-07-04 10:50:53,162 1844 Watching for file changes with StatReloader
+INFO 2024-07-04 10:51:07,300 26408 254700331844 1
+DEBUG 2024-07-04 10:51:07,310 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 10:51:08,301 26408 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 10:51:08,311 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 10:51:09,216 26408 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+INFO 2024-07-04 10:51:09,217 26408 {'requestId': 'c0d2-4b9a-a71a-12bae346ef6e3134606', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PartyB'}
+ERROR 2024-07-04 10:51:09,218 26408 Error with errorCode: 400.002.02
+INFO 2024-07-04 10:51:35,725 26408 254700331844 0
+DEBUG 2024-07-04 10:51:35,728 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 10:51:36,665 26408 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 10:51:36,675 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 10:51:37,581 26408 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+INFO 2024-07-04 10:51:37,583 26408 {'requestId': 'f1e2-4b95-a71d-b30d3cdbb7a7699080', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid Amount'}
+ERROR 2024-07-04 10:51:37,583 26408 Error with errorCode: 400.002.02
+INFO 2024-07-04 10:51:57,059 26408 254700331844 1
+DEBUG 2024-07-04 10:51:57,061 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 10:51:57,961 26408 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 10:51:57,974 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 10:51:58,881 26408 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+INFO 2024-07-04 10:51:58,885 26408 {'requestId': 'c0d2-4b9a-a71a-12bae346ef6e3134609', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PartyB'}
+ERROR 2024-07-04 10:51:58,885 26408 Error with errorCode: 400.002.02
+INFO 2024-07-04 11:00:17,804 26408 254700331844 1
+DEBUG 2024-07-04 11:00:17,808 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:00:18,967 26408 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 11:00:18,973 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:00:20,030 26408 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+INFO 2024-07-04 11:00:20,036 26408 {'requestId': '6e86-45dd-91ac-fd5d4178ab523483633', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PartyB'}
+ERROR 2024-07-04 11:00:20,038 26408 Error with errorCode: 400.002.02
+INFO 2024-07-04 11:00:24,262 26408 254700331844 1
+DEBUG 2024-07-04 11:00:24,264 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:00:24,976 26408 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 11:00:24,985 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:00:25,769 26408 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+INFO 2024-07-04 11:00:25,771 26408 {'requestId': 'c0d2-4b9a-a71a-12bae346ef6e3134760', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PartyB'}
+ERROR 2024-07-04 11:00:25,771 26408 Error with errorCode: 400.002.02
+INFO 2024-07-04 11:00:47,284 26408 254700331844 1
+DEBUG 2024-07-04 11:00:47,285 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:00:48,087 26408 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 11:00:48,089 26408 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:00:49,115 26408 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+INFO 2024-07-04 11:00:49,117 26408 {'requestId': '1c5b-4ba8-815c-ac45c57a3db01411768', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PartyB'}
+ERROR 2024-07-04 11:00:49,117 26408 Error with errorCode: 400.002.02
+INFO 2024-07-04 11:06:05,737 26408 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:06:05,751 1844 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:06:07,899 10076 Watching for file changes with StatReloader
+INFO 2024-07-04 11:06:07,914 19752 Watching for file changes with StatReloader
+INFO 2024-07-04 11:06:17,915 19752 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:06:17,918 10076 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:06:19,281 27804 Watching for file changes with StatReloader
+INFO 2024-07-04 11:06:19,286 26664 Watching for file changes with StatReloader
+INFO 2024-07-04 11:06:24,860 27804 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:06:24,863 26664 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:06:26,188 14148 Watching for file changes with StatReloader
+INFO 2024-07-04 11:06:26,188 24788 Watching for file changes with StatReloader
+INFO 2024-07-04 11:06:53,588 24788 254700331844 1
+DEBUG 2024-07-04 11:06:53,590 24788 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:06:54,683 24788 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+ERROR 2024-07-04 11:06:54,765 24788 Internal Server Error: /Donation
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 39, in Donation
+    resp = requests.post(mpesa.get_payment_url(), json=data, headers=headers)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 370, in prepare
+    self.prepare_body(data, files, json)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 510, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type function is not JSON serializable
+INFO 2024-07-04 11:10:47,016 24788 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:10:47,035 14148 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:10:48,791 22696 Watching for file changes with StatReloader
+INFO 2024-07-04 11:10:48,823 20904 Watching for file changes with StatReloader
+INFO 2024-07-04 11:11:12,502 22696 254700331844 1
+DEBUG 2024-07-04 11:11:12,508 22696 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:11:13,452 22696 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+ERROR 2024-07-04 11:11:13,550 22696 Internal Server Error: /Donation
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py", line 39, in Donation
+    resp = requests.post(mpesa.get_payment_url(), json=data, headers=headers)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 370, in prepare
+    self.prepare_body(data, files, json)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\requests\models.py", line 510, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type function is not JSON serializable
+INFO 2024-07-04 11:14:15,309 22696 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:14:15,315 20904 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:14:17,287 17044 Watching for file changes with StatReloader
+INFO 2024-07-04 11:14:17,358 9384 Watching for file changes with StatReloader
+INFO 2024-07-04 11:14:31,887 17044 254700331844 1
+DEBUG 2024-07-04 11:14:31,895 17044 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:14:32,724 17044 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-04 11:14:32,747 17044 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-04 11:14:33,757 17044 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-04 11:14:33,759 17044 {'MerchantRequestID': 'c0d2-4b9a-a71a-12bae346ef6e3134987', 'CheckoutRequestID': 'ws_CO_04072024111432730700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-04 11:14:33,759 17044 c0d2-4b9a-a71a-12bae346ef6e3134987 ws_CO_04072024111432730700331844
+INFO 2024-07-04 11:16:44,852 9384 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:16:44,977 17044 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\views.py changed, reloading.
+INFO 2024-07-04 11:16:46,382 28860 Watching for file changes with StatReloader
+INFO 2024-07-04 11:16:46,445 15848 Watching for file changes with StatReloader
