@@ -12,6 +12,7 @@ urlpatterns = [
     path('volunteer', views.Volunteer, name="Volunteer"),
     path('map', views.map, name = "map"),
     path('add', views.add_volunteer, name="add"),
+    path('add_images', views.add_images, name="add_images"),
     path('events', views.Events, name="Events"),
     path('contact', views.Contact, name="Contact"),
     path('all_volunteers', views.all_volunteers, name="all_volunteers"),

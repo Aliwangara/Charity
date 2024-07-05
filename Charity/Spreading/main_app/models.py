@@ -65,6 +65,8 @@ class Event(models.Model):
     # Link = models.URLField( max_length=150, unique=True, blank=True)
     Date = models.DateField(auto_now=True, null= True)
     is_new = models.BooleanField(default=False)
+    is_superuser = models.BooleanField(default=False,)
+    
     
     def __str__(self):
         return self.name
