@@ -1,5 +1,8 @@
+import json
+
 from django.shortcuts import render
 from datetime import datetime
+import logging
 
 from django.contrib import messages
 from django.http import HttpResponse
@@ -13,8 +16,10 @@ from _ast import Pass
 
 from django.views.decorators.csrf import csrf_exempt
 from main_app.app_forms import Volunteer_form
-from main_app.models import Volunteers, Contacts, cause, Event, Number, happy_customers, Volunteer_application
+from main_app.models import Volunteers, Contacts, cause, Event, Number, happy_customers, Volunteer_application, multiple
 from django.template import RequestContext
+
+from Payment.views import logger
 
 
 # Create your views here.
@@ -37,11 +42,27 @@ def Causes(request):
     return render(request, "causes.html", {"causes": causes})
 
 
+@csrf_exempt
 # information about the causes we support
 def more_causes(request, pk):
     more = cause.objects.get(id=pk)
+    images = multiple.objects.filter(causes=more) 
+    # try:
 
-    return render(request, "more_causes.html", {"more": more})
+    if request.method == "POST":
+            images = request.FILES.getlist('images')
+
+            for img in images:
+                causes_images = multiple.objects.create(
+                    images=img,
+                    causes=more
+                )
+
+    # except  Exception as e:
+        
+    #  print(e)
+    images = multiple.objects.filter(causes=more)
+    return render(request, "more_causes.html", {"more": more, 'images': images})
 
 
 # volunteer page
@@ -77,17 +98,17 @@ def add_volunteer(request):
     return render(request, "add_volunteer.html", {"form": form})
 
 
+def add_images(request):
+    events = Event.objects.all()
+    return render(request, "add.html", {"events": events})
+
+
 # information about upcoming events(donations)
 def Events(request, ):
     events = Event.objects.all()
-    
+
     happy = happy_customers.objects.all()
     return render(request, "News.html", {"events": events, "happy": happy})
-
-
-def add_images(request):
-    pass
-    return render(request, "add.html")
 
 
 # more information about the event we are holding
@@ -189,6 +210,7 @@ def signin(request):
 def signout(request):
     logout(request)
     return redirect('home')
+
 
 @csrf_exempt
 def signup(request):

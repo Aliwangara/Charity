@@ -2930,3 +2930,786 @@ Traceback (most recent call last):
   File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
     raise NoReverseMatch(msg)
 django.urls.exceptions.NoReverseMatch: Reverse for 'gallery' not found. 'gallery' is not a valid view function or pattern name.
+INFO 2024-07-05 21:59:39,649 13092 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 21:59:41,342 10076 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:07,285 10076 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:08,590 8376 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:11,869 8376 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:12,922 16656 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:21,726 16656 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:22,979 15764 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:28,417 15764 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:29,654 18808 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:32,891 18808 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:33,906 15476 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:43,865 15476 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:44,803 8604 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:48,264 8604 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:49,444 6848 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:53,578 6848 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:54,610 20616 Watching for file changes with StatReloader
+INFO 2024-07-05 22:00:57,645 20616 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:00:58,692 13476 Watching for file changes with StatReloader
+INFO 2024-07-05 22:01:01,789 13476 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:01:03,049 20772 Watching for file changes with StatReloader
+INFO 2024-07-05 22:01:06,273 20772 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:01:07,715 19820 Watching for file changes with StatReloader
+INFO 2024-07-05 22:02:56,022 19820 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:02:57,019 4468 Watching for file changes with StatReloader
+INFO 2024-07-05 22:03:02,232 4468 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:03:03,426 22396 Watching for file changes with StatReloader
+INFO 2024-07-05 22:03:06,496 22396 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:03:07,663 3020 Watching for file changes with StatReloader
+INFO 2024-07-05 22:03:14,588 3020 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:03:15,776 20956 Watching for file changes with StatReloader
+ERROR 2024-07-05 22:05:22,321 20956 Internal Server Error: /add_images
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 82, in add_images
+    return render(request, "add.html", {"events":events})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\context.py", line 278, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than set.
+INFO 2024-07-05 22:15:07,891 20956 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:15:10,102 17608 Watching for file changes with StatReloader
+INFO 2024-07-05 22:21:50,947 17608 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:21:52,515 4592 Watching for file changes with StatReloader
+INFO 2024-07-05 22:21:54,152 4592 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:21:55,156 1088 Watching for file changes with StatReloader
+WARNING 2024-07-05 22:25:55,429 1088 Not Found: /information/images/news/africa-humanitarian-aid-doctor.jpg
+WARNING 2024-07-05 22:25:55,570 1088 Not Found: /information/images/news/close-up-happy-people-working-together.jpg
+INFO 2024-07-05 22:26:35,426 1088 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:26:36,350 12828 Watching for file changes with StatReloader
+INFO 2024-07-05 22:28:22,895 12828 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:28:24,108 19132 Watching for file changes with StatReloader
+INFO 2024-07-05 22:28:27,880 19132 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:28:29,205 2992 Watching for file changes with StatReloader
+INFO 2024-07-05 22:28:33,051 2992 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:28:34,439 15052 Watching for file changes with StatReloader
+INFO 2024-07-05 22:28:37,227 15052 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:28:38,647 21076 Watching for file changes with StatReloader
+INFO 2024-07-05 22:28:40,313 21076 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:28:41,409 9276 Watching for file changes with StatReloader
+INFO 2024-07-05 22:28:48,863 9276 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:28:49,854 11828 Watching for file changes with StatReloader
+INFO 2024-07-05 22:28:57,006 11828 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:28:57,963 6456 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:00,537 6456 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:01,639 9620 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:06,998 9620 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:08,117 21020 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:13,090 21020 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:14,383 7840 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:22,410 7840 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:23,377 17400 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:27,122 17400 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:28,310 7240 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:30,923 7240 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:32,168 21140 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:33,808 21140 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:34,858 20492 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:43,114 20492 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:44,177 8600 Watching for file changes with StatReloader
+INFO 2024-07-05 22:29:45,890 8600 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 22:29:46,864 21768 Watching for file changes with StatReloader
+INFO 2024-07-05 22:30:29,397 21768 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:30:30,374 11856 Watching for file changes with StatReloader
+INFO 2024-07-05 22:32:08,773 11856 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:32:10,932 19884 Watching for file changes with StatReloader
+INFO 2024-07-05 22:32:18,339 19884 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:32:19,801 17572 Watching for file changes with StatReloader
+INFO 2024-07-05 22:32:23,435 17572 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:32:24,902 19716 Watching for file changes with StatReloader
+INFO 2024-07-05 22:32:30,721 19716 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:32:32,543 18548 Watching for file changes with StatReloader
+INFO 2024-07-05 22:32:45,536 18548 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:32:46,757 14672 Watching for file changes with StatReloader
+INFO 2024-07-05 22:32:55,394 14672 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:32:56,530 22184 Watching for file changes with StatReloader
+INFO 2024-07-05 22:33:03,192 22184 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:33:04,303 1752 Watching for file changes with StatReloader
+INFO 2024-07-05 22:33:07,462 1752 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:33:08,662 18232 Watching for file changes with StatReloader
+INFO 2024-07-05 22:33:11,892 18232 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:33:13,184 9692 Watching for file changes with StatReloader
+INFO 2024-07-05 22:33:19,204 9692 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:33:20,199 21484 Watching for file changes with StatReloader
+INFO 2024-07-05 22:33:23,617 21484 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:33:25,385 13296 Watching for file changes with StatReloader
+INFO 2024-07-05 22:33:57,083 13296 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:33:58,207 2320 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:02,773 2320 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:04,172 7308 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:08,501 7308 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:10,357 20236 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:17,070 20236 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:18,094 22284 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:27,479 22284 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:29,162 520 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:38,952 520 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:40,110 19108 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:44,429 19108 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:45,869 19692 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:49,269 19692 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:50,447 5528 Watching for file changes with StatReloader
+INFO 2024-07-05 22:34:53,775 5528 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:34:55,318 1096 Watching for file changes with StatReloader
+INFO 2024-07-05 22:35:09,836 1096 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:35:11,071 21452 Watching for file changes with StatReloader
+INFO 2024-07-05 22:35:18,252 21452 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:35:19,775 9348 Watching for file changes with StatReloader
+INFO 2024-07-05 22:35:26,254 9348 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:35:27,912 8824 Watching for file changes with StatReloader
+INFO 2024-07-05 22:35:32,075 8824 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:35:33,153 21460 Watching for file changes with StatReloader
+INFO 2024-07-05 22:35:36,498 21460 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:35:37,663 20484 Watching for file changes with StatReloader
+INFO 2024-07-05 22:35:42,650 20484 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:35:44,118 7000 Watching for file changes with StatReloader
+INFO 2024-07-05 22:35:47,138 7000 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:35:48,675 16252 Watching for file changes with StatReloader
+INFO 2024-07-05 22:48:21,618 14584 Watching for file changes with StatReloader
+WARNING 2024-07-05 22:48:41,570 14584 Forbidden (Origin checking failed - https://be63-41-80-117-111.ngrok-free.app does not match any trusted origins.): /more_causes/1
+WARNING 2024-07-05 22:49:15,633 14584 Forbidden (Origin checking failed - https://be63-41-80-117-111.ngrok-free.app does not match any trusted origins.): /more_causes/1
+INFO 2024-07-05 22:49:28,877 14584 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:49:30,454 5520 Watching for file changes with StatReloader
+INFO 2024-07-05 22:49:33,675 5520 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-05 22:49:35,616 18956 Watching for file changes with StatReloader
+WARNING 2024-07-05 22:50:19,644 18956 Not Found: /favicon.ico
+DEBUG 2024-07-05 22:51:27,934 18956 Importing BlpImagePlugin
+DEBUG 2024-07-05 22:51:27,939 18956 Importing BmpImagePlugin
+DEBUG 2024-07-05 22:51:27,939 18956 Importing BufrStubImagePlugin
+DEBUG 2024-07-05 22:51:27,941 18956 Importing CurImagePlugin
+DEBUG 2024-07-05 22:51:27,944 18956 Importing DcxImagePlugin
+DEBUG 2024-07-05 22:51:27,950 18956 Importing DdsImagePlugin
+DEBUG 2024-07-05 22:51:27,959 18956 Importing EpsImagePlugin
+DEBUG 2024-07-05 22:51:27,963 18956 Importing FitsImagePlugin
+DEBUG 2024-07-05 22:51:27,966 18956 Importing FliImagePlugin
+DEBUG 2024-07-05 22:51:27,968 18956 Importing FpxImagePlugin
+DEBUG 2024-07-05 22:51:27,972 18956 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2024-07-05 22:51:27,973 18956 Importing FtexImagePlugin
+DEBUG 2024-07-05 22:51:27,975 18956 Importing GbrImagePlugin
+DEBUG 2024-07-05 22:51:27,978 18956 Importing GifImagePlugin
+DEBUG 2024-07-05 22:51:27,978 18956 Importing GribStubImagePlugin
+DEBUG 2024-07-05 22:51:27,981 18956 Importing Hdf5StubImagePlugin
+DEBUG 2024-07-05 22:51:27,984 18956 Importing IcnsImagePlugin
+DEBUG 2024-07-05 22:51:27,995 18956 Importing IcoImagePlugin
+DEBUG 2024-07-05 22:51:27,999 18956 Importing ImImagePlugin
+DEBUG 2024-07-05 22:51:28,002 18956 Importing ImtImagePlugin
+DEBUG 2024-07-05 22:51:28,007 18956 Importing IptcImagePlugin
+DEBUG 2024-07-05 22:51:28,010 18956 Importing JpegImagePlugin
+DEBUG 2024-07-05 22:51:28,010 18956 Importing Jpeg2KImagePlugin
+DEBUG 2024-07-05 22:51:28,011 18956 Importing McIdasImagePlugin
+DEBUG 2024-07-05 22:51:28,014 18956 Importing MicImagePlugin
+DEBUG 2024-07-05 22:51:28,018 18956 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2024-07-05 22:51:28,019 18956 Importing MpegImagePlugin
+DEBUG 2024-07-05 22:51:28,022 18956 Importing MpoImagePlugin
+DEBUG 2024-07-05 22:51:28,030 18956 Importing MspImagePlugin
+DEBUG 2024-07-05 22:51:28,033 18956 Importing PalmImagePlugin
+DEBUG 2024-07-05 22:51:28,040 18956 Importing PcdImagePlugin
+DEBUG 2024-07-05 22:51:28,043 18956 Importing PcxImagePlugin
+DEBUG 2024-07-05 22:51:28,044 18956 Importing PdfImagePlugin
+DEBUG 2024-07-05 22:51:28,064 18956 Importing PixarImagePlugin
+DEBUG 2024-07-05 22:51:28,067 18956 Importing PngImagePlugin
+DEBUG 2024-07-05 22:51:28,067 18956 Importing PpmImagePlugin
+DEBUG 2024-07-05 22:51:28,068 18956 Importing PsdImagePlugin
+DEBUG 2024-07-05 22:51:28,071 18956 Importing QoiImagePlugin
+DEBUG 2024-07-05 22:51:28,075 18956 Importing SgiImagePlugin
+DEBUG 2024-07-05 22:51:28,078 18956 Importing SpiderImagePlugin
+DEBUG 2024-07-05 22:51:28,081 18956 Importing SunImagePlugin
+DEBUG 2024-07-05 22:51:28,085 18956 Importing TgaImagePlugin
+DEBUG 2024-07-05 22:51:28,088 18956 Importing TiffImagePlugin
+DEBUG 2024-07-05 22:51:28,089 18956 Importing WebPImagePlugin
+DEBUG 2024-07-05 22:51:28,124 18956 Importing WmfImagePlugin
+DEBUG 2024-07-05 22:51:28,127 18956 Importing XbmImagePlugin
+DEBUG 2024-07-05 22:51:28,133 18956 Importing XpmImagePlugin
+DEBUG 2024-07-05 22:51:28,135 18956 Importing XVThumbImagePlugin
+INFO 2024-07-05 23:51:56,988 18956 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:51:59,623 21532 Watching for file changes with StatReloader
+INFO 2024-07-05 23:52:49,536 21532 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:52:50,817 4208 Watching for file changes with StatReloader
+INFO 2024-07-05 23:52:52,368 4208 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:52:53,823 18580 Watching for file changes with StatReloader
+INFO 2024-07-05 23:52:57,653 18580 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:52:59,089 15324 Watching for file changes with StatReloader
+INFO 2024-07-05 23:53:03,145 15324 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:53:04,393 3416 Watching for file changes with StatReloader
+INFO 2024-07-05 23:53:11,086 3416 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:53:12,770 19128 Watching for file changes with StatReloader
+INFO 2024-07-05 23:53:32,153 19128 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:53:33,233 21664 Watching for file changes with StatReloader
+INFO 2024-07-05 23:53:40,048 21664 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-05 23:53:41,879 6824 Watching for file changes with StatReloader
+INFO 2024-07-06 00:00:48,323 6824 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:00:50,075 244 Watching for file changes with StatReloader
+INFO 2024-07-06 00:07:21,950 244 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:07:23,357 10076 Watching for file changes with StatReloader
+INFO 2024-07-06 00:07:26,551 10076 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:07:28,053 13376 Watching for file changes with StatReloader
+INFO 2024-07-06 00:10:15,104 13376 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:10:18,033 21576 Watching for file changes with StatReloader
+INFO 2024-07-06 00:11:21,496 21576 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:11:24,005 22392 Watching for file changes with StatReloader
+INFO 2024-07-06 00:12:45,238 22392 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:12:47,528 14500 Watching for file changes with StatReloader
+INFO 2024-07-06 00:14:44,223 14500 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:14:45,817 16404 Watching for file changes with StatReloader
+INFO 2024-07-06 00:15:55,491 16404 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:15:57,403 18856 Watching for file changes with StatReloader
+INFO 2024-07-06 00:19:23,490 18856 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:19:24,987 14172 Watching for file changes with StatReloader
+ERROR 2024-07-06 00:25:31,653 14172 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 52, in more_causes
+    return render(request, "more_causes.html", {"more": more, 'images': images})
+                                                        ^^^^
+UnboundLocalError: cannot access local variable 'more' where it is not associated with a value
+INFO 2024-07-06 00:26:32,467 14172 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:26:34,507 2576 Watching for file changes with StatReloader
+ERROR 2024-07-06 00:26:46,148 2576 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 53, in more_causes
+    return render(request, "more_causes.html", {"more": more, 'images': images})
+                                                                        ^^^^^^
+UnboundLocalError: cannot access local variable 'images' where it is not associated with a value
+INFO 2024-07-06 00:32:37,705 2576 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:32:39,657 19628 Watching for file changes with StatReloader
+INFO 2024-07-06 00:32:57,020 19628 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:33:07,059 18592 Watching for file changes with StatReloader
+INFO 2024-07-06 00:35:19,111 18592 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:35:21,906 18816 Watching for file changes with StatReloader
+INFO 2024-07-06 00:38:04,729 18816 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:38:06,571 7032 Watching for file changes with StatReloader
+INFO 2024-07-06 00:40:35,476 7032 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:40:37,379 18480 Watching for file changes with StatReloader
+INFO 2024-07-06 00:41:02,283 20312 Watching for file changes with StatReloader
+INFO 2024-07-06 00:41:23,295 20312 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:41:24,426 7832 Watching for file changes with StatReloader
+INFO 2024-07-06 00:41:34,729 7832 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:41:35,636 17848 Watching for file changes with StatReloader
+INFO 2024-07-06 00:41:42,933 17848 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:41:44,513 19996 Watching for file changes with StatReloader
+INFO 2024-07-06 00:41:49,493 19996 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:41:50,646 21300 Watching for file changes with StatReloader
+INFO 2024-07-06 00:41:53,876 21300 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:41:54,763 16060 Watching for file changes with StatReloader
+INFO 2024-07-06 00:41:58,784 16060 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:41:59,888 12868 Watching for file changes with StatReloader
+INFO 2024-07-06 00:42:04,005 12868 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:42:05,143 13308 Watching for file changes with StatReloader
+INFO 2024-07-06 00:42:09,385 13308 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:42:10,471 15204 Watching for file changes with StatReloader
+INFO 2024-07-06 00:42:13,410 15204 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:42:14,440 5528 Watching for file changes with StatReloader
+INFO 2024-07-06 00:42:17,572 5528 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:42:18,547 6064 Watching for file changes with StatReloader
+INFO 2024-07-06 00:42:23,486 6064 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:42:24,425 11536 Watching for file changes with StatReloader
+INFO 2024-07-06 00:42:28,221 11536 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:42:29,221 4312 Watching for file changes with StatReloader
+ERROR 2024-07-06 00:42:35,984 4312 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: more_causes() missing 1 required positional argument: 'self'
+INFO 2024-07-06 00:48:28,408 4312 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:48:29,918 1796 Watching for file changes with StatReloader
+INFO 2024-07-06 00:48:34,298 1796 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:48:35,891 11320 Watching for file changes with StatReloader
+INFO 2024-07-06 00:48:38,980 11320 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:48:40,482 20872 Watching for file changes with StatReloader
+INFO 2024-07-06 00:48:47,400 20872 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:48:48,638 12740 Watching for file changes with StatReloader
+INFO 2024-07-06 00:49:06,560 12740 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:49:07,970 14456 Watching for file changes with StatReloader
+INFO 2024-07-06 00:49:12,547 14456 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:49:14,334 21444 Watching for file changes with StatReloader
+ERROR 2024-07-06 00:50:11,590 21444 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 58, in more_causes
+    return render(request, "more_causes.html", {"more": more, 'images': images})
+                                                                        ^^^^^^
+UnboundLocalError: cannot access local variable 'images' where it is not associated with a value
+INFO 2024-07-06 00:51:12,362 21444 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:51:13,848 18468 Watching for file changes with StatReloader
+INFO 2024-07-06 00:54:51,391 18468 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:54:52,972 21808 Watching for file changes with StatReloader
+INFO 2024-07-06 00:54:57,256 21808 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:54:58,644 21780 Watching for file changes with StatReloader
+ERROR 2024-07-06 00:55:04,377 21780 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 56, in more_causes
+    return render(request, "more_causes.html", {"more": more, 'images': images})
+                                                                        ^^^^^^
+UnboundLocalError: cannot access local variable 'images' where it is not associated with a value
+INFO 2024-07-06 00:57:20,511 21780 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:57:22,317 16284 Watching for file changes with StatReloader
+INFO 2024-07-06 00:57:26,624 16284 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:57:27,896 18880 Watching for file changes with StatReloader
+INFO 2024-07-06 00:57:43,455 18880 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:57:44,725 8168 Watching for file changes with StatReloader
+INFO 2024-07-06 00:57:47,928 8168 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:57:48,829 4864 Watching for file changes with StatReloader
+INFO 2024-07-06 00:57:53,920 4864 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:57:55,569 18748 Watching for file changes with StatReloader
+INFO 2024-07-06 00:58:07,002 18748 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:58:08,095 8364 Watching for file changes with StatReloader
+INFO 2024-07-06 00:58:11,577 8364 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 00:58:12,969 12548 Watching for file changes with StatReloader
+INFO 2024-07-06 01:03:16,718 12548 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-06 01:03:18,142 15444 Watching for file changes with StatReloader
+INFO 2024-07-06 01:03:28,684 15444 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:03:30,202 13360 Watching for file changes with StatReloader
+INFO 2024-07-06 01:08:00,921 13360 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:08:01,979 11276 Watching for file changes with StatReloader
+INFO 2024-07-06 01:08:45,874 11276 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:08:46,888 5564 Watching for file changes with StatReloader
+INFO 2024-07-06 01:08:52,017 5564 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:08:53,238 16832 Watching for file changes with StatReloader
+INFO 2024-07-06 01:08:57,026 16832 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:08:58,512 18108 Watching for file changes with StatReloader
+INFO 2024-07-06 01:09:08,820 18108 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:09:10,179 1348 Watching for file changes with StatReloader
+INFO 2024-07-06 01:11:22,882 1348 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:11:24,576 9044 Watching for file changes with StatReloader
+INFO 2024-07-06 01:11:52,484 9044 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:11:54,222 21656 Watching for file changes with StatReloader
+INFO 2024-07-06 01:12:19,234 21656 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:15:41,796 21656 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-06 01:15:43,015 21052 Watching for file changes with StatReloader
+INFO 2024-07-06 01:15:45,859 21052 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-06 01:15:46,938 8632 Watching for file changes with StatReloader
+INFO 2024-07-06 01:15:53,340 8632 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-06 01:15:54,382 12656 Watching for file changes with StatReloader
+INFO 2024-07-06 01:15:58,193 12656 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-06 01:15:59,657 19948 Watching for file changes with StatReloader
+INFO 2024-07-06 01:16:13,370 19948 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:16:14,236 20064 Watching for file changes with StatReloader
+INFO 2024-07-06 01:16:29,945 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:16:51,271 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:17:29,811 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:17:44,596 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:18:35,886 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:18:44,108 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:18:57,442 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:19:40,979 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:19:47,332 20064 <module 'json' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py'>
+INFO 2024-07-06 01:22:46,920 20064 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:22:48,208 20620 Watching for file changes with StatReloader
+INFO 2024-07-06 01:22:57,980 20620 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:23:00,402 10064 Watching for file changes with StatReloader
+ERROR 2024-07-06 01:23:18,636 10064 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 63, in more_causes
+    logger.info(e.json())
+                ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+INFO 2024-07-06 01:23:32,259 10064 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:23:33,726 648 Watching for file changes with StatReloader
+INFO 2024-07-06 01:23:36,919 648 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:23:38,385 21948 Watching for file changes with StatReloader
+INFO 2024-07-06 01:27:02,882 21948 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:27:04,599 16036 Watching for file changes with StatReloader
+INFO 2024-07-06 01:27:09,389 16036 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:27:11,026 20976 Watching for file changes with StatReloader
+INFO 2024-07-06 01:33:55,314 20976 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings.py changed, reloading.
+INFO 2024-07-06 01:33:56,628 8140 Watching for file changes with StatReloader
+ERROR 2024-07-06 01:44:29,076 8140 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 64, in more_causes
+    return render(request, "more_causes.html", {"more": more, 'images': images})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 18: 'else', expected 'endblock'. Did you forget to register or load this tag?
+INFO 2024-07-06 01:53:16,553 8140 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:53:17,900 13540 Watching for file changes with StatReloader
+INFO 2024-07-06 01:53:43,374 13540 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:53:44,570 18648 Watching for file changes with StatReloader
+INFO 2024-07-06 01:54:18,705 18648 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:54:19,740 18956 Watching for file changes with StatReloader
+INFO 2024-07-06 01:54:27,221 18956 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:54:28,324 2948 Watching for file changes with StatReloader
+INFO 2024-07-06 01:54:36,897 2948 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:54:37,882 20740 Watching for file changes with StatReloader
+INFO 2024-07-06 01:54:41,785 20740 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:54:42,852 19116 Watching for file changes with StatReloader
+INFO 2024-07-06 01:54:46,909 19116 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-06 01:54:47,893 22504 Watching for file changes with StatReloader
+INFO 2024-07-06 01:57:31,026 22504 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-06 01:57:33,373 18480 Watching for file changes with StatReloader
+INFO 2024-07-06 01:57:37,039 18480 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\models.py changed, reloading.
+INFO 2024-07-06 01:57:38,541 21220 Watching for file changes with StatReloader
+WARNING 2024-07-06 01:59:32,749 21220 Not Found: /media/upload/Events/BOK_-_Copy_cOel064.jpeg
+WARNING 2024-07-06 01:59:32,957 21220 Not Found: /media/upload/Events/BOK.jpeg
+WARNING 2024-07-06 01:59:33,167 21220 Not Found: /media/upload/Events/BOK1_lnHkSSc.jpg
+WARNING 2024-07-06 01:59:33,334 21220 Not Found: /media/upload/Events/BOK_FczfAkm.jpeg
+WARNING 2024-07-06 01:59:33,344 21220 Not Found: /media/upload/Events/BOK1_7mLrBRE.jpg
+WARNING 2024-07-06 01:59:33,350 21220 Not Found: /media/upload/Events/BOK2_lxpHNIO.jpg
+WARNING 2024-07-06 01:59:33,362 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_EKEUJdD.jpeg
+WARNING 2024-07-06 01:59:33,455 21220 Not Found: /media/upload/Events/BOK_XUudaM3.jpeg
+WARNING 2024-07-06 01:59:33,459 21220 Not Found: /media/upload/Events/BOK2_X2Etv7L.jpg
+WARNING 2024-07-06 01:59:33,530 21220 Not Found: /media/upload/Events/BOK1_XG7A5t2.jpg
+WARNING 2024-07-06 01:59:33,533 21220 Not Found: /media/upload/Events/BOK2_HwwP5XR.jpg
+WARNING 2024-07-06 01:59:33,613 21220 Not Found: /media/upload/Events/BOK_-_Copy_OkUiPDA.jpeg
+WARNING 2024-07-06 01:59:33,623 21220 Not Found: /media/upload/Events/BOK_-_Copy_GimWpQ9.jpeg
+WARNING 2024-07-06 01:59:33,675 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_GLPJypJ.jpeg
+WARNING 2024-07-06 01:59:33,680 21220 Not Found: /media/upload/Events/BOK_-_Copy_HKKVigM.jpeg
+WARNING 2024-07-06 01:59:33,709 21220 Not Found: /media/upload/Events/BOK_-_Copy_2_0hsQGU5.jpeg
+WARNING 2024-07-06 01:59:33,748 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_bnE64Jt.jpeg
+WARNING 2024-07-06 01:59:33,756 21220 Not Found: /media/upload/Events/BOK_-_Copy_yCPmaWr.jpeg
+WARNING 2024-07-06 01:59:33,762 21220 Not Found: /media/upload/Events/BOK_-_Copy_HQ4m7WM.jpeg
+WARNING 2024-07-06 01:59:33,766 21220 Not Found: /media/upload/Events/BOK_-_Copy_YtnoRGB.jpeg
+WARNING 2024-07-06 01:59:33,812 21220 Not Found: /media/upload/Events/BOK_-_Copy_JvkDRUQ.jpeg
+WARNING 2024-07-06 01:59:33,816 21220 Not Found: /media/upload/Events/BOK_-_Copy_L7Rfzbg.jpeg
+WARNING 2024-07-06 01:59:33,877 21220 Not Found: /media/upload/Events/BOK_-_Copy_RZMFWUG.jpeg
+WARNING 2024-07-06 01:59:33,899 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_sbpJkoH.jpeg
+WARNING 2024-07-06 01:59:33,913 21220 Not Found: /media/upload/Events/BOK_-_Copy_2_rduVU1o.jpeg
+WARNING 2024-07-06 01:59:33,930 21220 Not Found: /media/upload/Events/BOK_-_Copy_2_BEyEoVs.jpeg
+WARNING 2024-07-06 01:59:33,995 21220 Not Found: /media/upload/Events/BOK_-_Copy_2_g9pkrj3.jpeg
+WARNING 2024-07-06 01:59:34,042 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_jQBiA7U.jpeg
+WARNING 2024-07-06 02:00:34,884 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:00:35,091 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:00:35,095 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:00:35,099 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:00:35,164 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:00:35,339 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:00:57,924 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:00:57,991 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:00:58,163 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:00:58,167 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:00:58,190 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:00:58,214 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:01:18,226 21220 Not Found: /media/upload/Events/BOK_-_Copy_cOel064.jpeg
+WARNING 2024-07-06 02:01:18,246 21220 Not Found: /media/upload/Events/BOK.jpeg
+WARNING 2024-07-06 02:01:18,280 21220 Not Found: /media/upload/Events/BOK1_lnHkSSc.jpg
+WARNING 2024-07-06 02:01:18,510 21220 Not Found: /media/upload/Events/BOK_FczfAkm.jpeg
+WARNING 2024-07-06 02:01:18,545 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_TIykaEA.jpeg
+WARNING 2024-07-06 02:01:18,560 21220 Not Found: /media/upload/Events/BOK2_lxpHNIO.jpg
+WARNING 2024-07-06 02:01:18,565 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_2VHbMM4.jpeg
+WARNING 2024-07-06 02:01:18,661 21220 Not Found: /media/upload/Events/BOK_-_Copy_xfq93lk.jpeg
+WARNING 2024-07-06 02:01:18,697 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_EgOYf5O.jpeg
+WARNING 2024-07-06 02:01:18,699 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_idyPFKD.jpeg
+WARNING 2024-07-06 02:01:18,740 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_c9adz5z.jpeg
+WARNING 2024-07-06 02:01:18,748 21220 Not Found: /media/upload/Events/BOK_-_Copy_2_0hsQGU5.jpeg
+WARNING 2024-07-06 02:01:18,779 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_bnE64Jt.jpeg
+WARNING 2024-07-06 02:01:18,801 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_PC4EUkq.jpeg
+WARNING 2024-07-06 02:01:18,813 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_GLPJypJ.jpeg
+WARNING 2024-07-06 02:01:18,843 21220 Not Found: /media/upload/Events/BOK_-_Copy_OkUiPDA.jpeg
+WARNING 2024-07-06 02:01:18,870 21220 Not Found: /media/upload/Events/BOK_-_Copy_yCPmaWr.jpeg
+WARNING 2024-07-06 02:01:18,898 21220 Not Found: /media/upload/Events/BOK_-_Copy_GimWpQ9.jpeg
+WARNING 2024-07-06 02:01:18,930 21220 Not Found: /media/upload/Events/BOK_-_Copy_2_rduVU1o.jpeg
+WARNING 2024-07-06 02:01:18,934 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy_jQBiA7U.jpeg
+WARNING 2024-07-06 02:01:18,943 21220 Not Found: /media/upload/Events/BOK_-_Copy_2_g9pkrj3.jpeg
+WARNING 2024-07-06 02:01:26,319 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:01:26,320 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:01:26,392 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:01:26,598 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:01:26,618 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:01:26,635 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:01:47,627 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:01:47,780 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:01:47,893 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:01:48,029 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:01:48,311 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:01:48,335 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:02:46,701 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:02:46,832 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:02:46,915 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:02:46,917 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:02:47,012 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:02:47,015 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:03:07,730 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:03:07,822 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:03:07,847 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:03:07,880 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:03:07,883 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:03:07,887 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:08:50,091 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:08:50,133 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:08:50,679 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:08:50,702 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:08:50,706 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:08:50,710 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:09:23,766 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:09:23,962 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:09:23,980 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:09:24,053 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:09:24,061 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:09:24,069 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:09:41,418 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:09:41,569 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:09:41,589 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:09:41,700 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:09:41,705 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:09:41,710 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:09:54,146 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:09:54,273 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:09:54,322 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:09:54,428 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:09:54,432 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:09:54,549 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:11:26,736 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:11:26,874 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:11:27,145 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:11:27,150 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:11:27,324 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:11:27,328 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:11:51,411 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:11:51,546 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:11:51,679 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:11:51,683 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:11:51,693 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:11:51,811 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:12:04,667 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:12:04,811 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:12:04,836 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:12:04,845 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:12:04,948 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:12:05,069 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:12:19,336 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:12:19,460 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:12:19,633 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:12:19,748 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:12:19,751 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:12:19,754 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:13:15,529 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:13:15,532 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:13:16,032 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:13:16,036 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:13:16,073 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:13:16,078 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:16:25,275 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:16:25,431 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:16:25,857 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:16:26,028 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:16:26,323 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:16:26,471 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:16:41,826 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:16:41,932 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:16:41,969 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:16:42,090 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:16:42,101 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:16:42,111 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:17:56,089 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:17:56,099 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:17:56,130 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:17:56,137 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:17:56,174 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:17:56,179 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:19:25,059 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:19:25,103 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:19:25,120 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:19:25,171 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:19:25,174 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:19:25,179 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:20:07,394 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:20:07,607 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:20:07,611 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:20:07,615 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:20:07,692 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:20:07,829 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:20:35,056 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:20:35,185 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:20:35,202 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:20:35,211 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:20:35,334 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:20:35,447 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:21:20,979 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:21:21,101 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:21:21,261 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:21:21,281 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:21:21,428 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:21:21,432 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:21:42,127 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:21:42,172 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:21:42,214 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:21:42,217 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:21:42,219 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:21:42,228 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:22:02,772 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:22:02,778 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:22:03,051 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:22:03,055 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:22:03,080 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:22:03,085 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:22:20,213 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:22:20,215 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:22:20,462 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:22:20,464 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:22:20,468 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:22:20,476 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:23:02,437 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:23:02,571 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:23:02,618 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:23:02,622 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:23:02,718 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:23:02,841 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:23:23,364 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:23:23,513 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:23:23,536 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:23:23,538 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:23:23,623 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:23:23,770 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:23:39,552 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:23:39,704 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:23:39,720 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:23:39,836 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:23:39,838 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:23:39,981 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:24:12,006 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:24:12,147 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:24:12,187 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:24:12,190 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:24:12,290 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:24:12,295 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:24:29,265 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:24:29,296 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:24:29,305 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:24:29,351 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:24:29,353 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:24:29,358 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:24:58,903 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:24:59,043 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:24:59,092 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:24:59,197 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:24:59,318 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:24:59,322 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg
+WARNING 2024-07-06 02:25:15,541 21220 Not Found: /media/upload/Events/SHK1.jpg
+WARNING 2024-07-06 02:25:15,545 21220 Not Found: /media/upload/Events/BOK_-_Copy_-_Copy.jpeg
+WARNING 2024-07-06 02:25:15,664 21220 Not Found: /media/upload/Events/Shk3.jpg
+WARNING 2024-07-06 02:25:15,801 21220 Not Found: /media/upload/Events/BOK_-_Copy_2.jpeg
+WARNING 2024-07-06 02:25:15,812 21220 Not Found: /media/upload/Events/Shk2.jpg
+WARNING 2024-07-06 02:25:15,819 21220 Not Found: /media/upload/Events/BOK_-_Copy_1d0wTwR.jpeg

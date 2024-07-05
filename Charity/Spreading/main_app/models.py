@@ -71,6 +71,10 @@ class Event(models.Model):
     def __str__(self):
         return self.name
     
+class multiple(models.Model):
+    images = models.FileField(upload_to="upload/cause")
+    causes= models.ForeignKey(cause, on_delete=models.CASCADE, null=True)
+    
     # for changing number of donations you have done
 class Number(models.Model):
     name = models.CharField(max_length=50)
