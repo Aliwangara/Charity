@@ -1678,3 +1678,21 @@ blockquote::before {
   background: #5bc1ac;
   font-weight: bold;
 }
+
+.more-images{
+  display: flex;
+        flex-wrap: wrap; 
+        justify-content: flex-start;
+}
+
+.more-images .p2{
+  flex: 0 0 33.33%; /* Adjust this value based on your layout needs */
+    max-width: 33.33%;
+}
+
+.more-images img{
+  width: 100%;
+  height: auto;
+}
+
+
