@@ -1,11 +1,9 @@
 {% extends "layouts/master.html" %}
 {% load static %}
 
-<style>
-
-</style>
 
 {% block body %}
+
 <br>
 {% comment %} {% if user.is_superuser %} {% endcomment %}
   <div class="container">
@@ -23,59 +21,58 @@
 
 {% comment %} {% else %} {% endcomment %}
 
-<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-9">
+            <div class=" justify-content-center p-2 ">
+                {% for img in images %}
+                    <img src="{{ img.images.url }}" alt="" class="img-fluid w-100 me-4 mb-2">
+                {% endfor %}
+            </div>
+       </div>
+    </div>
+
+</div> 
 
 <div class="container">
-    <div class="row ms-auto">
-
-        <div class="col-lg-9 col-md-8 col-sm-9">
-            
-            
-            {% for img in images  %}
-              <div class="col-lg-6 col-md-8 col-sm-9">
-                <img src="{{ img.images.url }}"  alt="" class="w-50 d-flex">
-            </div>
-            {% endfor %}
-            
-
-            
+    <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-9">
 
             <div>
-              <p>
-                {{more.info}}
-              </p>
-
-
+                <p>
+                  {{more.info}}
+                </p>
+  
+  
             </div>
-
-            <div>
-                <button class="custom-btn btn form-control"><a href="{% url "Donation" %}" class="text-white" >Donate</a></button>
-            </div>
-
-
-                <br>
+  
+              <div>
+                  {% comment %} <button class="custom-btn btn form-control"><a href="{% url "Donate" %}" class="text-white" >Donate</a></button> {% endcomment %}
+              </div>
+  
+  
+                  <br>
+        </div>
+          
+  
+      </div>
+  
+  
+  
+  </div>
 
         </div>
 
     </div>
-
-
-
 </div>
-
-{% comment %} {% endif %} {% endcomment %}
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 {% endblock body %}
+
+
+
+
+
+
