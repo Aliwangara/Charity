@@ -1,3 +1,5 @@
+import logging
+
 from django.db import models
 
 # Create your models here.
@@ -6,6 +8,7 @@ import os.path
 import uuid
 
 from django.db import models
+logger = logging.getLogger(__name__)
 
 # for unique image if no image exists in a volunteers description
 def unique_img_name(instance, filename):
@@ -51,8 +54,11 @@ class cause(models.Model):
     summary = models.CharField(max_length=300)
     info = models.CharField(max_length=10000)
     
+    
+    
     def __str__(self):
         return self.Title
+    
     
     
     
@@ -72,8 +78,11 @@ class Event(models.Model):
         return self.name
     
 class multiple(models.Model):
-    images = models.FileField(upload_to="upload/cause")
-    causes= models.ForeignKey(cause, on_delete=models.CASCADE, null=True)
+    images = models.FileField(upload_to="upload/multiple", unique=True)
+    logger.info(images)
+    causes= models.ForeignKey(cause,on_delete=models.CASCADE)
+    
+    
     
     # for changing number of donations you have done
 class Number(models.Model):
