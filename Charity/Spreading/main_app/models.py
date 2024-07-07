@@ -70,7 +70,7 @@ class Event(models.Model):
     subject = models.CharField(max_length=250)
     # Link = models.URLField( max_length=150, unique=True, blank=True)
     Date = models.DateField(auto_now=True, null= True)
-    is_new = models.BooleanField(default=False)
+    is_new = models.BooleanField(default=False, )
     is_superuser = models.BooleanField(default=False,)
     
     
