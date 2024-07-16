@@ -7997,3 +7997,36 @@ INFO 2024-07-07 15:19:45,951 17572 Watching for file changes with StatReloader
 WARNING 2024-07-07 15:20:37,318 17572 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
 WARNING 2024-07-07 15:20:37,383 17572 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
 WARNING 2024-07-07 15:20:37,822 17572 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+INFO 2024-07-16 16:02:54,154 23244 <django.db.models.fields.files.FileField>
+INFO 2024-07-16 16:02:55,270 7220 <django.db.models.fields.files.FileField>
+INFO 2024-07-16 16:02:55,329 7220 Watching for file changes with StatReloader
+WARNING 2024-07-16 16:03:12,670 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 16:11:32,055 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 16:14:07,894 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 16:14:10,562 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 16:23:20,935 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 16:47:18,608 7220 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-16 16:47:18,882 7220 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-16 16:47:18,977 7220 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-16 16:47:58,040 7220 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-16 16:47:58,042 7220 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-16 16:47:58,053 7220 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-16 17:18:43,519 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 17:27:30,562 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 18:01:17,089 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 18:01:45,814 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 18:05:26,693 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 18:05:27,429 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 18:07:59,757 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 18:10:11,898 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 18:15:42,917 7220 Not Found: /favicon.ico
+INFO 2024-07-16 18:35:05,551 7220 254700331844 298
+DEBUG 2024-07-16 18:35:05,625 7220 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-16 18:35:06,492 7220 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-16 18:35:06,571 7220 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-16 18:35:08,396 7220 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-16 18:35:08,400 7220 {'MerchantRequestID': '6e86-45dd-91ac-fd5d4178ab523735985', 'CheckoutRequestID': 'ws_CO_16072024183506471700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-16 18:35:08,400 7220 6e86-45dd-91ac-fd5d4178ab523735985 ws_CO_16072024183506471700331844
+WARNING 2024-07-16 18:43:08,150 7220 Not Found: /favicon.ico
+WARNING 2024-07-16 20:19:33,366 7220 Not Found: /accounts/login/
+WARNING 2024-07-16 21:39:13,182 7220 Not Found: /favicon.ico
