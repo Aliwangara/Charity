@@ -65,8 +65,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
                     
 
                     <li class="nav-item">
@@ -91,9 +91,9 @@
 
                     <div class="dropdown nav-item">
                         <a class="dropdown-toggle nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                          Support
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu col-sm-9">
                             <li class="dropdown-item">
                                 <a class="" href="{% url 'Volunteer' %}">Volunteer</a>
                             </li>
@@ -113,14 +113,35 @@
                     <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'Donation' %}" target="_blank"  >Donate</a>
                     </li>
+
+
+                   
                 {% if user.is_authenticated%}
-                
-                    <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'logout'%}">logout</a>
-                    </li>
- 
-                    
+<!-- 
+                        <div class="dropdown me-5">
+                            <a href="" class="nav-item">Ali</a>
+                            <ul class="dropdown-menu ">
+                                <li class="dropdown-item">
+                                    <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'logout'%}">logout</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <div class="dropdown nav-item py-3 me-5 container">
+                            <ul class="navbar-nav ms-3 mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'logout'%}">logout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                          
                     {% else %}
+
                     <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signin' %}">Login</a>
                     </li>
@@ -128,8 +149,10 @@
                     <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signup' %}">SignUp</a>
                     </li>
+
+                    
                 {% endif %}
-                </ul>
-            </div>
+            </ul>
+        </div>
         <!-- </div> -->
     </nav>
