@@ -117,38 +117,54 @@
 
                    
                 {% if user.is_authenticated%}
-<!-- 
-                        <div class="dropdown me-5">
-                            <a href="" class="nav-item">Ali</a>
-                            <ul class="dropdown-menu ">
-                                <li class="dropdown-item">
+
+                        
+                        <div class="dropdown nav-item py-3">
+                            <i class="fa-solid fa-lock ms-2" style="width:150px;"></i>
+
+                            <ul class="dropdown-menu col-sm-9">
+                                
+                                <li class="dropdown-item text-center">
                                     <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'logout'%}">logout</a>
                                 </li>
-                            </ul>
-                        </div> -->
-                        <div class="dropdown nav-item py-3 me-5">
-                            <ul class="navbar-nav ms-3 mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <i class="fa-solid fa-lock"></i>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown-item">
-                                            <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'logout'%}">logout</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </div>
+                       
+
+
+            
+                          
 
                           
                     {% else %}
 
-                    <li class="nav-item ms-3">
+
+
+                    <div class="dropdown nav-item py-3">
+                        <i class="fa-solid fa-unlock ms-2" style="width:150px;"></i>
+
+                        <ul class="dropdown-menu col-sm-9">
+
+                            <li class="nav-item ms-3">
+                                <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signin' %}">Login</a>
+                            </li>
+        
+                            <li class="nav-item ms-3">
+                                <a class="nav-link custom-btn custom-border-btn btn mb-3" href="{% url 'signup' %}">SignUp</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+
+                    {% comment %} <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signin' %}">Login</a>
                     </li>
 
                     <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="{% url 'signup' %}">SignUp</a>
-                    </li>
+                    </li> {% endcomment %}
 
                     
                 {% endif %}
