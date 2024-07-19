@@ -62,7 +62,12 @@ def more_causes(request, pk):
                     images=img,
                     causes=more
                 )
-
+                return redirect('more_causes', pk=pk)
+            
+                context = {
+            'more': more,
+            'images': images,
+            }
     # except  Exception as e:
         
     #  print(e)
@@ -74,12 +79,24 @@ def more_causes(request, pk):
     return render(request, "more_causes.html",{"more": more, "images": images})
 
 
+@csrf_exempt
+def delete_image(request, image_id):
+    if request.method == 'POST':
+        image = get_object_or_404(multiple, id=image_id)
+        image.delete()
+        # Redirect to the same page after deletion
+        return redirect('more_causes', pk=image.causes.id)
+    # Handle cases where method is not POST (e.g., GET request)
+    # You may want to return an error or redirect to a different page
+    return redirect('more_causes', pk=image.causes.id)
+
+
     
 
 
 # volunteer page
 # @permission_required('main_app.add_employee', raise_exception=True)
-
+@csrf_exempt
 def Volunteer(request):
     if request.method == "POST":
         fname = request.POST.get('volunteer-name')
@@ -127,6 +144,8 @@ def Events(request, ):
 def information(request, pk):
     event = Event.objects.get(id=pk)
     return render(request, "information.html", {"event": event})
+
+
 
 
 # Displays all voluntees on the page

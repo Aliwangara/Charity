@@ -12,7 +12,7 @@
                 <form action="" method="post" enctype="multipart/form-data">
                             {% csrf_token %}
                             <input type="file" name="images" multiple class="form-control w-50">
-                            <button class="btn mt-1 border-dark border-rounded">Upload</button>
+                            <button class="btn mt-1 border-dark border-rounded multiple">Upload</button>
                 </form>
         </div>
     </div>
@@ -22,11 +22,21 @@
 
 <div class="container">
     <div class="row">
-        {% for img in images %}
-            <div class="col-md-6 col-sm-1 mb-3">
-                <img src="{{ img.images.url }}" alt="" class="img-fluid mt-2  mb-2" style="height:100%; width: 100%; ">
-            </div>
-        {% endfor %}
+        
+                {% for img in images %}
+                    <div class="col-md-6 col-sm-1 mb-3">
+                        <img src="{{ img.images.url }}" alt="" class="img-fluid mt-2  mb-2" style="height:100%; width: 100%; ">
+                    </div>
+                    
+                    
+                        <form action="{% url 'delete_image' img.id %}" method="post">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger mt-2">Delete</button>
+                        </form>
+                    
+                    
+                {% endfor %}
+
 
     </div>
 
