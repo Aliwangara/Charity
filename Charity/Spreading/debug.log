@@ -8413,3 +8413,627 @@ WARNING 2024-07-17 19:20:55,756 5224 Not Found: /i/header-1@2x.png
 WARNING 2024-07-17 19:21:18,786 5224 Not Found: /i/header-1@2x.png
 WARNING 2024-07-17 19:21:49,546 5224 Not Found: /i/header-1@2x.png
 WARNING 2024-07-17 21:37:30,567 5224 Not Found: /favicon.ico
+INFO 2024-07-18 23:08:33,370 5224 +1 (615) 914-4116 14
+DEBUG 2024-07-18 23:08:33,539 5224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-18 23:08:34,574 5224 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-18 23:08:34,613 5224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-18 23:08:35,495 5224 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+INFO 2024-07-18 23:08:35,499 5224 {'requestId': '6e86-45dd-91ac-fd5d4178ab523772039', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+ERROR 2024-07-18 23:08:35,500 5224 Error with errorCode: 400.002.02
+WARNING 2024-07-19 20:15:03,934 5224 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 20:15:04,047 5224 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 20:15:04,225 5224 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+INFO 2024-07-19 20:17:55,807 5224 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:01,491 27292 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:01,946 27292 Watching for file changes with StatReloader
+INFO 2024-07-19 20:18:06,470 27292 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:07,665 3056 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:07,722 3056 Watching for file changes with StatReloader
+INFO 2024-07-19 20:18:10,892 3056 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:11,872 23548 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:11,935 23548 Watching for file changes with StatReloader
+INFO 2024-07-19 20:18:18,062 23548 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:19,107 7660 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:19,166 7660 Watching for file changes with StatReloader
+INFO 2024-07-19 20:18:23,247 7660 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:24,396 8104 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:24,462 8104 Watching for file changes with StatReloader
+INFO 2024-07-19 20:18:27,597 8104 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:28,769 15716 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:28,826 15716 Watching for file changes with StatReloader
+INFO 2024-07-19 20:18:34,083 15716 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:35,179 7404 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:35,239 7404 Watching for file changes with StatReloader
+INFO 2024-07-19 20:18:41,350 7404 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:18:42,525 18520 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:18:42,585 18520 Watching for file changes with StatReloader
+INFO 2024-07-19 20:19:23,195 18520 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:19:24,354 8644 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:19:24,539 8644 Watching for file changes with StatReloader
+WARNING 2024-07-19 20:23:52,817 8644 Forbidden (Origin checking failed - https://d56b-41-80-114-93.ngrok-free.app does not match any trusted origins.): /volunteer
+INFO 2024-07-19 20:24:36,737 8644 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 20:24:38,357 6784 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 20:24:38,462 6784 Watching for file changes with StatReloader
+WARNING 2024-07-19 20:43:21,660 6784 Forbidden (Permission denied): /add
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapped_view
+    if test_func(request.user):
+       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 78, in check_perms
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2024-07-19 20:44:03,406 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 20:44:03,410 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 20:44:03,419 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 20:46:16,771 6784 Forbidden (Origin checking failed - https://d56b-41-80-114-93.ngrok-free.app does not match any trusted origins.): /admin/login/
+WARNING 2024-07-19 21:01:26,453 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:01:26,576 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:01:26,717 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:01:56,098 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:01:56,137 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:01:56,391 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+ERROR 2024-07-19 21:06:58,585 6784 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 74, in more_causes
+    return render(request, "more_causes.html",{"more": more, "images": images})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete' with arguments '('',)' not found. 1 pattern(s) tried: ['volunteers/delete/(?P<emp_id>[0-9]+)/\\Z']
+WARNING 2024-07-19 21:07:20,280 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:07:20,374 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:07:20,834 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:07:50,097 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:07:50,205 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:07:50,263 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:07:55,056 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:07:55,150 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:07:55,229 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:07:58,831 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:07:58,906 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:07:59,001 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+ERROR 2024-07-19 21:08:27,880 6784 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 74, in more_causes
+    return render(request, "more_causes.html",{"more": more, "images": images})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete' with arguments '('',)' not found. 1 pattern(s) tried: ['volunteers/delete/(?P<emp_id>[0-9]+)/\\Z']
+WARNING 2024-07-19 21:08:44,931 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:08:44,992 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:08:45,086 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:08:49,646 6784 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:08:49,667 6784 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:08:49,681 6784 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+ERROR 2024-07-19 21:17:37,889 6784 Internal Server Error: /more_causes/1
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 74, in more_causes
+    return render(request, "more_causes.html",{"more": more, "images": images})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_image' not found. 'delete_image' is not a valid view function or pattern name.
+INFO 2024-07-19 21:17:51,308 6784 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:17:55,458 8344 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:17:55,729 8344 Watching for file changes with StatReloader
+INFO 2024-07-19 21:20:29,283 8344 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:20:30,181 26236 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:20:30,257 26236 Watching for file changes with StatReloader
+INFO 2024-07-19 21:20:55,596 26236 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:20:56,868 20600 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:20:56,967 20600 Watching for file changes with StatReloader
+INFO 2024-07-19 21:21:10,388 20600 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:21:11,252 27496 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:21:11,302 27496 Watching for file changes with StatReloader
+INFO 2024-07-19 21:21:19,761 27496 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:21:20,598 20448 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:21:20,646 20448 Watching for file changes with StatReloader
+INFO 2024-07-19 21:21:23,871 20448 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:21:24,656 22928 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:21:24,705 22928 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:12,467 22928 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:22:13,723 9040 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:22:13,842 9040 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:22,033 9040 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:22:22,938 24588 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:22:22,989 24588 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:54,914 24588 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\urls.py changed, reloading.
+INFO 2024-07-19 21:22:56,030 8276 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:22:56,095 8276 Watching for file changes with StatReloader
+WARNING 2024-07-19 21:23:23,767 8276 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:23:23,772 8276 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:23:24,097 8276 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:23:26,671 8276 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:23:26,751 8276 Not Found: /media/upload/multiple/Graduation2_SUbJkpz.jpeg
+WARNING 2024-07-19 21:23:26,771 8276 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:23:29,932 8276 Not Found: /media/upload/multiple/Graduation_YIi1tYq.jpeg
+WARNING 2024-07-19 21:23:29,938 8276 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+WARNING 2024-07-19 21:23:32,605 8276 Not Found: /media/upload/multiple/Graduation3_rCVTrE3.jpeg
+DEBUG 2024-07-19 21:28:34,735 8276 []
+DEBUG 2024-07-19 21:30:00,399 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.19.38_6cf852ef.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.19.38_6f9aca7f.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.19.39_f6b281a7.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.03_6dbf253e.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.04_d61747e8.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.09_2102fde1.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:31:15,281 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.19.38_6f9aca7f.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.19.39_f6b281a7.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:31:31,527 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.19.39_f6b281a7.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:31:37,096 8276 []
+DEBUG 2024-07-19 21:31:54,333 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.03_6dbf253e.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:32:19,062 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.04_d61747e8.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.09_2102fde1.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:32:35,322 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.09_2102fde1.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:32:43,737 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.09_2102fde1.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:35:35,138 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.02_6b59b208.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.04_29b89a2e.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:36:17,849 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.02_6b59b208.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:40:18,807 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.20.07_d5ee67a2.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:40:47,191 8276 []
+DEBUG 2024-07-19 21:41:07,145 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.37_1910102c.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:41:17,943 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.38_cc115ffd.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:41:28,931 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.38_fbbf5029.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:41:59,208 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.01_3d34e8ed.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:42:11,358 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.02_52f2e040.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:42:20,586 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.02_e5f68453.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:42:38,215 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.02_f4d45ae8.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:42:50,913 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.03_058f0dcb.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:43:06,415 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.03_b63cb73e.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:43:18,849 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.06_1a0dd0ba.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:43:29,318 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.06_edae73c7.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:43:39,244 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.07_9727233d.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:44:32,112 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.07_f8bc993e.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:44:44,259 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.09_d025cd28.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:44:53,293 8276 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.29.10_692f7adf.jpg (image/jpeg)>]
+INFO 2024-07-19 21:46:39,797 8276 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-19 21:46:41,182 26396 <django.db.models.fields.files.FileField>
+INFO 2024-07-19 21:46:41,244 26396 Watching for file changes with StatReloader
+DEBUG 2024-07-19 21:48:00,077 26396 Importing BlpImagePlugin
+DEBUG 2024-07-19 21:48:00,084 26396 Importing BmpImagePlugin
+DEBUG 2024-07-19 21:48:00,084 26396 Importing BufrStubImagePlugin
+DEBUG 2024-07-19 21:48:00,089 26396 Importing CurImagePlugin
+DEBUG 2024-07-19 21:48:00,094 26396 Importing DcxImagePlugin
+DEBUG 2024-07-19 21:48:00,106 26396 Importing DdsImagePlugin
+DEBUG 2024-07-19 21:48:00,116 26396 Importing EpsImagePlugin
+DEBUG 2024-07-19 21:48:00,122 26396 Importing FitsImagePlugin
+DEBUG 2024-07-19 21:48:00,127 26396 Importing FliImagePlugin
+DEBUG 2024-07-19 21:48:00,132 26396 Importing FpxImagePlugin
+DEBUG 2024-07-19 21:48:00,138 26396 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2024-07-19 21:48:00,139 26396 Importing FtexImagePlugin
+DEBUG 2024-07-19 21:48:00,144 26396 Importing GbrImagePlugin
+DEBUG 2024-07-19 21:48:00,152 26396 Importing GifImagePlugin
+DEBUG 2024-07-19 21:48:00,152 26396 Importing GribStubImagePlugin
+DEBUG 2024-07-19 21:48:00,157 26396 Importing Hdf5StubImagePlugin
+DEBUG 2024-07-19 21:48:00,165 26396 Importing IcnsImagePlugin
+DEBUG 2024-07-19 21:48:00,186 26396 Importing IcoImagePlugin
+DEBUG 2024-07-19 21:48:00,194 26396 Importing ImImagePlugin
+DEBUG 2024-07-19 21:48:00,200 26396 Importing ImtImagePlugin
+DEBUG 2024-07-19 21:48:00,208 26396 Importing IptcImagePlugin
+DEBUG 2024-07-19 21:48:00,214 26396 Importing JpegImagePlugin
+DEBUG 2024-07-19 21:48:00,215 26396 Importing Jpeg2KImagePlugin
+DEBUG 2024-07-19 21:48:00,215 26396 Importing McIdasImagePlugin
+DEBUG 2024-07-19 21:48:00,222 26396 Importing MicImagePlugin
+DEBUG 2024-07-19 21:48:00,229 26396 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2024-07-19 21:48:00,230 26396 Importing MpegImagePlugin
+DEBUG 2024-07-19 21:48:00,236 26396 Importing MpoImagePlugin
+DEBUG 2024-07-19 21:48:00,251 26396 Importing MspImagePlugin
+DEBUG 2024-07-19 21:48:00,258 26396 Importing PalmImagePlugin
+DEBUG 2024-07-19 21:48:00,271 26396 Importing PcdImagePlugin
+DEBUG 2024-07-19 21:48:00,278 26396 Importing PcxImagePlugin
+DEBUG 2024-07-19 21:48:00,279 26396 Importing PdfImagePlugin
+DEBUG 2024-07-19 21:48:00,301 26396 Importing PixarImagePlugin
+DEBUG 2024-07-19 21:48:00,306 26396 Importing PngImagePlugin
+DEBUG 2024-07-19 21:48:00,307 26396 Importing PpmImagePlugin
+DEBUG 2024-07-19 21:48:00,307 26396 Importing PsdImagePlugin
+DEBUG 2024-07-19 21:48:00,314 26396 Importing QoiImagePlugin
+DEBUG 2024-07-19 21:48:00,320 26396 Importing SgiImagePlugin
+DEBUG 2024-07-19 21:48:00,327 26396 Importing SpiderImagePlugin
+DEBUG 2024-07-19 21:48:00,334 26396 Importing SunImagePlugin
+DEBUG 2024-07-19 21:48:00,340 26396 Importing TgaImagePlugin
+DEBUG 2024-07-19 21:48:00,346 26396 Importing TiffImagePlugin
+DEBUG 2024-07-19 21:48:00,346 26396 Importing WebPImagePlugin
+DEBUG 2024-07-19 21:48:00,381 26396 Importing WmfImagePlugin
+DEBUG 2024-07-19 21:48:00,388 26396 Importing XbmImagePlugin
+DEBUG 2024-07-19 21:48:00,397 26396 Importing XpmImagePlugin
+DEBUG 2024-07-19 21:48:00,404 26396 Importing XVThumbImagePlugin
+DEBUG 2024-07-19 21:48:26,184 26396 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.16_fa434727.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.17_07509fdb.jpg (image/jpeg)>, <InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.18_f2f5275d.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:48:39,652 26396 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.17_07509fdb.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:48:50,173 26396 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.17_f29ee2e4.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:49:02,671 26396 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.18_b80ecd43.jpg (image/jpeg)>]
+DEBUG 2024-07-19 21:49:19,203 26396 [<InMemoryUploadedFile: WhatsApp Image 2024-07-10 at 15.26.18_f2f5275d.jpg (image/jpeg)>]
+DEBUG 2024-07-19 22:13:56,466 26396 STREAM b'IHDR' 16 13
+DEBUG 2024-07-19 22:13:56,467 26396 STREAM b'sRGB' 41 1
+DEBUG 2024-07-19 22:13:56,467 26396 STREAM b'IDAT' 54 8192
+ERROR 2024-07-19 22:18:44,710 26396 Internal Server Error: /volunteers/2/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py", line 164, in volunteer_details
+    return render(request, 'volunteer_details.html', {"volunteer": volunteer})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\GitHub\Charity\Charity\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Volunteers' object is not iterable
+INFO 2024-07-20 00:19:32,605 26396 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-20 00:19:34,618 22692 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 00:19:34,756 22692 Watching for file changes with StatReloader
+INFO 2024-07-20 00:19:39,307 22692 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\main_app\views.py changed, reloading.
+INFO 2024-07-20 00:19:40,307 12944 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 00:19:40,365 12944 Watching for file changes with StatReloader
+INFO 2024-07-20 00:42:57,824 19536 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 00:46:34,227 12944 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\mpesa.py changed, reloading.
+INFO 2024-07-20 01:13:27,411 26900 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:13:28,475 1768 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:13:28,538 1768 Watching for file changes with StatReloader
+INFO 2024-07-20 01:14:45,073 1768 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Payment\mpesa.py changed, reloading.
+INFO 2024-07-20 01:14:46,227 15100 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:14:46,308 15100 Watching for file changes with StatReloader
+INFO 2024-07-20 01:15:14,895 22408 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:15:25,876 3348 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:18:03,687 15100 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\urls.py changed, reloading.
+INFO 2024-07-20 01:18:05,218 21812 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:18:05,326 21812 Watching for file changes with StatReloader
+INFO 2024-07-20 01:18:09,149 21812 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\urls.py changed, reloading.
+INFO 2024-07-20 01:18:10,326 18316 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:18:10,386 18316 Watching for file changes with StatReloader
+INFO 2024-07-20 01:21:16,645 4280 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:21:30,886 17900 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:25:42,225 26956 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:25:56,281 3576 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:27:13,606 18316 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:27:22,762 19832 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:27:23,497 13684 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:27:23,552 13684 Watching for file changes with StatReloader
+WARNING 2024-07-20 01:27:48,647 13684 Not Found: /static/css/templatemo-kind-heart-charity.css
+INFO 2024-07-20 01:28:39,171 13684 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:28:40,168 12580 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:28:40,281 12580 Watching for file changes with StatReloader
+INFO 2024-07-20 01:28:43,525 12580 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:28:44,642 3592 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:28:44,724 3592 Watching for file changes with StatReloader
+INFO 2024-07-20 01:28:50,264 6048 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:28:57,941 19908 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:30:08,990 3592 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:30:09,892 18592 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:30:09,957 18592 Watching for file changes with StatReloader
+INFO 2024-07-20 01:31:21,098 18592 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:31:22,309 9608 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:31:22,388 9608 Watching for file changes with StatReloader
+INFO 2024-07-20 01:31:35,940 12060 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:32:34,442 26936 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:33:08,577 13344 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:35:38,108 9608 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:35:38,983 23008 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:35:39,050 23008 Watching for file changes with StatReloader
+INFO 2024-07-20 01:35:48,493 8804 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:36:08,093 23008 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:36:09,212 18640 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:36:09,293 18640 Watching for file changes with StatReloader
+INFO 2024-07-20 01:36:12,153 18640 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:36:13,296 12636 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:36:13,373 12636 Watching for file changes with StatReloader
+INFO 2024-07-20 01:36:16,491 19704 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:36:31,094 12636 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:36:32,020 27184 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:36:32,071 27184 Watching for file changes with StatReloader
+INFO 2024-07-20 01:40:37,509 23720 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:40:38,217 6556 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:40:38,274 6556 Watching for file changes with StatReloader
+INFO 2024-07-20 01:41:04,934 6556 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:41:05,889 5220 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:41:05,947 5220 Watching for file changes with StatReloader
+INFO 2024-07-20 01:41:13,388 4636 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:41:33,707 5220 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:41:34,627 22532 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:41:34,693 22532 Watching for file changes with StatReloader
+INFO 2024-07-20 01:48:14,917 22532 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:48:16,016 3052 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:48:16,245 3052 Watching for file changes with StatReloader
+INFO 2024-07-20 01:48:30,042 3052 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:48:30,953 25000 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:48:31,039 25000 Watching for file changes with StatReloader
+INFO 2024-07-20 01:48:33,245 6568 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:48:45,571 9672 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:48:46,268 18896 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:48:46,322 18896 Watching for file changes with StatReloader
+INFO 2024-07-20 01:48:59,086 18896 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:48:59,986 11084 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:49:00,071 11084 Watching for file changes with StatReloader
+INFO 2024-07-20 01:50:32,502 11084 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 01:51:19,651 24672 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:51:31,424 8948 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:55:31,199 1852 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:58:44,612 19464 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:58:52,563 20308 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:58:53,296 8220 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:58:53,349 8220 Watching for file changes with StatReloader
+INFO 2024-07-20 01:59:02,945 8220 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\urls.py changed, reloading.
+INFO 2024-07-20 01:59:03,848 26936 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:59:03,909 26936 Watching for file changes with StatReloader
+INFO 2024-07-20 01:59:07,833 26936 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\urls.py changed, reloading.
+INFO 2024-07-20 01:59:09,065 18856 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 01:59:09,132 18856 Watching for file changes with StatReloader
+INFO 2024-07-20 02:04:06,602 18856 C:\Users\User\Documents\GitHub\Charity\Charity\Spreading\Spreading\settings\base.py changed, reloading.
+INFO 2024-07-20 02:04:23,497 3020 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 02:04:30,718 17652 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 02:04:50,278 13344 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 02:04:54,906 21292 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 02:04:58,797 8904 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 02:05:08,924 16108 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 02:05:09,642 24388 <django.db.models.fields.files.FileField>
+INFO 2024-07-20 02:05:09,698 24388 Watching for file changes with StatReloader
+INFO 2024-07-20 02:09:52,171 24388 254700331844 10
+DEBUG 2024-07-20 02:09:52,185 24388 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-20 02:09:53,058 24388 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-07-20 02:09:53,074 24388 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-07-20 02:09:54,107 24388 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
+INFO 2024-07-20 02:09:54,113 24388 {'MerchantRequestID': '1c5b-4ba8-815c-ac45c57a3db01636727', 'CheckoutRequestID': 'ws_CO_20072024020954774700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2024-07-20 02:09:54,114 24388 1c5b-4ba8-815c-ac45c57a3db01636727 ws_CO_20072024020954774700331844

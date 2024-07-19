@@ -3,7 +3,7 @@ import os.path
 
 from django.core.management import BaseCommand
 
-from Spreading import settings
+from Charity.Spreading.Spreading.settings import base
 from main_app.models import Volunteers
 
 
@@ -11,7 +11,7 @@ class Command(BaseCommand):
     help = "Populate employees table with 1000 records"
 
     def handle(self, *args, **options):
-        path = os.path.join(settings.BASE_DIR, 'employees.json')
+        path = os.path.join(base.BASE_DIR, 'employees.json')
         self.stdout.write(
             self.style.SUCCESS("Started to import data")
         )
