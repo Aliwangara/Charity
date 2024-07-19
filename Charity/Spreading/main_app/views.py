@@ -71,7 +71,7 @@ def more_causes(request, pk):
     # except  Exception as e:
         
     #  print(e)
-           images = multiple.objects.filter(causes=more)
+       
            return redirect('more_causes', pk=pk) 
     except Exception as e:
         logger.error(f"Error uploading images: {e}")
