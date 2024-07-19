@@ -5,13 +5,13 @@ from datetime import datetime
 import requests
 from requests.auth import HTTPBasicAuth
 
-from Spreading import settings
+from Spreading.settings import base
 
 
 def get_access_token():
-    url = settings.MPESA_API["CREDENTIALS_URL"]
-    consumer_key = settings.MPESA_API["CONSUMER_KEY"]
-    consumer_secret = settings.MPESA_API["CONSUMER_SECRET"]
+    url = base.MPESA_API["CREDENTIALS_URL"]
+    consumer_key = base.MPESA_API["CONSUMER_KEY"]
+    consumer_secret = base.MPESA_API["CONSUMER_SECRET"]
     auth = HTTPBasicAuth(consumer_key, consumer_secret)
     try:
         response = requests.get(url, auth=auth)
@@ -25,7 +25,7 @@ def get_access_token():
 def generate_password():
     timestamp = get_current_timestamp()
     biz_short_code = get_business_shortcode()
-    passkey = settings.MPESA_API["PASS_KEY"]
+    passkey = base.MPESA_API["PASS_KEY"]
     password_string = biz_short_code + passkey + timestamp
     encoded_bytes = password_string.encode("ascii")
     password = b64encode(encoded_bytes).decode("utf-8")
@@ -42,12 +42,12 @@ def generate_request_headers():
 
 
 def get_business_shortcode():
-    return settings.MPESA_API["BIZ_SHORT_CODE"]
+    return base.MPESA_API["BIZ_SHORT_CODE"]
 
 
 def get_payment_url():
-    return settings.MPESA_API["PAYMENT_URL"]
+    return base.MPESA_API["PAYMENT_URL"]
 
 
 def get_callback_url():
-    return settings.MPESA_API["CALLBACK_URL"]
+    return base.MPESA_API["CALLBACK_URL"]
