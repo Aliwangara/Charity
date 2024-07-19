@@ -84,10 +84,7 @@ def delete_image(request, image_id):
     if request.method == 'POST':
         image = get_object_or_404(multiple, id=image_id)
         image.delete()
-        # Redirect to the same page after deletion
         return redirect('more_causes', pk=image.causes.id)
-    # Handle cases where method is not POST (e.g., GET request)
-    # You may want to return an error or redirect to a different page
     return redirect('more_causes', pk=image.causes.id)
 
 
