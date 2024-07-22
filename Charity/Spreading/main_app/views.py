@@ -202,7 +202,8 @@ def volunteer_update(request, emp_id):
 
 # contact form 
 def Contact(request):
-    pass
+    if request.method == "POST":
+        
     return render(request, "Contact.html")
 
 
