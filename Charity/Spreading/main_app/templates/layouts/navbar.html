@@ -94,13 +94,27 @@
                           Support
                         </a>
                         <ul class="dropdown-menu col-sm-9">
+                            {% if user.is_authenticated %}
                             <li class="dropdown-item">
                                 <a class="" href="{% url 'Volunteer' %}">Volunteer</a>
                             </li>
-        
                             <li class="dropdown-item">
                                 <a class="" href="{% url "all_volunteers" %}">Volunteers</a>
                             </li>
+                            {% else %}
+
+                            <li class="dropdown-item">
+                                <a class="" href="{% url 'Volunteer' %}">Volunteer</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a class="" href="{% url "all_volunteers" %}">Volunteers</a>
+                            </li>
+
+                            {% endif %}
+                            
+        
+                            
                         </ul>
                     </div>
 
