@@ -20,7 +20,7 @@ from main_app.app_forms import Volunteer_form
 from main_app.models import Volunteers, Contacts, cause, Event, Number, happy_customers, Volunteer_application, multiple
 from django.template import RequestContext
 from django.core.mail import send_mail
-from Spreading.settings.base import EMAIL_HOST_USER
+# from Spreading.settings.base import EMAIL_HOST_USER
 
 
 
@@ -215,13 +215,16 @@ def Contact(request):
            fname,
            subj, 
            mail,
-           ['spreadingsmilescharityorg@gmail.com']
+           recipient_list=['spreadingsmilescharityorg@gmail.com'],
+           
            
        )
-       query = Contacts(name= fname, email= mail, details=subj)
+       logger.error(f"email sending{fname}, {subj}, {mail},")
+       query = Contacts(name= fname, email=mail , subject=subj)
        query.save()
-       messages.success("Thanks for contacting. we will get back to you soon!")
-       return redirect('contact')
+    #    messages.success("Thanks for contacting. we will get back to you soon!")
+       return redirect('/contact')
+   
         
     return render(request, "Contact.html")
 
