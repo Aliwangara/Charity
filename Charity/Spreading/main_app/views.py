@@ -95,6 +95,7 @@ def delete_image(request, image_id):
 
 # volunteer page
 # @permission_required('main_app.add_employee', raise_exception=True)
+@login_required
 @csrf_exempt
 def Volunteer(request):
     if request.method == "POST":
@@ -247,6 +248,7 @@ def signin(request):
         get_email = request.POST.get('email')
         get_password = request.POST.get('pass1')
         myuser = authenticate(username=get_email, password=get_password)
+
         if myuser is not None:
             login(request, myuser)
             messages.success(request, "Login Success")
@@ -268,6 +270,7 @@ def signup(request):
     if request.method == "POST":
         get_first_name = request.POST.get('first')
         get_last_name = request.POST.get('last')
+        user= get_first_name+ get_last_name
         get_email = request.POST.get('email')
         get_date = request.POST.get('date')
         get_number = request.POST.get('number')
@@ -283,7 +286,8 @@ def signup(request):
 
         except Exception as identifier:
             pass
-        myuser = User.objects.create_user(get_email, get_email, get_password)
+        myuser = User.objects.create_user(user,get_email, get_password)
+        
         myuser.save
         messages.success(request, "User Created Successfully")
         return redirect('signin')
