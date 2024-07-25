@@ -11,7 +11,12 @@
             <h1 class="mb-6 mt-4 text-center" data-aos="fade-down" data-aos-delay="0">
                 LOGIN
             </h1>
-            
+            {% for message in messages %}
+                <div class="alert {{ message.tags}} alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    {{ message }}
+                </div>
+            {% endfor %}
           
 
             <div class="col-md-6  ms-auto me-auto" id="logo">
@@ -26,7 +31,7 @@
 
                 <div class="input-group mb-3" data-aos="fade-down" data-aos-delay="150">
 
-                    <input type="email" placeholder="Email address" class="form-control  border-dark-3 ps-5"
+                    <input type="text" placeholder="Enter Email" class="form-control  border-dark-3 ps-5"
                            name="email" required="required">
                 </div>
                 <div class="input-group mb-6 " data-aos="fade-down" data-aos-delay="250">
