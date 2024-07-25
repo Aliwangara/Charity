@@ -11,19 +11,19 @@
 
 <section class="section-padding" id="section_3">
     <div class="container">
-                <div class="row">
+                <div class="row gy-3">
                 
 
                     <div class="col-lg-12 col-12 text-center mb-4">
                         <h2>Our Causes</h2>
                     </div>
  {% for cause in causes %}
-                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0" >
-                        <div class="custom-block-wrap">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0">
+                        <div class="custom-block-wrap" style="flex: 1;">
                             <img src="{{cause.profile.url}}"
-                                class="custom-block-image img-fluid w-sm-100" style="width:400px; height:400px;" alt="">
+                                class="custom-block-image img-fluid w-sm-100" alt="" style="height:400px; width:400px;">
 
-                            <div class="custom-block">
+                            <div class="custom-block" >
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">{{cause.Title}} </h5>
 
