@@ -16,7 +16,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 
 from django.views.decorators.csrf import csrf_exempt
-from main_app.app_forms import Volunteer_form, Causes_form
+from main_app.app_forms import Volunteer_form, Causes_form, Event_forms
 from main_app.models import Volunteers, Contacts, cause, Event, Number, happy_customers, Volunteer_application, multiple
 from django.template import RequestContext
 from django.core.mail import send_mail
@@ -53,13 +53,15 @@ def Causes(request):
             return redirect('/causes')    
     return render(request, "causes.html", {"form":form, "causes":causes})
 
-def cause_delete(request, pk):
-    causes = get_object_or_404(cause, id=pk)
+def cause_delete(request, cause_id):
+    cause_instance = get_object_or_404(cause, pk=cause_id)
     if request.method =="POST":
-      
-          causes.delete()
+          logger.debug("Delete POST request received for cause ID: %s", cause_id)
+
+
+          cause_instance.delete()
         
-    return redirect('causes')
+    return redirect('Causes')
     
     
     return render(request, "causes.html",  {"causes":causes})
@@ -154,9 +156,35 @@ def add_images(request):
 # information about upcoming events(donations)
 def Events(request, ):
     events = Event.objects.all()
-
     happy = happy_customers.objects.all()
-    return render(request, "News.html", {"events": events, "happy": happy})
+    form = Event_forms(request.POST, request.FILES)
+    if request.method == "POST":
+        
+        if form.is_valid():
+            form.save()
+            
+        return redirect('/events')
+    else:
+        form = Event_forms()
+        
+
+    
+    return render(request, "News.html", {"events": events, "happy": happy, "form":form})
+
+
+def events_delete(request, events_id):
+    event_instance = get_object_or_404(Event, pk=events_id)
+    
+    if request.method == "POST":
+        event_instance.delete()
+        return redirect('/events')
+    return render(request, "News.html")
+
+
+
+
+
+
 
 
 # more information about the event we are holding
