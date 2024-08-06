@@ -44,12 +44,9 @@
                     </div> 
 
 
-                    <!-- <form action="{% url 'causes_delete' cause.id %}" method="post">
-                        {% csrf_token %}
-                        <button type="submit" class="btn btn-danger mt-2">Delete</button>
-                    </form> -->
+                  
 
-                    <form action="{% url 'cause_delete' cause.id %}" method="post" type="submit">
+                    <form action="{% url 'cause_delete' cause.pk %}" method="post" >
                         {% csrf_token %}
                         <button type="submit" class="btn btn-danger mt-2">Delete</button>
                     </form>
