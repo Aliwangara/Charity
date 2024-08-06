@@ -3,7 +3,6 @@ from . import views
 
 urlpatterns = [
     path('',views.home, name="home"),
-    # path('Donation',views.Donation, name="Donation"),
     path('signin',views.signin, name="signin"),
     path('logout',views.signout, name="logout"),
     path('signup',views.signup, name="signup"),
@@ -18,8 +17,9 @@ urlpatterns = [
     path('all_volunteers', views.all_volunteers, name="all_volunteers"),
     path('search', views.search_volunteers, name = "search"),
     
+    path('cause/delete/<int:pk>', views.cause_delete, name="cause_delete"),
     path('more_causes/<int:pk>', views.more_causes, name="more_causes"),
-     path('causes/delete/<int:image_id>/', views.delete_image, name='delete_image'),
+    path('image/delete/<int:image_id>/', views.delete_image, name='delete_image'),
     path('information/<int:pk>', views.information, name = "information"),
     path('volunteers/<int:emp_id>/', views.volunteer_details, name = "details"),
     path('volunteers/delete/<int:emp_id>/', views.volunteer_delete, name = "delete"),
