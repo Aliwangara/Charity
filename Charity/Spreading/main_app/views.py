@@ -16,7 +16,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 
 from django.views.decorators.csrf import csrf_exempt
-from main_app.app_forms import Volunteer_form
+from main_app.app_forms import Volunteer_form, Causes_form
 from main_app.models import Volunteers, Contacts, cause, Event, Number, happy_customers, Volunteer_application, multiple
 from django.template import RequestContext
 from django.core.mail import send_mail
@@ -44,7 +44,26 @@ def About(request):
 # causes page
 def Causes(request):
     causes = cause.objects.all()
-    return render(request, "causes.html", {"causes": causes})
+    form = Causes_form()
+    if request.method =="POST":
+        form =Causes_form(request.POST, request.FILES)
+        logger.debug(form)
+        if form.is_valid():
+            form.save()
+            return redirect('/causes')    
+    return render(request, "causes.html", {"form":form, "causes":causes})
+
+def cause_delete(request, pk):
+    causes = get_object_or_404(cause, id=pk)
+    if request.method =="POST":
+      
+          causes.delete()
+        
+    return redirect('causes')
+    
+    
+    return render(request, "causes.html",  {"causes":causes})
+    
 
 
 @csrf_exempt
