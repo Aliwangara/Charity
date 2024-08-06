@@ -29,10 +29,10 @@
                     </div>
                     
                     
-                        <form action="{% url 'delete_image' img.id %}" method="post">
-                            {% csrf_token %}
-                            <button type="submit" class="btn btn-danger mt-2">Delete</button>
-                        </form>
+                    <form action="{% url 'delete_image' img.id %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger mt-2">Delete</button>
+                    </form>
                     
                     
                 {% endfor %}
