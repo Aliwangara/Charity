@@ -15,6 +15,13 @@
                 <h2>Events News</h2>
             </div>
 
+
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{form.as_table}}
+                <button class="btn mt-1 border-dark border-rounded multiple">add News</button>
+            </form>
+
 {% for event in events  %}
             <div class="col-lg-7 col-12">
                 <div class="news-block">
@@ -60,6 +67,13 @@
 
                 
             </div>
+
+            <form action="{% url 'events_delete' event.pk %}" method="post" >
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger mt-2">Delete</button>
+            </form>  
+
+
  {% endfor %} 
 
         </div>
