@@ -16,6 +16,12 @@
 
                     <div class="col-lg-12 col-12 text-center mb-4">
                         <h2>Our Causes</h2>
+                        <form action="" method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {{form.as_p}}
+                            <button class="btn mt-1 border-dark border-rounded multiple">add Cause</button>
+                        </form>
+        </div>
                     </div>
  {% for cause in causes %}
                     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0">
@@ -36,6 +42,19 @@
                             </div>
                         </div>
                     </div> 
+
+
+                    <!-- <form action="{% url 'causes_delete' cause.id %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger mt-2">Delete</button>
+                    </form> -->
+
+                    <form action="{% url 'cause_delete' cause.id %}" method="post" type="submit">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger mt-2">Delete</button>
+                    </form>
+
+
 {% endfor %}  
                 </div>
                  
