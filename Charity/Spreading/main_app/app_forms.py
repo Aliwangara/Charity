@@ -1,5 +1,5 @@
 from django import forms
-from main_app.models import Volunteers, cause
+from main_app.models import Volunteers, cause, Event
 
 
 class Volunteer_form(forms.ModelForm):
@@ -24,4 +24,12 @@ class Causes_form(forms.ModelForm):
    class Meta:
        model = cause
        fields =['Title', 'profile', 'summary', 'info']
+       
+       
+       
+class Event_forms(forms.ModelForm):
+    
+    class Meta:
+        model = Event
+        fields = ['name', 'profile', 'About', 'subject', 'is_new', 'is_superuser']
        
