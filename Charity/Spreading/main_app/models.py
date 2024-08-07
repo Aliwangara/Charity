@@ -87,7 +87,7 @@ class multiple(models.Model):
     # for changing number of donations you have done
 class Number(models.Model):
     name = models.CharField(max_length=50)
-    number = models.IntegerField()
+    number = models.IntegerField()   #not yet
     
     def __str__(self):
         return self.name
