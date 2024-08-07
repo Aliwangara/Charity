@@ -6,8 +6,8 @@ import dj_database_url
 load_dotenv()
 
 
-ALLOWED_HOSTS = ["charity-production.up.railway.app","https://charity-production.up.railway.app"]
-CSRF_TRUSTED_ORIGINS = ["charity-production.up.railway.app","https://charity-production.up.railway.app"]
+ALLOWED_HOSTS = ["charity-production-8168.up.railway.app","https://charity-production-8168.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["charity-production-8168.up.railway.app","https://charity-production-8168.up.railway.app"]
 
 DATABASES = {
     'default': {
