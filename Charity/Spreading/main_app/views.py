@@ -16,7 +16,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from _ast import Pass
 
 from django.views.decorators.csrf import csrf_exempt
-from main_app.app_forms import Volunteer_form, Causes_form, Event_forms
+from main_app.app_forms import Volunteer_form, Causes_form, Event_forms, Happy_customers_form, Number_form
 from main_app.models import Volunteers, Contacts, cause, Event, Number, happy_customers, Volunteer_application, multiple
 from django.template import RequestContext
 from django.core.mail import send_mail
@@ -38,7 +38,17 @@ def home(request):
 # About page
 def About(request):
     number = Number.objects.all()
-    return render(request, "About.html", {"number": number})
+    form = Number_form(request.POST)
+    
+    if request.method =="POST":
+        if form.is_valid():
+            number_instance = form.save()
+            return redirect('about')
+        else:
+            number_instance = number.objects.first() or number()
+            form = Number_form(instance=number_instance)
+            
+    return render(request, "About.html", {"number": number, "form":form})
 
 
 # causes page
@@ -158,6 +168,10 @@ def Events(request, ):
     events = Event.objects.all()
     happy = happy_customers.objects.all()
     form = Event_forms(request.POST, request.FILES)
+   
+    
+    
+    
     if request.method == "POST":
         
         if form.is_valid():
@@ -169,7 +183,7 @@ def Events(request, ):
         
 
     
-    return render(request, "News.html", {"events": events, "happy": happy, "form":form})
+    return render(request, "News.html", {"events": events, "form":form})
 
 
 def events_delete(request, events_id):
@@ -181,9 +195,29 @@ def events_delete(request, events_id):
     return render(request, "News.html")
 
 
-
-
-
+def testimonies(request):
+     happy = happy_customers.objects.all()
+     form = Happy_customers_form(request.POST, request.FILES)
+    
+     if request.method =="POST":
+        if form.is_valid():
+            form.save()
+            return redirect('/testimonies') 
+        else:
+            form = Happy_customers_form()
+     return render(request, "testimonies.html",{"happy": happy, "form":form} )
+ 
+def testimonies_delete(request, testimonies_id):
+   
+   testimony = get_object_or_404(happy_customers, pk=testimonies_id)
+    
+   if request.method =="POST":
+       testimony.delete()
+       
+       return redirect('/testimonies')
+   
+        
+        
 
 
 
