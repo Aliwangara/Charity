@@ -6,6 +6,7 @@
 <br><br><br>
 
 
+{% if user.is_superuser %}
 
 <section class="news-section section-padding" id="section_5">
     <div class="container">
@@ -31,17 +32,7 @@
                                 class="news-image img-fluid" alt="">
                         </a>
 
-                        {% comment %} <div class="news-category-block">
-                            <a href="#" class="category-block-link">
-                                Lifestyle,
-                            </a> {% endcomment %}
-{% comment %} 
-                            <a href="" class="category-block-link">
-                                {{event.name}}
-                            </a>
-                        </div>
-                    </div> {% endcomment %}
-
+                      
                     <div class="news-block-info">
                         <div class="d-flex mt-2">
                             <div class="news-block-date">
@@ -82,47 +73,62 @@
 
 
 
+<br><br><br>
 
 
 
 
+{% else %}
 
-
-
-
-{% for happy in happy %}
-
-
-<section class="testimonial-section section-padding section-bg">
+<section class="section-padding" id="section_3">
     <div class="container">
-        <div class="row">
+        <div class="row gy-3">
+                
 
-            <div class="col-lg-8 col-12 mx-auto">
-                <h2 class="mb-lg-3">Testimonies</h2>
+                    <div class="col-lg-12 col-12 text-center mb-4">
+                        <h2>Events News</h2>
+                        <hr>
+                    </div>
+                
+                {% for event in events  %}
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0">
+                        <div class="custom-block-wrap" style="flex: 1;">
+                            <img src="{{event.profile.url}}"
+                                class="custom-block-image img-fluid w-sm-100" alt="" style="height:400px; width:400px;">
 
-                <div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="carousel-caption">
-                                <h4 class="carousel-title">{{happy.information}} </h4>
+                                <div class="d-flex mt-2">
+                                    <div class="news-block-date">
+                                        <p>
+                                            <i class="bi-calendar4 custom-icon me-1"></i>
+                                            {{event.Date}}
+                                        </p>
+                                    </div>
+        
+                                    
+                                </div>
+        
 
-                                <small class="carousel-name"><span class="carousel-name-title">{{happy.name}} </span>,
-                                   {{happy.position}} </small>
+                            <div class="custom-block" >
+                                <div class="custom-block-body">
+                                    <h4><a href="{% url 'information' event.id %}" class="news-block-title-link"> {{event.name}}  </a></h4>
+
+                                    <p> {{event.About}} </p>
+
+                                    
+                                </div>
                             </div>
                         </div>
+                    </div> 
 
-                        <ol class="carousel-indicators">
-                            <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
-                                <img src="{{happy.image.url}}"
-                                    class="img-fluid rounded-circle avatar-image" alt="avatar">
-                            </li>
 
-                        </ol>
+                  
 
-                    </div>
-                </div>
-            </div>
+                    
+                
+                {% endfor %}
+                 
+
 
         </div>
     </div>
@@ -130,18 +136,10 @@
 
 
 
+<br><br><br>
 
 
-
-
-
-
-{% endfor %}
-
-
-
-
-
+{% endif %}
 
 
 
