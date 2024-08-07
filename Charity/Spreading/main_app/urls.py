@@ -24,6 +24,8 @@ urlpatterns = [
     
     path('events', views.Events, name="Events"),
     
+    path('testimonies', views.testimonies, name="testimonies"),
+    
     path('contact', views.Contact, name="Contact"),
     
     path('all_volunteers', views.all_volunteers, name="all_volunteers"),
@@ -31,7 +33,7 @@ urlpatterns = [
     path('search', views.search_volunteers, name = "search"),
     
     
-    
+    path('testimonies/delete/<int:testimonies_id>/', views.testimonies_delete, name='testimonies_delete'),
     
     path('events/delete/<int:events_id>/', views.events_delete, name='events_delete'),
     
