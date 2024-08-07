@@ -9037,3 +9037,38 @@ DEBUG 2024-07-20 02:09:53,074 24388 Starting new HTTPS connection (1): sandbox.s
 DEBUG 2024-07-20 02:09:54,107 24388 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 200 None
 INFO 2024-07-20 02:09:54,113 24388 {'MerchantRequestID': '1c5b-4ba8-815c-ac45c57a3db01636727', 'CheckoutRequestID': 'ws_CO_20072024020954774700331844', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
 INFO 2024-07-20 02:09:54,114 24388 1c5b-4ba8-815c-ac45c57a3db01636727 ws_CO_20072024020954774700331844
+DEBUG 2024-08-07 11:13:43,158 24036 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 11:13:43,159 24036 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 11:13:43,188 24036 couldn't import psycopg 'python' implementation: libpq library not found
+DEBUG 2024-08-07 11:13:43,243 24036 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 11:13:43,244 24036 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 11:13:43,247 24036 couldn't import psycopg 'python' implementation: libpq library not found
+INFO 2024-08-07 11:13:43,363 24036 <django.db.models.fields.files.FileField>
+DEBUG 2024-08-07 12:54:28,169 20552 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 12:54:28,171 20552 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 12:54:28,215 20552 couldn't import psycopg 'python' implementation: libpq library not found
+DEBUG 2024-08-07 12:54:28,259 20552 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 12:54:28,260 20552 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 12:54:28,263 20552 couldn't import psycopg 'python' implementation: libpq library not found
+INFO 2024-08-07 12:54:28,337 20552 <django.db.models.fields.files.FileField>
+DEBUG 2024-08-07 12:59:40,169 12704 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 12:59:40,177 12704 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 12:59:40,264 12704 couldn't import psycopg 'python' implementation: libpq library not found
+DEBUG 2024-08-07 12:59:40,361 12704 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 12:59:40,363 12704 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 12:59:40,369 12704 couldn't import psycopg 'python' implementation: libpq library not found
+INFO 2024-08-07 12:59:40,614 12704 <django.db.models.fields.files.FileField>
+DEBUG 2024-08-07 13:03:51,773 17664 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 13:03:51,775 17664 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 13:03:51,787 17664 couldn't import psycopg 'python' implementation: libpq library not found
+DEBUG 2024-08-07 13:03:51,826 17664 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 13:03:51,827 17664 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 13:03:51,829 17664 couldn't import psycopg 'python' implementation: libpq library not found
+INFO 2024-08-07 13:03:51,868 17664 <django.db.models.fields.files.FileField>
+DEBUG 2024-08-07 13:04:08,832 27372 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 13:04:08,833 27372 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 13:04:08,847 27372 couldn't import psycopg 'python' implementation: libpq library not found
+DEBUG 2024-08-07 13:04:08,863 27372 couldn't import psycopg 'c' implementation: No module named 'psycopg_c'
+DEBUG 2024-08-07 13:04:08,864 27372 couldn't import psycopg 'binary' implementation: No module named 'psycopg_binary'
+DEBUG 2024-08-07 13:04:08,866 27372 couldn't import psycopg 'python' implementation: libpq library not found
+INFO 2024-08-07 13:04:08,897 27372 <django.db.models.fields.files.FileField>
