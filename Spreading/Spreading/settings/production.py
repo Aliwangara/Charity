@@ -15,8 +15,9 @@ DATABASES = {
                 'NAME': 'railway',
                 'USER': 'postgres',
                 'PASSWORD': os.environ.get('DB_PASSWORD'),
-                'HOST': 'postgres.railway.internal',
+                'HOST': 'roundhouse.proxy.rlwy.net',
                 'PORT': '5432',
-                'Default': dj_database_url.config(default=os.environ.get('DATABASE_URL'), conn_max_age=1800)
+                # 'Default': dj_database_url.config(default=os.environ.get('DATABASE_URL'), conn_max_age=1800)
     }
 }
+print(DATABASES)
