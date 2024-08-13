@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-from Spreading.Spreading.settings import base
+from Spreading.settings import base
 
 
 def main():
