@@ -33,6 +33,18 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = False
 
 
+# ENVIRONMENT = os.getenv('DJANGO_ENVIRONMENT', 'local')  # Default to 'local' if not set
+
+# if ENVIRONMENT == 'production':
+#     from .production import *
+# elif ENVIRONMENT == 'local':
+#     from .local import *
+# else:
+#     from .base import *
+
+
+
+
 
 
 # Loggings

@@ -20,7 +20,7 @@ CSRF_TRUSTED_ORIGINS = ["https://charity-production.up.railway.app","https://cha
 #                 'Default': dj_database_url.config(default=os.environ.get('DATABASE_URL'), conn_max_age=1800)
 #     }
 # }
-
+ROOT_URLCONF = 'Spreading.urls'
 
 
 DATABASES = {

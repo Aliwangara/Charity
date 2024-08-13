@@ -11,6 +11,10 @@ def main():
         os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spreading.settings.local')
     else:
         os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spreading.settings.production')
+    
+    
+    # env = os.getenv('DJANGO_ENVIRONMENT', 'local')
+    # os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'Spreading.settings.{env}')
         
     try:
         from django.core.management import execute_from_command_line
