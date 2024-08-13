@@ -17,11 +17,13 @@ from pathlib import Path
 from django.contrib import messages
 from dotenv import load_dotenv
 from django.conf import settings
+import logging
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 load_dotenv()
+logger = logging.getLogger(__name__)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -154,6 +156,9 @@ DATABASES = {
         },
     }
 }
+
+
+logger.debug(DATABASES)
 
 
 
