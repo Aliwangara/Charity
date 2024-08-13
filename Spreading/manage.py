@@ -7,10 +7,12 @@ from Spreading.settings import base
 
 def main():
     """Run administrative tasks."""
-    if base.DEBUG:
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spreading.settings.local')
-    else:
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spreading.settings.production')
+    
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spreading.settings')
+    # if base.DEBUG:
+    #     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spreading.settings.local')
+    # else:
+    #     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Spreading.settings.production')
     
     
     # env = os.getenv('DJANGO_ENVIRONMENT', 'local')
