@@ -16,6 +16,7 @@ from pathlib import Path
 # import pymongo
 from django.contrib import messages
 from dotenv import load_dotenv
+from django.conf import settings
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
