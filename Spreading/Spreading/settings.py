@@ -90,7 +90,7 @@ DATABASES = {
         'PASSWORD': os.environ['DB_PASSWORD'],
         'HOST': 'smilesdb-wangaraali56-4122.l.aivencloud.com',
         'PORT': '11603',
-        'sslmode': 'require',
+        
         
     },
 }
