@@ -38,4 +38,4 @@ DATABASES = {
     }
 }
 
-print(DATABASES)
+
