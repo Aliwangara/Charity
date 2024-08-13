@@ -1,0 +1,2 @@
+web : gunicorn Spreading.wsgi --log-file
+web : python manage.py migrate && gunicorn Spreading.wsg
