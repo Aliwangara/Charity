@@ -30,7 +30,7 @@ load_dotenv()
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 # ENVIRONMENT = os.getenv('DJANGO_ENVIRONMENT', 'local')  # Default to 'local' if not set
@@ -42,7 +42,7 @@ DEBUG = False
 # else:
 #     from .base import *
 
-ALLOWED_HOSTS = ["https://charity-production.up.railway.app","https://charity-production.up.railway.app"]
+ALLOWED_HOSTS = ["127.0.0.1","8000","https://charity-production.up.railway.app","https://charity-production.up.railway.app" ]
 CSRF_TRUSTED_ORIGINS = ["https://charity-production.up.railway.app","https://charity-production.up.railway.app"]
 
 
@@ -82,8 +82,6 @@ LOGGING = {
 }
 
 
-
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -97,7 +95,7 @@ DATABASES = {
         },
     }
 }
-print(DATABASES)
+
 
 # Application definition
 
