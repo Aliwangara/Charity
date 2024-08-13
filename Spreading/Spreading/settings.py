@@ -97,7 +97,7 @@ DATABASES = {
         },
     }
 }
-print(DATABASES)
+
 
 # Application definition
 
