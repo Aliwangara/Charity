@@ -52,7 +52,7 @@ def Donation(request):
             errorCode = json_resp["errorCode"]
             logger.error(f"Error with errorCode: {errorCode}")
         
-    return render(request, "Payment/Donate.html")
+    return render(request, "Donate.html")
 
 
 
