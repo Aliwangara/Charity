@@ -1,11 +1,14 @@
 import json
 from base64 import b64encode
 from datetime import datetime
+import logging
 
 import requests
 from requests.auth import HTTPBasicAuth
 
 from Spreading import settings
+
+logger = logging.getLogger(__name__)
 
 
 def get_access_token():
@@ -27,11 +30,12 @@ def generate_password():
     biz_short_code = get_business_shortcode()
     passkey = settings.MPESA_API["PASS_KEY"]
     password_string = biz_short_code + passkey + timestamp
+    logger.debug(password_string)
     encoded_bytes = password_string.encode("ascii")
     password = b64encode(encoded_bytes).decode("utf-8")
     return password
 
-
+logger.debug(generate_password)
 def get_current_timestamp():
     return datetime.now().strftime('%Y%m%d%H%M%S')
 
@@ -43,6 +47,7 @@ def generate_request_headers():
 
 def get_business_shortcode():
     return settings.MPESA_API["BIZ_SHORT_CODE"]
+
 
 
 def get_payment_url():
