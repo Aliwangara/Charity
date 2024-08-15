@@ -78,7 +78,7 @@ def cause_delete(request, cause_id):
     
 
 
-@csrf_exempt
+
 # information about the causes we support
 def more_causes(request, pk):
     more = get_object_or_404(cause,id=pk)
@@ -112,7 +112,7 @@ def more_causes(request, pk):
     return render(request, "more_causes.html",{"more": more, "images": images})
 
 
-@csrf_exempt
+
 def delete_image(request, image_id):
     if request.method == 'POST':
         image = get_object_or_404(multiple, id=image_id)
@@ -127,7 +127,7 @@ def delete_image(request, image_id):
 # volunteer page
 # @permission_required('main_app.add_employee', raise_exception=True)
 @login_required
-@csrf_exempt
+
 def Volunteer(request):
     if request.method == "POST":
         fname = request.POST.get('volunteer-name')
@@ -285,7 +285,7 @@ def volunteer_update(request, emp_id):
 
 
 # contact form 
-@csrf_exempt
+
 def Contact(request):
     if request.method == "POST":
        fname= request.POST.get("first-name")
@@ -323,7 +323,7 @@ def map(request):
     return render(request, "map.html")
 
 
-@csrf_exempt
+
 def signin(request):
     if request.method == "POST":
         get_email = request.POST.get('email')
@@ -346,7 +346,7 @@ def signout(request):
     return redirect('home')
 
 
-@csrf_exempt
+
 def signup(request):
     if request.method == "POST":
         get_first_name = request.POST.get('first')

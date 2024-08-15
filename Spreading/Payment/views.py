@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 # @login_required
 # initiating donation
-@csrf_exempt
+
 def Donation(request):
     if request.method =="POST":
         phone=request.POST["phone"]
@@ -57,7 +57,7 @@ def Donation(request):
 
 
 
-@csrf_exempt
+
 def callback(request):
     result=json.loads(request.body)
     logger.info(result)
