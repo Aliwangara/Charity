@@ -367,7 +367,7 @@ def signup(request):
 
         except Exception as identifier:
             pass
-        myuser = User.objects.create_user(user,get_email, get_password)
+        myuser = User.objects.create_user(get_email,get_email, get_password)
         
         myuser.save
         messages.success(request, "User Created Successfully")
