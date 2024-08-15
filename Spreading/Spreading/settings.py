@@ -20,7 +20,7 @@ from django.conf import settings
 import logging
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv()
 logger = logging.getLogger(__name__)
@@ -158,7 +158,6 @@ DATABASES = {
 }
 
 
-logger.debug(DATABASES)
 
 
 
@@ -211,7 +210,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 STATIC_ROOT = BASE_DIR/ 'staticfiles'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'main_app/assets')
+    BASE_DIR/ 'main_app'/'assets',
 ]
 
 # Default primary key field type
