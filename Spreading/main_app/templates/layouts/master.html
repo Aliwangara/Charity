@@ -4,14 +4,25 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="{% static 'images/Image/header_img.png' %}" class="w-50">
     
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    
     <title>Spreading Smiles</title>
     
+    {% block stylesheet %}
+    
+    
+    
+    {% endblock stylesheet %}
+
+
+
+
 
 
     <!-- FONTAWSOME link -->
@@ -23,13 +34,10 @@
     <link href="{% static 'css/bootstrap-icons.css' %}" rel="stylesheet">
 
     <link href="{% static 'css/templatemo-kind-heart-charity.css' %}" rel="stylesheet">
-    <!--
+    <!-->
 
-TemplateMo 581 Kind Heart Charity
+    
 
-https://templatemo.com/tm-581-kind-heart-charity
-
--->
 
 </head>
 {% include "layouts/navbar.html" %}
@@ -53,4 +61,6 @@ https://templatemo.com/tm-581-kind-heart-charity
     <script src="{% static 'js/counter.js' %}"></script>
     <script src="{% static 'js/custom.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+    
+
      
