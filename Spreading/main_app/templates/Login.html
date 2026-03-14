@@ -1,6 +1,29 @@
 {% extends "layouts/master.html" %}
 {% load static %}
 
+{% block stylesheet %}
+  
+
+<style>
+    .g_button{
+        border: 1px;
+        background-color: #4949bb;
+        padding: 0.8rem 1rem ;
+        border-radius: 1em;
+        color: #ffffff;
+        
+      }
+      .g_button:hover{
+        background-color: #f0ffff;
+        color: black;
+        transition: 0.6s ease-in-out;
+      }
+      .g_button i{
+        
+      }
+</style>
+{% endblock stylesheet %}
+
 {%block body%}
 <br><br><br>
 
@@ -58,40 +81,17 @@
                 <p class="mb-6">
                     Sign In via socials
                 </p>
-                <div class="row g-0">
-                    <div class="col-4 pe-2">
-                        <a href="#"
-                           class="btn btn-bg-2 w-100 h-100 d-flex justify-content-center align-items-center">
-
-                            <img src="{% static 'main_assets/images/facebook.png' %}" alt="">
-
-                        </a>
-                    </div>
-                    <div class="col-4 px-1">
-                        <a href="#"
-                           class="btn btn-bg-2 w-100 h-100 d-flex justify-content-center align-items-center">
-
-                            <img src="{% static 'main_assets/social_logo/instagram (3).png' %}" alt="">
-
-                        </a>
-                    </div>
-
-                    <div class="col-4 px-1">
-                        <a href=""
-                           class="btn btn-bg-2 w-100 h-100 d-flex justify-content-center align-items-center">
-                            <img src="{% static 'main_assets/social_logo/whatsapp.png' %}" alt="">
-
-                        </a>
-                    </div>
+                        <a href="google" class="g_button"><i class="fa-brands fa-google rounded me-3"></i>Google</a>
 
 
-                </div>
-
+                       
             </form>
         </div>
     </div>
 </div>
 </section>
+
+
     
     <br><br><br><br><br><br>
     {% endblock body%}

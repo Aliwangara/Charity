@@ -7,3 +7,5 @@ db.sqlite3
 .vscode
 htmlcov
 debug.log
+venv
+db.sqlite3

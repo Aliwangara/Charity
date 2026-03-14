@@ -16,6 +16,8 @@ urlpatterns = [
     
     path('volunteer', views.Volunteer, name="Volunteer"),
     
+    path('google', views.google, name="google"),
+    
     path('map', views.map, name = "map"),
     
     path('add', views.add_volunteer, name="add"),

@@ -57,11 +57,13 @@ def Causes(request):
     form = Causes_form()
     if request.method =="POST":
         form =Causes_form(request.POST, request.FILES)
-        logger.debug(form)
+
         if form.is_valid():
             form.save()
-            return redirect('/causes')    
+            return redirect('/causes')
     return render(request, "causes.html", {"form":form, "causes":causes})
+
+logger.debug(Causes)
 
 def cause_delete(request, cause_id):
     cause_instance = get_object_or_404(cause, pk=cause_id)
@@ -283,6 +285,10 @@ def volunteer_update(request, emp_id):
 
     return render(request, 'update.html', {'form': form})
 
+
+def google(request):
+    pass
+    return render(request, "google sign-in.html")
 
 # contact form 
 

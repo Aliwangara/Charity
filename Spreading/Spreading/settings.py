@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 SECRET_KEY = os.environ.get("SECRET_KEY", "default-secret-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 # ENVIRONMENT = os.getenv('DJANGO_ENVIRONMENT', 'local')  # Default to 'local' if not set
@@ -135,6 +135,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',  # Add this line
+
             ],
         },
     },
@@ -144,21 +146,26 @@ WSGI_APPLICATION = 'Spreading.wsgi.application'
 
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'defaultdb',
+#         'USER': 'avnadmin',
+#         'PASSWORD': os.environ['DB_PASSWORD'],
+#         'HOST': 'smilesdb-wangaraali56-4122.l.aivencloud.com',
+#         'PORT': '11603',
+#         'OPTIONS': {
+#             'sslmode': 'require',
+#         },
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'defaultdb',
-        'USER': 'avnadmin',
-        'PASSWORD': os.environ['DB_PASSWORD'],
-        'HOST': 'smilesdb-wangaraali56-4122.l.aivencloud.com',
-        'PORT': '11603',
-        'OPTIONS': {
-            'sslmode': 'require',
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
 
 
 
@@ -200,6 +207,7 @@ STATIC_URL = 'static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 STATIC_ROOT = BASE_DIR / 'static'
 

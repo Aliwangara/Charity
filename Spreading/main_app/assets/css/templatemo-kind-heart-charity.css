@@ -84,6 +84,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
+  overflow-x: hidden;
 }
 
 
@@ -452,12 +453,15 @@ strong {
   border: 0;
 }
 
-@media screen and (min-width: 992px) {
+ @media screen and (min-width: 992px) {
+  body{
+    overflow-x: hidden;
+  }
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
   }
-}
+} 
 
 .navbar-toggler {
   border: 0;
@@ -1377,6 +1381,10 @@ blockquote::before {
   RESPONSIVE STYLES               
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
+  body{
+    overflow-x: hidden;
+
+  }
   .featured-block {
     min-height: inherit;
   }
@@ -1393,6 +1401,9 @@ blockquote::before {
 }
 
 @media screen and (max-width: 1170px) {
+  body{
+    overflow-x: hidden;
+  }
   #hero-slide .carousel-image {
     height: 100%;
     object-fit: cover;
@@ -1400,6 +1411,9 @@ blockquote::before {
 }
 
 @media screen and (max-width: 991px) {
+  body{
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 42px;
   }
@@ -1576,6 +1590,9 @@ blockquote::before {
 }
 
 @media screen and (max-width: 580px) {
+  body{
+    overflow-x: hidden;
+  }
   .hero-section-full-height,
   #hero-slide .carousel-item,
   .carousel-image {
@@ -1591,6 +1608,9 @@ blockquote::before {
 }
 
 @media screen and (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
   h1 {
     font-size: 40px;
   }
@@ -1694,4 +1714,6 @@ blockquote::before {
   width: 100%;
   height: auto;
 }
+
+
 

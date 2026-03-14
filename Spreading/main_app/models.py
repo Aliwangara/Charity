@@ -51,6 +51,9 @@ class Contacts(models.Model):
 class cause(models.Model):
     Title= models.CharField(max_length=40)
     profile= models.ImageField(upload_to='upload/cause')
+    
+    logger.debug(profile)
+
     summary = models.CharField(max_length=300)
     info = models.CharField(max_length=10000)
     

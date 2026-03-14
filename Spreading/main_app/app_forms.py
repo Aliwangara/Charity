@@ -26,7 +26,7 @@ class Causes_form(forms.ModelForm):
        fields =['Title', 'profile', 'summary', 'info']
        
        
-       
+        
 class Event_forms(forms.ModelForm):
     
     class Meta:
