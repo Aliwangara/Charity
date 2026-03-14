@@ -44,7 +44,7 @@ DEBUG = True
 # else:
 #     from .base import *
 
-ALLOWED_HOSTS = ["charity-production-8168.up.railway.app","charity-production-8168.up.railway.app", "127.0.0.1", "8000"]
+ALLOWED_HOSTS = ['*']
 logger.debug(ALLOWED_HOSTS)
 CSRF_TRUSTED_ORIGINS = ["https://charity-production-8168.up.railway.app",]
 
