@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 SECRET_KEY = os.environ.get("SECRET_KEY", "default-secret-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 # ENVIRONMENT = os.getenv('DJANGO_ENVIRONMENT', 'local')  # Default to 'local' if not set
@@ -44,9 +44,9 @@ DEBUG = True
 # else:
 #     from .base import *
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["charity-production-8168.up.railway.app","charity-production-8168.up.railway.app", "127.0.0.1", "8000","charity-bbeg.onrender.com"]
 logger.debug(ALLOWED_HOSTS)
-CSRF_TRUSTED_ORIGINS = ["https://charity-production-8168.up.railway.app",]
+CSRF_TRUSTED_ORIGINS = ["https://charity-production-8168.up.railway.app","charity-bbeg.onrender.com"]
 
 
 
