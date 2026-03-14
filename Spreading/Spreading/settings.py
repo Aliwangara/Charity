@@ -46,7 +46,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["charity-production-8168.up.railway.app","charity-production-8168.up.railway.app", "127.0.0.1", "8000","charity-bbeg.onrender.com"]
 logger.debug(ALLOWED_HOSTS)
-CSRF_TRUSTED_ORIGINS = ["https://charity-production-8168.up.railway.app","charity-bbeg.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://charity-production-8168.up.railway.app","https://charity-bbeg.onrender.com/"]
 
 
 
